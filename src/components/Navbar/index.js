@@ -2,9 +2,9 @@ import React from "react";
 import "../../App.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { ImgComponent } from "../ReusableComponents/index";
-//  import { faBars } from "@fortawesome/free-solid-svg-icons";
-//  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//  import { ContactListComponent } from "../ListComponent/index";
+ import { faBars } from "@fortawesome/free-solid-svg-icons";
+ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+ import { ContactListComponent } from "../ListComponent/index";
 
 function Navigationbar (){
   return (
@@ -22,7 +22,7 @@ function Navigationbar (){
           <p className="jcbTitle">JCB REAL ESTATE SERVICES</p>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
-          {/* <FontAwesomeIcon icon={faBars} /> */}
+          <FontAwesomeIcon icon={faBars} />
         </Navbar.Toggle>
 
         <Navbar.Collapse id="basic-navbar-nav">
@@ -33,7 +33,7 @@ function Navigationbar (){
             <Nav.Link href="/strategy">STRATEGY</Nav.Link>
           </Nav>
           <hr />
-          {/* <ContactListComponent /> */}
+          <ContactListComponent />
         </Navbar.Collapse>
       </Container>
     </Navbar>
