@@ -1,18 +1,17 @@
 import React from "react";
-// import { ImgComponent } from "../components/ReusableComponents/index";
-// import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ImgComponent } from "../components/ReusableComponents/index";
+import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const home = () => {
   return (
     <>
-    <h1>HomeSick</h1>
-      {/* <ImgComponent
+      <ImgComponent
         imgContainerClass="jenniferImg-container"
         imgClass="jennifer-img"
         src="./images/jenniferImg.jpeg"
         alt="jennifer photo"
-      /> */}
-      {/* <div className="heading-container">
+      /> 
+       <div className="heading-container">
         <p>
           Jennifer<span>Mendez</span>
         </p>
@@ -41,7 +40,7 @@ const home = () => {
           </div>
         </div>
         <p className="slogan">More than a friend, Your Realtor!</p>
-      </div> */}
+      </div>
     </>
   );
 };

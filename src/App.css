@@ -73,3 +73,149 @@ hr {
 .icons svg {
   margin-right: 0.5rem;
 }
+
+/* Jennifer photo styling */
+.jenniferImg-container {
+  text-align: center;
+  background-color: #e8e6e1;
+  background-image: linear-gradient(
+    122deg,
+    rgb(227, 227, 221) 50%,
+    rgb(234, 223, 205) 50%,
+    rgb(234, 223, 205) 74%,
+    rgb(33 17 17) 74.5%,
+    rgb(14, 13, 13) 100%
+  );
+}
+.jennifer-img {
+  width: 65%;
+  margin: auto;
+}
+
+/* Headings 'my name is'...and i'm a ... */
+.heading-container {
+  padding: 30px 10%;
+}
+
+.heading-container p:not(:nth-child(3)) {
+  color: rgb(255 185 24);
+  margin-bottom: 0;
+  font-size: 27px;
+  font-weight: 600;
+}
+.heading-container span {
+  margin-left: 0.5rem;
+  color: whitesmoke;
+}
+.heading-container p:nth-child(2) {
+  color: rgb(211, 209, 209);
+  font-size: 25px;
+  margin-top: -14px;
+  font-weight: 550;
+}
+.basedIn {
+  padding: 30px 0 0;
+  margin-bottom: -15px;
+  color: whitesmoke;
+}
+.abitAboutMe {
+  padding-bottom: 30px;
+}
+.abitAboutMe span {
+  margin-left: 0;
+}
+.abitAboutMe a:hover {
+  color:rgb(255 185 24) !important;
+}
+.abitAboutMe a {
+  color: rgb(211, 209, 209);
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: normal;
+}
+/* Ask away banner */
+.ask-container {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background-color: rgb(227, 227, 221);
+}
+.questionIcon {
+  position: absolute;
+  top: 27%;
+  right: 6%;
+  font-size: 90px;
+  color: rgb(14, 13, 13);
+  background-color: rgb(255, 185, 24);
+  border-radius: 50%;
+  border: 1px solid black;
+  box-shadow: 0px 30px 30px rgb(92, 91, 91);
+}
+.ask-container p {
+  padding: 30px 20px 20px;
+  width: fit-content;
+  color: rgb(255, 185, 24) !important;
+  text-shadow: 0 0 rgb(14, 13, 13);
+}
+.btn-container {
+  padding: 10px 30px;
+}
+.btn-container button {
+  background-color: rgb(92, 91, 91);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.btn-container a {
+  color: whitesmoke;
+  text-shadow: 0 0 rgb(92, 91, 91);
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-container a:hover {
+  color: rgb(255, 185, 24);
+}
+.slogan {
+  font-size: 20px !important;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 500 !important;
+  letter-spacing: 1.1px;
+}
+
+/* Footer styling */
+.footer-container {
+  padding: 60px 0.75rem 15px;
+  background-color: rgb(14, 13, 13, 0.3);
+  text-align: center;
+}
+.kwLogo-container,
+.realityLogo-container,
+.jcbLogo-container {
+  width: 20%;
+  display: inline-flex;
+  margin: 1rem;
+}
+.jcbLogo-container {
+  width: 15%;
+}
+.kwLogo,
+.realityLogo,
+.jcbLogo {
+  width: 100%;
+}
+
+.footer-container p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: whitesmoke;
+}
+.createdBy {
+  margin-top: 20px;
+  font-size: 12px !important;
+}
+.createdBy span {
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+  padding: 3.5px 2.5px;
+  font-family: serif;
+}
