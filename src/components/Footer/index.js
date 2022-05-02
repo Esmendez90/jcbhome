@@ -5,7 +5,7 @@ function FooterComponent() {
   return (
     <>
       <div className="footer-container">
-        <p>JCB Real Estate Serices - A Keller Williams associate.</p>
+        <p>JCB Real Estate Services - A Keller Williams associate.</p>
         <p>Each office is independently owned and operated.</p>
         <ImgComponent
           imgContainerClass="kwLogo-container"
