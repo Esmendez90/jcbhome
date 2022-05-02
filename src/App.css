@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+html {
+  height: auto;
+}
+body {
+  height: 100%;
+  background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(
+    140deg,
+    rgb(138, 132, 132) 0,
+    rgb(69, 66, 66) 25%,
+    rgb(38, 37, 37) 75%,
+    rgb(14, 13, 13) 100%
+  );
+  font-family: "Poppins", Helvetica, Arial, sans-serif !important;
+}
+/* Navbar styling - mobile responsive */
+.navbar-nav {
+  flex-direction: initial !important;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.nav-link {
+  font-size: 13px;
+  color: whitesmoke !important;
+}
+.nav-link:not(:last-child) {
+  margin-right: 11.5%;
+}
+.navbar-brand:first-child {
+  width: 15%;
+  margin-right: 0.5rem;
+}
+.logoImg {
+  width: 100%;
+  border-radius: 10%;
+  box-shadow: 0px 0px 5px rgb(245, 245, 245);
+}
+.jcbTitle {
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 0.5rem auto;
+  letter-spacing: -0.2px;
+}
+.fa-bars {
+  color: whitesmoke;
+}
+.navbar-light .navbar-toggler {
+  color: rgb(245, 245, 245, 0.55) !important;
+  border-color: rgb(245, 245, 245) !important;
+}
+.navbar {
+  background-color: rgb(14, 13, 13);
+}
+hr {
+  color: whitesmoke !important;
+  margin: 0.5rem auto 1rem !important;
+}
+.contactList-container {
+  column-count: 2;
+  margin: auto 0.5rem 0.5rem;
+}
+.icons {
+  display: block;
+  margin-left: -20px;
+  font-size: 15px;
+  margin-bottom: 0.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icons a {
+  text-decoration: none;
+  color: whitesmoke;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons svg {
+  margin-right: 0.5rem;
 }
