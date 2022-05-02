@@ -1,8 +1,7 @@
-// import React from "react";
- import "./App.css";
+import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigationbar from "./components/Navbar/index";
-// import FooterComponent from "./components/Footer/index";
+import FooterComponent from "./components/Footer/index";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Services from "./pages/services";
@@ -22,7 +21,7 @@ function App() {
           </Routes>
         </Router>
       </main>
-      {/* <FooterComponent/> */}
+      <FooterComponent/>
     </>
   );
 }
