@@ -249,6 +249,7 @@ hr {
   color: #ff0000cf;
   background: -webkit-linear-gradient(#ff0000cf 60%, grey, black 83.5%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   
 }
