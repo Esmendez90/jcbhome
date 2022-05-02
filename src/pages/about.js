@@ -48,6 +48,12 @@ const about = () => {
         </div>
         <CarouselComponent />
         <div className="whyKw-parr">
+          <div className="kwImages-container">
+            <img src="/images/kwn1.jpeg"/>
+            <img src="/images/kwproud.png"/>
+            <img src="/images/kwlove.png"/>
+            <img src="/images/kwilove.png"/>
+          </div>
           <p>
           <span>&#8212;</span> Why choose <span className="kwSpan">Keller Williams</span> <span>&#8212;</span>
           </p>
