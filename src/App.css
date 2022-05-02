@@ -71,7 +71,7 @@ hr {
   color: whitesmoke;
 }
 .icons a:hover {
-  color:whitesmoke !important;
+  color: whitesmoke !important;
 }
 .icons svg {
   margin-right: 0.5rem;
@@ -128,7 +128,7 @@ hr {
   margin-left: 0;
 }
 .abitAboutMe a:hover {
-  color:rgb(255 185 24) !important;
+  color: rgb(255 185 24) !important;
 }
 .abitAboutMe a {
   color: rgb(211, 209, 209);
@@ -226,8 +226,21 @@ hr {
 /* About Page styling */
 .about-container {
   padding: 30px 10%;
-  color: rgb(211, 209, 209);
+  color: whitesmoke;
+}
+.about-container > p:first-child {
+  font-size: 18px;
+  font-weight: bold;
 }
 .carousel {
   margin: 30px auto;
+}
+.carousel-item{
+  padding: 13px;
+}
+.w-100 {
+  margin: auto;
+  height: 240px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px whitesmoke;
 }

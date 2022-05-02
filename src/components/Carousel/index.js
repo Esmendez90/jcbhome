@@ -1,16 +1,15 @@
 import React from "react";
-import {Carousel} from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
+import images from "./images.json";
 
 function CarouselComponent() {
   return (
     <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/images/mecianni.jpg"
-          alt="First slide"
-        />
-      </Carousel.Item>
+      {images.map(({ id, className, src, alt }) => (
+        <Carousel.Item key={id}>
+          <img className={className} src={src} alt={alt} />
+        </Carousel.Item>
+      ))}
     </Carousel>
   );
 }
