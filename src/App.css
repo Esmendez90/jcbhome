@@ -224,14 +224,23 @@ hr {
 }
 
 /* About Page styling */
+.topRedBlock {
+  display: block;
+  width: 80%;
+  height: 20px;
+  background-color: #ff0000cf;
+}
 .about-container {
   padding: 30px 10%;
   color: whitesmoke;
 }
 .about-container > p:first-child,
-.whyKw-parr > p:first-child {
+.whyKw-parr > p:nth-child(2) {
   font-size: 18px;
   font-weight: bold;
+}
+.whyKw-parr {
+  margin-top: 3rem;
 }
 .carousel {
   margin: 30px auto;
@@ -242,7 +251,6 @@ hr {
 .w-100 {
   margin: auto;
   height: 240px;
-  border-radius: 50%;
   box-shadow: 0px 0px 10px whitesmoke;
 }
 .kwSpan {

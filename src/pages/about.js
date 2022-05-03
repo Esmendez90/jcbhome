@@ -3,6 +3,7 @@ import CarouselComponent from "../components/Carousel";
 const about = () => {
   return (
     <>
+    <div className="topRedBlock"></div>
       <div className="about-container">
         <p>
           <span>&#8212;</span> My Journey <span>&#8212;</span>
@@ -49,10 +50,10 @@ const about = () => {
         <CarouselComponent />
         <div className="whyKw-parr">
           <div className="kwImages-container">
-            <img src="/images/kwn1.jpeg"/>
-            <img src="/images/kwproud.png"/>
-            <img src="/images/kwlove.png"/>
-            <img src="/images/kwilove.png"/>
+            <img src="/images/kwn1.jpeg" alt="keller william is #1 - spanish"/>
+            <img src="/images/kwproud.png" alt="keller williams proud"/>
+            <img src="/images/kwlove.png" alt="love keller william"/>
+            <img src="/images/kwilove.png" alt="i love keller williams"/>
           </div>
           <p>
           <span>&#8212;</span> Why choose <span className="kwSpan">Keller Williams</span> <span>&#8212;</span>
