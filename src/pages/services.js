@@ -4,8 +4,9 @@ const services = () => {
     <>
       <div className="topRedBlock"></div>
       <div className="services-container">
+        <img src="/images/kwmarketing.png" alt="marketing logo" className="marketingLogo-img"/>
         <div className="marketingStrat-container">
-          <p className="servicesTitles">MARKETING STRATEGIES</p>
+          <p className="servicesTitles">Marketing Strategies</p>
           <ul>
             <li>Staging Consultation</li>
             <li>Professional Photography</li>
@@ -21,8 +22,8 @@ const services = () => {
           </ul>
         </div>
         <div className="marketingStrat-container">
-          <p className="servicesTitles">YOUR CUSTOM MARKETING PLAN</p>
-          <p className="servicesSecondTitle">SMART, TARGETED NETWORKING</p>
+          <p className="servicesTitles">Your Custom Marketing Plan</p>
+          <p className="servicesSecondTitle">Smart, Targeted Networking</p>
           <p className="services-parr">
             From dynamic fliers, to lead- optimized landing pages, to beautiful
             postcards, to custom lookbooks, we'll determine what professionally
@@ -33,9 +34,10 @@ const services = () => {
             and ensuring maximum exposure.
           </p>
         </div>
+        <img src="/images/kwapp.png" alt="marketing logo" className="marketingLogo-img"/>
 
         <div className="marketingStrat-container">
-          <p className="servicesTitles">PROMOTIONAL ASSETS... BEST IN CLASS!</p>
+          <p className="servicesTitles">Promotional Assets... Best In Class!</p>
           <ul>
             <li>Our web network boasts 2.6 million unique visitors a month.</li>
             <li>
@@ -54,8 +56,8 @@ const services = () => {
           </ul>
         </div>
         <div className="marketingStrat-container">
-          <p className="servicesTitles">INTERNET MARKETING</p>
-          <p className="servicesSecondTitle">EXTENDED MARKET REACH</p>
+          <p className="servicesTitles">Internet Marketing</p>
+          <p className="servicesSecondTitle">Extended Market Reach</p>
           <p className="services-parr">
             When you list with me, we'll have access to the Keller Williams
             Listing System, or KWLS. This proprietary, exclusive system ensures
@@ -63,6 +65,8 @@ const services = () => {
             most popular search Websites.
           </p>
         </div>
+        <img src="/images/kwls.jpeg" alt="marketing logo" className="marketingLogo-img"/>
+
       </div>
     </>
   );

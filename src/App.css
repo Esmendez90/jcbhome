@@ -291,4 +291,12 @@ hr {
 .services-parr {
   margin-left: 20px;
 }
+.marketingLogo-img {
+  width: 113%;
+  margin-bottom: 5rem;
+}
+
+.marketingLogo-img:last-child{
+  margin-bottom: 0;
+}
 
