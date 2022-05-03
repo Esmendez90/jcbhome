@@ -228,14 +228,16 @@ hr {
   display: block;
   width: 80%;
   height: 20px;
-  background-color: #ff0000cf;
+  background-color: rgb(222 5 5 / 90%);
 }
-.about-container {
+.about-container,
+.services-container {
   padding: 30px 10%;
   color: whitesmoke;
 }
 .about-container > p:first-child,
-.whyKw-parr > p:nth-child(2) {
+.whyKw-parr > p:nth-child(2),
+.servicesTitles {
   font-size: 18px;
   font-weight: bold;
 }
@@ -259,11 +261,10 @@ hr {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
 .subtitle {
-font-weight: bold;
-margin-top: 25px;
+  font-weight: bold;
+  margin-top: 25px;
 }
 .kwImages-container {
   opacity: 0.1;
@@ -275,3 +276,19 @@ margin-top: 25px;
   height: 18rem;
   margin: 22px auto;
 }
+
+/* Services page styling */
+.marketingStrat-container {
+  border-left: solid 5px rgb(222 5 5 / 90%);
+  padding-left: 15px;
+  margin-bottom: 5rem;
+}
+
+.servicesSecondTitle {
+  font-size: 18px;
+  margin-top: -23px;
+}
+.services-parr {
+  margin-left: 20px;
+}
+
