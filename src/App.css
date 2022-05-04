@@ -370,7 +370,7 @@ hr {
     );
     box-shadow: 0 10px 29px -10px rgb(97 95 95);
     -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+    transform: scaleX(-1);
   }
 
   .jennifer-img {
@@ -397,7 +397,8 @@ hr {
     font-size: 29px;
     text-align: center;
   }
-  .basedIn, .abitAboutMe,
+  .basedIn,
+  .abitAboutMe,
   .abitAboutMe > a {
     font-size: 20px;
     text-align: center;
@@ -416,14 +417,48 @@ hr {
   }
 
   /* footer */
-  .footer-container, .navbar{
+  .footer-container,
+  .navbar {
     background-color: rgb(14, 13, 13, 0.1);
   }
-  .kwLogo-container, .realityLogo-container, .jcbLogo-container {
+  .kwLogo-container,
+  .realityLogo-container,
+  .jcbLogo-container {
     width: 16%;
     margin: 2rem 1.5rem;
   }
-  .jcbLogo-container{
+  .jcbLogo-container {
     width: 11%;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .navbar-brand:first-child {
+    width: 13%;
+  }
+  .navbar-toggler {
+    font-size: 1.90rem !important;
+  }
+  .nav-link {
+    font-size: 15px;
+  }
+  .icons {
+    font-size: 17px;
+  }
+  .heading-container {
+    margin-top: 6rem;
+  }
+  .questionIcon {
+    right: 8%;
+    font-size: 80px;
+  }
+  .slogan-container {
+    margin-top: 9rem;
+  }
+  .slogan {
+    font-size: 31px !important;
+  }
+  .footer-container {
+    margin-top: 2rem;
   }
 }
