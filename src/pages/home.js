@@ -1,5 +1,6 @@
 import React from "react";
-import { ImgComponent } from "../components/ReusableComponents/index";
+import { ImgComponent } from "../components/ImageComponent";
+import Slogan from "../components/Slogan";
 import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const home = () => {
@@ -39,7 +40,10 @@ const home = () => {
             </button>
           </div>
         </div>
-        <p className="slogan">More than a friend, Your Realtor!</p>
+        <Slogan
+        sloganContainerClass="slogan-container"
+        slogan="More than a friend, Your Realtor!"
+        />
       </div>
     </>
   );

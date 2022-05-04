@@ -14,7 +14,7 @@ const strategy = () => {
           your house yourself, let's discuss your options to make sure you get
           the most out of your sale.
         </p>
-        <img src="/images/strategyimg.jpeg" alt="strategy path image" className="strategyPath-img"/>
+        <img src="/images/strategyimg.jpeg" alt="strategy path" className="strategyPath-img"/>
         <p>
         Let's Chat!<br />
         I'm sure you have questions and thoughts about the real estate process.

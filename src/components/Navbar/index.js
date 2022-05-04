@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { ImgComponent } from "../ReusableComponents/index";
+import { ImgComponent } from "../ImageComponent";
  import { faBars } from "@fortawesome/free-solid-svg-icons";
  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
  import { ContactListComponent } from "../ListComponent/index";

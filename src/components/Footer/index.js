@@ -1,5 +1,5 @@
 import React from "react";
-import { ImgComponent } from "../ReusableComponents";
+import { ImgComponent } from "../ImageComponent";
 
 function FooterComponent() {
   return (

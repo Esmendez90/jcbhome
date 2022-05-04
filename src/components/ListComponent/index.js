@@ -13,7 +13,7 @@ export function ContactListComponent() {
       <ul className="contactList-container">
         <li className="icons">
           <a href="tel: 201-732-6844" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faPhone} /> Phone
+            <FontAwesomeIcon icon={faPhone} /> <span>Phone</span>
           </a>
         </li>
         <li className="icons">
@@ -22,12 +22,12 @@ export function ContactListComponent() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp
+            <FontAwesomeIcon icon={faWhatsapp} /> <span>Whatsapp</span>
           </a>
         </li>
         <li className="icons">
           <a href="mailto:j.mendez@kw.com" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faEnvelope} /> Email
+            <FontAwesomeIcon icon={faEnvelope} /> <span>Email</span>
           </a>
         </li>
         <li className="icons">
@@ -36,7 +36,7 @@ export function ContactListComponent() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faFacebook} /> Facebook
+            <FontAwesomeIcon icon={faFacebook} /> <span>Facebook</span>
           </a>
         </li>
         <li className="icons">
@@ -45,7 +45,7 @@ export function ContactListComponent() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faFacebookMessenger} /> Messenger
+            <FontAwesomeIcon icon={faFacebookMessenger} /> <span>Messenger</span>
           </a>
         </li>
       </ul>
