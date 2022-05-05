@@ -1,19 +1,19 @@
 [
     {
         "id":1,
-        "className":"d-block w-100",
+        "className":"d-block",
         "src":"/images/mecianni.jpg",
         "alt":"picture of jennifer and cianni"
     },
     {
         "id":2,
-        "className":"d-block w-100",
+        "className":"d-block",
         "src":"/images/medanae.jpg",
         "alt":"picture of jennifer and danae"
     },
     {
         "id":3,
-        "className":"d-block w-100",
+        "className":"d-block",
         "src":"/images/joel.jpg",
         "alt":"picture of joel"
     }

@@ -2,7 +2,7 @@ import React from "react";
 const services = () => {
   return (
     <>
-      <div className="topRedBlock"></div>
+      <div className="topRedBlock topRedBlock2"></div>
       <div className="services-container">
         <img src="/images/kwmarketing.png" alt="marketing logo" className="marketingLogo-img"/>
         <div className="marketingStrat-container">

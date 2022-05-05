@@ -230,6 +230,9 @@ hr {
   height: 20px;
   background-color: rgb(222 5 5 / 90%);
 }
+.topRedBlock2 {
+  margin-left: 20%;
+}
 .about-container,
 .services-container,
 .strategy-container {
@@ -251,8 +254,9 @@ hr {
 .carousel-item {
   padding: 13px;
 }
-.w-100 {
+.d-block {
   margin: auto;
+  width: 100%;
   height: 240px;
   box-shadow: 0px 0px 10px whitesmoke;
 }
@@ -268,14 +272,17 @@ hr {
   margin-top: 25px;
 }
 .kwImages-container {
-  opacity: 0.1;
+  opacity: 0.2;
   position: absolute;
-  margin-top: 13%;
+  margin-top: 25%;
+  width: 90%;
 }
 .kwImages-container img {
-  width: 90%;
+  width: 100%;
   height: 18rem;
-  margin: 22px auto;
+}
+.kwImages-container img:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 /* Services page styling */
@@ -430,6 +437,62 @@ hr {
   .jcbLogo-container {
     width: 11%;
   }
+  /* ABOUT PAGE  screen width min 768px*/
+  .about-container,
+  .services-container,
+  .strategy-container {
+    padding: 30px 15%;
+  }
+  .carousel {
+    margin: 60px auto;
+  }
+  .d-block {
+    width: 50%;
+  }
+  .kwImages-container {
+    width: 85%;
+  }
+  .kwImages-container {
+    margin-top: 20%;
+    opacity: 0.9;
+  }
+  .kwImages-container img {
+    width: 30%;
+    height: 12rem;
+  }
+  .kwImages-container img:first-child,
+  .kwImages-container img:nth-child(3) {
+    margin-left: 53%;
+  }
+  .kwImages-container img:nth-child(2) {
+    margin-top: 8rem;
+    margin-right: 50%;
+  }
+  .kwImages-container img:nth-child(3),
+  .kwImages-container img:last-child {
+    margin-top: 1.5rem;
+  }
+  .kwImages-container img:last-child {
+    opacity: 0.8;
+  }
+
+  .group1 {
+    padding-right: 40%;
+  }
+  .group2 {
+    padding-left: 40%;
+    text-align: right;
+  }
+  .subtitle:not(:first-child) {
+    margin-top: 3rem;
+  }
+  .group1:last-child {
+    padding-right: 0;
+  }
+  /* SERVICES PAGE 768PX */
+  .marketingLogo-img {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 820px) {
@@ -460,6 +523,11 @@ hr {
   }
   .footer-container {
     margin-top: 2rem;
+  }
+
+  /* ABOUT PAGE SCREEN WIDTH 820PX */
+  .kwImages-container {
+    margin-top: 14.5%;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -561,6 +629,30 @@ hr {
   .jcbLogo-container {
     width: 7%;
   }
+
+  /* ABOUT PAGE 992PX */
+  .about-container,
+  .services-container,
+  .strategy-container {
+    padding: 30px 20%;
+  }
+  .kwImages-container {
+    margin-top: 11%;
+  }
+  .kwImages-container img {
+    width: 25%;
+  }
+  .kwImages-container img:first-child,
+  .kwImages-container img:nth-child(3) {
+    margin-left: 46%;
+  }
+  .kwImages-container img:first-child {
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
+  .kwImages-container img:last-child {
+    margin-right: 10%;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -568,7 +660,7 @@ hr {
   .navbar-brand:first-child {
     width: 9%;
   }
-  .jenniferImg-container{
+  .jenniferImg-container {
     background-image: linear-gradient(
       115deg,
       rgb(227, 227, 221) 50%,
@@ -581,23 +673,24 @@ hr {
   .jennifer-img {
     width: 60%;
   }
-  .heading-container{
+  .heading-container {
     padding: 80px 10% 25px;
   }
-  .basedIn{
+  .basedIn {
     padding-top: 25px;
   }
-  .ask-container{
+  .ask-container {
     height: 180px;
     width: 70%;
   }
   .ask-container p {
     padding-bottom: 10px;
   }
-  .kwLogo-container, .realityLogo-container{
+  .kwLogo-container,
+  .realityLogo-container {
     width: 7%;
   }
-  .jcbLogo-container{
+  .jcbLogo-container {
     width: 5%;
   }
 }
