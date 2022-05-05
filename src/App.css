@@ -564,7 +564,40 @@ hr {
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  /* Navbar */
+  .navbar-brand:first-child {
+    width: 9%;
+  }
+  .jenniferImg-container{
+    background-image: linear-gradient(
+      115deg,
+      rgb(227, 227, 221) 50%,
+      rgb(234, 223, 205) 50%,
+      rgb(234, 223, 205) 74%,
+      rgb(33 17 17) 74.5%,
+      rgb(14, 13, 13) 100%
+    );
+  }
   .jennifer-img {
     width: 60%;
+  }
+  .heading-container{
+    padding: 25px 10%;
+  }
+  .basedIn{
+    padding-top: 25px;
+  }
+  .ask-container{
+    height: 180px;
+    width: 70%;
+  }
+  .ask-container p {
+    padding-bottom: 10px;
+  }
+  .kwLogo-container, .realityLogo-container{
+    width: 7%;
+  }
+  .jcbLogo-container{
+    width: 5%;
   }
 }

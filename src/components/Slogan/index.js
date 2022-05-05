@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 
 export default function Slogan(props) {
   let { sloganContainerClass, slogan } = props;
