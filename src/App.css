@@ -465,12 +465,12 @@ hr {
     margin-left: 53%;
   }
   .kwImages-container img:nth-child(2) {
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-right: 50%;
   }
   .kwImages-container img:nth-child(3),
   .kwImages-container img:last-child {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
   .kwImages-container img:last-child {
     opacity: 0.8;
@@ -483,8 +483,11 @@ hr {
     padding-left: 40%;
     text-align: right;
   }
-  .subtitle:not(:first-child) {
-    margin-top: 3rem;
+  .subtitle {
+    margin-top: 4rem;
+  }
+  .whyKw-parr p:nth-child(3){
+    margin-top: 0;
   }
   .group1:last-child {
     padding-right: 0;
@@ -692,5 +695,36 @@ hr {
   }
   .jcbLogo-container {
     width: 5%;
+  }
+  /* ABOUT PAGE 1200PX */
+  .d-block{
+    width: 35%;
+  }
+  .kwImages-container {
+    margin-top:3rem;
+    width: 80%;
+  }
+  .kwImages-container img:first-child, .kwImages-container img:nth-child(3){
+    margin-left: 50%;
+  }
+  .kwImages-container img:nth-child(2){
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+  .kwImages-container img:nth-child(3){
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  .kwImages-container img:last-child{
+    margin-top: 0;
+  }
+  /* SERVICES PAGE 1200PX */
+  .marketingLogo-img {
+    width: 70%;
+  }
+  /* STRATEGY PAGE 1200PX */
+  .strategyPath-img{
+    display: block;
+    width: 60%;
   }
 }
