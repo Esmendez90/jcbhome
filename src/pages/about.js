@@ -10,48 +10,59 @@ const about = () => {
         </p>
         <div className="about-parr">
           <p>
-            I came to the United States about 17 years ago. Starting and
-            adapting to a new country was not easy. The death of my father
-            shortly after arriving changed my life and many of my goals had to
-            be put on standby in order to help my mother with my two brothers.
-            Although these circumstances were not the best, I am grateful that
-            despite the difficulties, both I and my family were able to move
-            forward and resume our path without forgetting the principles that
-            our father instilled in us and the determination to go behind our
-            dreams.
+            I came to the United States about 17 years ago. Adapting to the new
+            culture and lifestyle was very challenging. On top of that, the
+            death of my father shortly after, completely changed my life. My
+            goals had to be put on standby in order to help my mother raising my
+            two younger siblings. Against all odds, my family and I were able to
+            move on with our lives, and keep the principles that our father
+            instilled in us, and the determination to chase our dreams close to
+            our hearts.
             <br />
             <br />
-            I dedicated myself for a long time to the medical field but I always
-            felt my passion for Real Estate. My parents were always independent
-            contractors and I always had in mind to do the same. I have always
-            liked reading about real estate investments and helping my family in
-            the sale and purchase of real estate. When the pandemic affected my
-            work, I felt that my opportunity to go after my dream had arrived
-            and in March 2020 I began to swim in this very rewarding career.
+            As a young adult, I started my career in the medical field and spent
+            a decent amount of years working with people with diverse
+            backgrounds. I enjoyed my work and the people that surrounded me;
+            however, I always felt a passion for real estate. I continuously
+            studied about real estate investments and even assisted my family in
+            the sale and purchase of properties. Back home, my parents were both
+            independent contractors and their example motivated me to want to do
+            the same... to be my own boss. When my job was affected by covid-19,
+            I realized that my opportunity to go after my dream had finally
+            arrived, and in March 2020 I began building my path in this
+            rewarding career.
             <br />
             <br />
-            For me, real estate is the path to many of my dreams including the
-            dreams that my father could not fulfill. Thanks to this beautiful
-            career, my husband and I have started our business in Ecuador. 123
-            hectares dedicated to the production of Abaca and other forest
-            trees. This is not only our great project but also the way to create
-            a source of work in this region that needs it so much, being one of
-            the ways to share the many blessings received.
+            Real estate is to me, the modus operandi to fullfil my dreams,
+            including those that my dad would have loved to see become a
+            reality. Thanks to this career, my husband and I have started an
+            ambitous business in Ecuador. A hundred and twenty three hectares of
+            land dedicated to the production of abaca and other goods. This is
+            not only our life project, but also a way to generate a number of
+            jobs in this region that needs it so much. For us, this is a way to
+            share with others the many blessings we have received.
             <br />
             <br />
-            During these two years I have learned so much not only from my coach
-            but the different extraordinary people that are part of Keller
-            Williams. I feel fortunate to belong to a company that truly cares
-            about each one of us and our clients. I prepare myself every day so
-            as not to disappoint the trust that my clients put in me and to
-            offer the best experience during a real estate transaction.
+            During my first two years as a real estate agent, I have learned so
+            much from my coach and the extraordinary people that are part of
+            Keller Williams. I feel fortunate to belong to a company that truly
+            cares about each one of us and our clients. This is why I work hard
+            every day so as not to disappoint my clients and the trust confided
+            in me, and to offer the best possible experience during a real
+            estate transaction.
           </p>
         </div>
         <CarouselComponent />
         <div className="whyKw-parr">
           <div className="kwImages-container">
-            <img src="/images/kwtechnology.png" alt="keller william is #1 - spanish" />
-            <img src="/images/kwopportunity.png" alt="keller william is #1 - spanish" />
+            <img
+              src="/images/kwtechnology.png"
+              alt="keller william is #1 - spanish"
+            />
+            <img
+              src="/images/kwopportunity.png"
+              alt="keller william is #1 - spanish"
+            />
             <img src="/images/kwknowledge.png" alt="keller williams cares" />
             <img src="/images/kwsketch.png" alt="love keller william" />
           </div>
