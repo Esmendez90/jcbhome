@@ -707,8 +707,17 @@ hr {
    width: 78% !important;
  }
  .heading-container{
-   padding-top: 150px !important;
+   padding-top: 160px !important;
    padding-bottom: 50px !important;
+ }
+ .heading-container > p:first-child{
+   font-size: 33px;
+ }
+ .heading-container p:nth-child(2){
+   font-size: 29px;
+ }
+ .ask-container{
+   margin-top: 30px;
  }
  .slogan-container{
    margin-top: 60px !important;
