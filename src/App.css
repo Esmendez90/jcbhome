@@ -121,6 +121,10 @@ hr {
   margin-bottom: -15px;
   color: whitesmoke;
 }
+.basedIn > svg {
+  vertical-align: -0.05em;
+  margin-left: 0.2rem;
+}
 .abitAboutMe {
   padding-bottom: 30px;
 }
@@ -822,7 +826,7 @@ hr {
   .kwImages-container img:last-child {
     margin-top: 4rem;
   }
-  .kwImages-container img:nth-child(11) {
-    margin-top: 7.5rem;
+  .subtitle:nth-child(11) {
+    margin-top: 7rem;
   }
 }

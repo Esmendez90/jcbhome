@@ -14,14 +14,19 @@ const strategy = () => {
           your house yourself, let's discuss your options to make sure you get
           the most out of your sale.
         </p>
-        <img src="/images/strategyimg.jpeg" alt="strategy path" className="strategyPath-img"/>
+        <img
+          src="/images/strategyimg.jpeg"
+          alt="strategy path"
+          className="strategyPath-img"
+        />
         <p>
-        Let's Chat!<br />
-        I'm sure you have questions and thoughts about the real estate process.
-        I'd love to talk with you about what you've read here and help you on
-        the path to selling your house. My contact information is on top, and I
-        look forward to working with you.
-      </p>
+          Let's chat!
+          <br />
+          I'm sure you have questions and thoughts about the real estate
+          process. I'd love to speak with you about what you've read here and
+          help you on the path to selling your house. My contact information is
+          on the menu. I look forward to working with you.
+        </p>
       </div>
     </>
   );

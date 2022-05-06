@@ -1,7 +1,7 @@
 import React from "react";
 import { ImgComponent } from "../components/ImageComponent";
 import Slogan from "../components/Slogan";
-import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
+import { faQuestionCircle, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const home = () => {
   return (
@@ -18,7 +18,7 @@ const home = () => {
         </p>
         <p>Real Estate Agent</p>
         <p className="basedIn">
-          Based in <b>Bergenfield, NJ</b>.
+          Based in <b>Bergenfield, NJ</b>.<FontAwesomeIcon icon={faLocationDot}/>
         </p>
         <p className="abitAboutMe"><a href="/about">
 <span>&#8212;</span> A little bit about me.</a></p>
