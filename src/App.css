@@ -809,7 +809,17 @@ hr {
 }
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (min-width: 1700px) {
-  .subtitle:nth-child(9) {
-    margin-top: 6rem;
+  .kwImages-container img:nth-child(3) {
+    margin-top: 40px;
   }
+  .subtitle:nth-child(9), .subtitle:nth-child(7) {
+    margin-top: 8rem;
+  }
+  .kwImages-container img:last-child {
+    margin-top: 4rem;
+  }
+  .kwImages-container img:nth-child(11) {
+    margin-top: 7rem;
+  }
+  
 }
