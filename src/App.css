@@ -826,6 +826,9 @@ hr {
 }
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (min-width: 1700px) {
+  .jennifer-img{
+    width: 69% !important;
+  }
   .kwImages-container img:nth-child(3) {
     margin-top: 40px;
   }
