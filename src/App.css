@@ -663,6 +663,57 @@ hr {
   .navbar-brand:first-child {
     width: 9%;
   }
+  /* ___________________ */
+  .navbar {
+    position: absolute !important;
+    right: 0%;
+    display: block !important;
+    width: 100px;
+    height: 100%;
+  }
+  .container {
+    display: block !important;
+  }
+
+  .jcbTitle-container {
+    display: none;
+  }
+  #basic-navbar-nav {
+    display: block !important;
+  }
+  .navbar-nav {
+    display: initial !important;
+  }
+  .nav-link{
+    font-size: 12px;
+    margin-top: 2rem;
+  }
+  hr {
+    margin-top: 2rem !important;
+  }
+
+  .contactList-container {
+    display: initial;
+  }
+  .icons{
+    margin-right: 0 !important;
+    margin-top: 2rem;
+  }
+  .icons svg {
+    margin-right: 0;
+  }
+ .jennifer-img{
+   width: 78% !important;
+ }
+ .heading-container{
+   padding-top: 150px !important;
+ }
+  .footer-container {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  /* ----------------------- */
   .jenniferImg-container {
     background-image: linear-gradient(
       115deg,
