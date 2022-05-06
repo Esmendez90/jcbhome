@@ -665,11 +665,12 @@ hr {
   }
   /* ___________________ */
   .navbar {
-    position: absolute !important;
+    position: fixed !important;
     right: 0%;
     display: block !important;
     width: 100px;
     height: 100%;
+    z-index: 1;
   }
   .container {
     display: block !important;
@@ -686,7 +687,7 @@ hr {
   }
   .nav-link{
     font-size: 12px;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   hr {
     margin-top: 2rem !important;
@@ -697,7 +698,7 @@ hr {
   }
   .icons{
     margin-right: 0 !important;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .icons svg {
     margin-right: 0;
@@ -707,6 +708,10 @@ hr {
  }
  .heading-container{
    padding-top: 150px !important;
+   padding-bottom: 50px !important;
+ }
+ .slogan-container{
+   margin-top: 60px !important;
  }
   .footer-container {
     margin-top: 0;
