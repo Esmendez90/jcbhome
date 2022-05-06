@@ -685,7 +685,7 @@ hr {
   .navbar-nav {
     display: initial !important;
   }
-  .nav-link{
+  .nav-link {
     font-size: 12px;
     margin-top: 1rem;
   }
@@ -696,32 +696,32 @@ hr {
   .contactList-container {
     display: initial;
   }
-  .icons{
+  .icons {
     margin-right: 0 !important;
     margin-top: 1rem;
   }
   .icons svg {
     margin-right: 0;
   }
- .jennifer-img{
-   width: 78% !important;
- }
- .heading-container{
-   padding-top: 150px !important;
-   padding-bottom: 50px !important;
- }
- .heading-container > p:first-child{
-   font-size: 33px;
- }
- .heading-container p:nth-child(2){
-   font-size: 29px;
- }
- .ask-container{
-   margin-top: 24px;
- }
- .slogan-container{
-   margin-top: 60px !important;
- }
+  .jennifer-img {
+    width: 78% !important;
+  }
+  .heading-container {
+    padding-top: 150px !important;
+    padding-bottom: 50px !important;
+  }
+  .heading-container > p:first-child {
+    font-size: 33px;
+  }
+  .heading-container p:nth-child(2) {
+    font-size: 29px;
+  }
+  .ask-container {
+    margin-top: 24px;
+  }
+  .slogan-container {
+    margin-top: 60px !important;
+  }
   .footer-container {
     margin-top: 0;
     padding-top: 0;
@@ -800,6 +800,9 @@ hr {
   .kwImages-container img:nth-child(3) {
     margin-top: -10px;
   }
+  .planSuccess {
+    font-size: 38px;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1600px and up) */
 @media only screen and (min-width: 1600px) {
@@ -812,14 +815,14 @@ hr {
   .kwImages-container img:nth-child(3) {
     margin-top: 40px;
   }
-  .subtitle:nth-child(9), .subtitle:nth-child(7) {
+  .subtitle:nth-child(9),
+  .subtitle:nth-child(7) {
     margin-top: 8rem;
   }
   .kwImages-container img:last-child {
     margin-top: 4rem;
   }
   .kwImages-container img:nth-child(11) {
-    margin-top: 7rem;
+    margin-top: 7.5rem;
   }
-  
 }
