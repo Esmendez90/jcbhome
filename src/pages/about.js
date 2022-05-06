@@ -12,7 +12,7 @@ const about = () => {
           <p>
             I came to the United States about 17 years ago. Adapting to the new
             culture and lifestyle was very challenging. On top of that, the
-            death of my father shortly after, completely changed my life. My
+            death of my father shortly after completely changed my life. My
             goals had to be put on standby in order to help my mother raising my
             two younger siblings. Against all odds, my family and I were able to
             move on with our lives, and keep the principles that our father
@@ -24,7 +24,7 @@ const about = () => {
             a decent amount of years working with people with diverse
             backgrounds. I enjoyed my work and the people that surrounded me;
             however, I always felt a passion for real estate. I continuously
-            studied about real estate investments and even assisted my family in
+            studied about real estate investments and eagerly assisted my family in
             the sale and purchase of properties. Back home, my parents were both
             independent contractors and their example motivated me to want to do
             the same... to be my own boss. When my job was affected by covid-19,
@@ -33,7 +33,7 @@ const about = () => {
             rewarding career.
             <br />
             <br />
-            Real estate is to me, the modus operandi to fullfil my dreams,
+            Real estate is to me the modus operandi to fullfil my dreams,
             including those that my dad would have loved to see become a
             reality. Thanks to this career, my husband and I have started an
             ambitous business in Ecuador. A hundred and twenty three hectares of
