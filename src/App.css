@@ -265,7 +265,7 @@ hr {
 }
 .carousel-item {
   padding: 12px;
-  animation: fadeIn ease-in-out 2s;
+  animation: fadeIn ease-in-out 1s;
   transition: none !important;
 }
 
@@ -839,6 +839,10 @@ hr {
 @media only screen and (min-width: 1600px) {
   .subtitle {
     margin-top: 5rem;
+  }
+  .d-block{
+    width: 30%;
+    height: 250px;
   }
 }
 /* Extra large devices (large laptops and desktops, 1700px and up) */
