@@ -6,6 +6,7 @@ import {
   faFacebookMessenger,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import GoogleTranslate from "../GoogleTranslate/index";
 
 export function ContactListComponent() {
   return (
@@ -47,6 +48,9 @@ export function ContactListComponent() {
           >
             <FontAwesomeIcon icon={faFacebookMessenger} /> <span>Messenger</span>
           </a>
+        </li>
+        <li className="icons">
+          <GoogleTranslate/>
         </li>
       </ul>
     </>

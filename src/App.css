@@ -59,6 +59,7 @@ hr {
 .contactList-container {
   column-count: 2;
   margin: auto 0.5rem 0.5rem;
+  height: 120px;
 }
 .icons {
   display: block;
@@ -76,6 +77,15 @@ hr {
 }
 .icons svg {
   margin-right: 0.5rem;
+}
+
+.icons:nth-child(6){
+  display: block;
+  margin-right: 0;
+}
+
+.skiptranslate:nth-child(2), .goog-te-combo:nth-child(2){
+display: none;
 }
 
 /* Jennifer photo styling */
@@ -376,6 +386,7 @@ hr {
     column-count: 1;
     display: inline-flex;
     padding-left: 0;
+    height: auto;
   }
   .icons {
     margin: auto 2rem 0 0;

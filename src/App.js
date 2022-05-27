@@ -21,7 +21,7 @@ function App() {
           </Routes>
         </Router>
       </main>
-      <FooterComponent/>
+      <FooterComponent />
     </>
   );
 }
