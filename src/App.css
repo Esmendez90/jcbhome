@@ -79,13 +79,14 @@ hr {
   margin-right: 0.5rem;
 }
 
-.icons:nth-child(6){
+.icons:nth-child(6) {
   display: block;
   margin-right: 0;
 }
 
-.skiptranslate:nth-child(2), .goog-te-combo:nth-child(2){
-display: none;
+.skiptranslate:nth-child(2),
+.goog-te-combo:nth-child(2) {
+  display: none;
 }
 
 /* Jennifer photo styling */
@@ -484,7 +485,8 @@ display: none;
   .d-block {
     width: 50%;
   }
-  .carousel-control-next, .carousel-control-prev {
+  .carousel-control-next,
+  .carousel-control-prev {
     width: 25% !important;
   }
   .kwImages-container {
@@ -588,9 +590,14 @@ display: none;
   .icons {
     margin: auto 0;
   }
-  .icons span {
+  
+  .icons span{
     display: none;
   }
+  .skiptranslate span {
+    display: block;
+  }
+ 
   .me-auto {
     margin-right: inherit !important;
   }
@@ -706,9 +713,14 @@ display: none;
     position: fixed !important;
     right: 0%;
     display: block !important;
-    width: 100px;
+    width: 125px;
     height: 100%;
     z-index: 1;
+  }
+
+  .goog-te-combo{
+    width: -webkit-fill-available;
+    font-size: 9px;
   }
   .container {
     display: block !important;
@@ -851,7 +863,7 @@ display: none;
   .subtitle {
     margin-top: 5rem;
   }
-  .d-block{
+  .d-block {
     width: 30%;
     height: 250px;
   }
