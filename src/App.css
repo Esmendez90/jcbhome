@@ -902,6 +902,13 @@ hr {
     display: block;
     width: 60%;
   }
+  /* TEAM PAGE 1200PX */
+  .myteam-container > a {
+    width: auto;
+  }
+  .teamImages-container img {
+    width: 80%;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1500px and up) */
