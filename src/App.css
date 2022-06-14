@@ -566,9 +566,14 @@ hr {
     width: 100%;
   }
   /* MY TEAM PAGE */
+  .teamImages-container img {
+    width: 100%;
+  }
   .teamImages-container li {
-    width: 35%;
+    width: 27%;
     display: inline-grid;
+    margin-right: 22px;
+    margin-left: 22px;
   }
 }
 
@@ -610,8 +615,15 @@ hr {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   /* Navbar */
+  .container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
   .navbar-brand:first-child {
     width: 13%;
+  }
+  .logoImg-container {
+    width: 70px;
   }
   .jcbTitle-container {
     width: 100%;
@@ -619,7 +631,7 @@ hr {
   }
   .jcbTitle {
     margin: 0.5rem;
-    font-size: 18px;
+    font-size: 16px;
   }
   .icons {
     margin: auto 0;
@@ -628,12 +640,21 @@ hr {
   .icons span {
     display: none;
   }
+  .icons svg {
+    margin-right: 0.2rem;
+  }
   .skiptranslate span {
     display: block;
   }
 
   .me-auto {
     margin-right: inherit !important;
+  }
+  .me-auto div:not(:last-child) {
+    margin-right: 1%;
+  }
+  .myteam-container > a {
+    width: 85px;
   }
   .navbar-nav {
     margin-top: 0;

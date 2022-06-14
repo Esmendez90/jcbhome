@@ -40,7 +40,7 @@ function Navigationbar() {
               <div>
                 <Nav.Link href="/strategy">STRATEGY</Nav.Link>
               </div>
-              <div>
+              <div className="myteam-container">
                 <Nav.Link href="/team">MY TEAM</Nav.Link>
               </div>
             </Nav>
