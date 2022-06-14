@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "className": "d-block",
+        "src": "/images/jenniferImg.jpeg",
+        "alt": "picture of Jennifer",
+        "member": "Jennifer Mendez",
+        "title": "Realtor"
+    },
+    {
+        "id": 2,
+        "className": "d-block",
+        "src": "/images/leo.png",
+        "alt": "picture of leo",
+        "member": "Leo Czekalski III",
+        "title": "Career Development Coach"
+    },
+    {
+        "id": 3,
+        "className": "d-block",
+        "src": "/images/david.png",
+        "alt": "picture of David",
+        "member": "David Lotan",
+        "title": "VP of Career Development"
+        
+    },
+    {
+        "id": 4,
+        "className": "d-block",
+        "src": "/images/reese.png",
+        "alt": "picture of Reese",
+        "member":"Reese Cirino",
+        "title":"Business Growth Coordinator"
+    },
+    {
+        "id": 5,
+        "className": "d-block",
+        "src": "/images/raj.png",
+        "alt": "picture of Raj",
+        "member": "Raj Sinha",
+        "title": "Career Development Coach"
+    },
+    {
+        "id": 6,
+        "className": "d-block",
+        "src": "/images/davidradney.png",
+        "alt": "picture of David Radney",
+        "member": "David Radney",
+        "title": "PUSH Coach"
+    },
+    {
+        "id": 7,
+        "className": "d-block",
+        "src": "/images/sally.png",
+        "alt": "picture of Sally",
+        "member": "Sally Ponchak",
+        "title": "NJ Broker of Real Estate"
+    }
+]

@@ -28,10 +28,21 @@ function Navigationbar() {
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">HOME</Nav.Link>
-              <Nav.Link href="/about">ABOUT</Nav.Link>
-              <Nav.Link href="/services">SERVICES</Nav.Link>
-              <Nav.Link href="/strategy">STRATEGY</Nav.Link>
+              <div>
+                <Nav.Link href="/">HOME</Nav.Link>
+              </div>
+              <div>
+                <Nav.Link href="/about">ABOUT</Nav.Link>
+              </div>
+              <div>
+                <Nav.Link href="/services">SERVICES</Nav.Link>
+              </div>
+              <div>
+                <Nav.Link href="/strategy">STRATEGY</Nav.Link>
+              </div>
+              <div>
+                <Nav.Link href="/team">MY TEAM</Nav.Link>
+              </div>
             </Nav>
             <hr />
             <ContactListComponent />

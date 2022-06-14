@@ -4,13 +4,7 @@ html {
 body {
   height: 100%;
   background-color: black; /* For browsers that do not support gradients */
-  background-image: linear-gradient(
-    140deg,
-    rgb(138, 132, 132) 0,
-    rgb(69, 66, 66) 25%,
-    rgb(38, 37, 37) 75%,
-    rgb(14, 13, 13) 100%
-  );
+  background-image: linear-gradient(to left, rgb(63, 62, 62), rgb(14, 13, 13));
   font-family: "Poppins", Helvetica, Arial, sans-serif !important;
 }
 
@@ -19,14 +13,16 @@ body {
   flex-direction: initial !important;
   margin-top: 0.5rem;
   margin-left: 0.5rem;
+  justify-content: center;
 }
 .nav-link {
   font-size: 13px;
   color: whitesmoke !important;
 }
-.nav-link:not(:last-child) {
-  margin-right: 11.5%;
+.me-auto div:not(:last-child) {
+  margin-right: 3.5%;
 }
+
 .navbar-brand:first-child {
   width: 15%;
   margin-right: 0.5rem;
@@ -94,17 +90,17 @@ hr {
   text-align: center;
   background-color: #e8e6e1;
   background-image: linear-gradient(
-    122deg,
-    rgb(227, 227, 221) 50%,
+    128deg,
+    rgb(227, 227, 221) 30%,
     rgb(234, 223, 205) 50%,
     rgb(234, 223, 205) 74%,
     rgb(33 17 17) 74.5%,
     rgb(14, 13, 13) 100%
   );
-  animation: fadeIn ease-in-out 2s;
+  animation: fadeIn ease-in-out 0.5s;
 }
 .jennifer-img {
-  width: 65%;
+  width: 70%;
   margin: auto;
 }
 
@@ -364,6 +360,34 @@ hr {
 .strategy-container > p:last-child {
   margin-bottom: 30px;
 }
+/* TEAM PAGE */
+.teamImages-container {
+  padding: 2rem;
+}
+.teamTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 3rem auto 1rem;
+  text-align: center;
+  color: whitesmoke;
+}
+.teamImages-container li:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.teamImages-container img {
+  width: 90%;
+}
+.member-title {
+  text-align: center;
+  margin-top: 1rem;
+  color: whitesmoke;
+  font-size: 18px;
+}
+.member-title > span {
+  border-left: 1px solid whitesmoke;
+  margin: 10px;
+  margin-right: 15px;
+}
 
 @media screen and (min-width: 768px) {
   body {
@@ -590,14 +614,14 @@ hr {
   .icons {
     margin: auto 0;
   }
-  
-  .icons span{
+
+  .icons span {
     display: none;
   }
   .skiptranslate span {
     display: block;
   }
- 
+
   .me-auto {
     margin-right: inherit !important;
   }
@@ -718,7 +742,7 @@ hr {
     z-index: 1;
   }
 
-  .goog-te-combo{
+  .goog-te-combo {
     width: -webkit-fill-available;
     font-size: 9px;
   }
