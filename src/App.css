@@ -624,6 +624,7 @@ hr {
   }
   .logoImg-container {
     width: 70px;
+    margin: auto;
   }
   .jcbTitle-container {
     width: 100%;
@@ -765,7 +766,7 @@ hr {
   }
   /* ___________________ */
   .navbar {
-    position: fixed !important;
+    position: absolute!important;
     right: 0%;
     display: block !important;
     width: 125px;
