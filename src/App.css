@@ -163,7 +163,7 @@ hr {
   position: relative;
   height: 200px;
   width: 100%;
-  background-color: rgb(227, 227, 221);
+  border: 1px solid whitesmoke;
 }
 .questionIcon {
   position: absolute;
@@ -410,14 +410,14 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
-  body {
+  /* body {
     background-color: black; /* For browsers that do not support gradients */
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
       to left,
       rgb(63, 62, 62),
       rgb(14, 13, 13)
-    );
-  }
+    ); 
+  } */
   /* Navbar */
   .navbar-brand:first-child {
     width: 11%;
@@ -447,14 +447,14 @@ hr {
     float: right;
     clear: left;
     background-color: black;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
       140deg,
       rgb(227, 227, 221) 50%,
       rgb(234, 223, 205) 50%,
       rgb(234, 223, 205) 74%,
       rgb(33 17 17) 74.5%,
       rgb(14, 13, 13) 100%
-    );
+    ); */
     box-shadow: 0 10px 29px -10px rgb(97 95 95);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -852,7 +852,7 @@ hr {
   }
 
   /* ----------------------- */
-  .jenniferImg-container {
+  /* .jenniferImg-container {
     background-image: linear-gradient(
       133deg,
       rgb(227, 227, 221) 50%,
@@ -861,7 +861,7 @@ hr {
       rgb(33 17 17) 74.5%,
       rgb(14, 13, 13) 100%
     );
-  }
+  } */
   .jennifer-img {
     width: 60%;
   }
@@ -954,7 +954,7 @@ hr {
 }
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (min-width: 1700px) {
-  .jenniferImg-container {
+  /* .jenniferImg-container {
     background-image: linear-gradient(
       129deg,
       rgb(227, 227, 221) 50%,
@@ -963,7 +963,7 @@ hr {
       rgb(33 17 17) 74.5%,
       rgb(14, 13, 13) 100%
     );
-  }
+  } */
   .jennifer-img {
     width: 72% !important;
   }
