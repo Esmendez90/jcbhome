@@ -380,7 +380,7 @@ hr {
 }
 .teamImages-container img {
   width: 85%;
-  height: 245px;
+  height: 250px;
 }
 .member-title {
   text-align: center;
@@ -392,6 +392,13 @@ hr {
   border-left: 1px solid whitesmoke;
   margin: 10px;
   margin-right: 15px;
+}
+.kwnumberone-img {
+  padding: 2rem;
+  text-align: center;
+}
+.kwnumberone-img img {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -574,6 +581,9 @@ hr {
     display: inline-grid;
     margin-right: 22px;
     margin-left: 22px;
+  }
+  .kwnumberone-img img {
+    width: 70%;
   }
 }
 
@@ -909,6 +919,9 @@ hr {
   }
   .teamImages-container img {
     width: 80%;
+  }
+  .kwnumberone-img img {
+    width: 50%;
   }
 }
 

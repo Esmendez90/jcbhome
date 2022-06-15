@@ -6,6 +6,7 @@ const team = () => {
     <div className="topRedBlock topRedBlock2"></div>
       <p className="teamTitle"><span>—</span> Meet My Team <span>—</span></p>
       <TeamImages />
+  
     </>
   );
 };
