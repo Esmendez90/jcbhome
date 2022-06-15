@@ -18,7 +18,7 @@ const home = () => {
         </p>
         <p>Real Estate Agent</p>
         <p className="basedIn">
-          Based in <b>Bergenfield, NJ</b>.<FontAwesomeIcon icon={faLocationDot}/>
+          Based in <b>Ridgewood, NJ</b>.<FontAwesomeIcon icon={faLocationDot}/>
         </p>
         <p className="abitAboutMe"><a href="/about">
 <span>&#8212;</span> A little bit about me.</a></p>
