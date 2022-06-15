@@ -20,7 +20,11 @@ function Navigationbar() {
             />
           </Navbar.Brand>
           <div className="jcbTitle-container">
-            <p className="jcbTitle">JCB REAL ESTATE SERVICES</p>
+            <p className="jcbTitle">
+              <span>JCB</span>
+              <br />
+              REAL ESTATE SERVICES
+            </p>
           </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <FontAwesomeIcon icon={faBars} />

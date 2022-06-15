@@ -9,7 +9,7 @@ const home = () => {
       <ImgComponent
         imgContainerClass="jenniferImg-container"
         imgClass="jennifer-img"
-        src="./images/jenniferImg.jpeg"
+        src="./images/jenniferImg.png"
         alt="jennifer photo"
       /> 
        <div className="heading-container">

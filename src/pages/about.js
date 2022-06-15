@@ -36,7 +36,7 @@ const about = () => {
             Real estate is to me the modus operandi to fullfil my dreams,
             including those that my dad would have loved to see become a
             reality. Thanks to this career, my husband and I have started an
-            ambitous business in Ecuador. A hundred and twenty three hectares of
+            ambitous business in Ecuador. A hundred and twenty three acres of
             land dedicated to the production of abaca and other goods. This is
             not only our life project, but also a way to generate a number of
             jobs in this region that needs it so much. For us, this is a way to

@@ -5,22 +5,32 @@ body {
   height: 100%;
   background-color: black; /* For browsers that do not support gradients */
   background-image: linear-gradient(to left, rgb(63, 62, 62), rgb(14, 13, 13));
-  font-family: "Poppins", Helvetica, Arial, sans-serif !important;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 /* Navbar styling - mobile responsive */
 .navbar-nav {
   flex-direction: initial !important;
   margin-top: 0.5rem;
-  margin-left: 0.5rem;
   justify-content: center;
+  align-items: center;
 }
 .nav-link {
   font-size: 13px;
-  color: whitesmoke !important;
+  color: rgb(211, 209, 209) !important;
+  font-weight: bold !important;
 }
+
 .me-auto div:not(:last-child) {
-  margin-right: 3.5%;
+  border-right: 1px solid grey;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.myteam-container {
+  padding-left: 7px;
+}
+.myteam-container a {
+  text-align: center;
 }
 
 .navbar-brand:first-child {
@@ -33,20 +43,19 @@ body {
   box-shadow: 0px 0px 5px rgb(245, 245, 245);
 }
 .jcbTitle {
-  color: whitesmoke;
-  font-weight: bold;
+  color: rgb(211, 209, 209);
   margin: 0.5rem auto;
-  letter-spacing: -0.2px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: bold;
 }
+
 .fa-bars {
   color: whitesmoke;
 }
 .navbar-light .navbar-toggler {
   color: rgb(245, 245, 245, 0.55) !important;
   border-color: rgb(245, 245, 245) !important;
-}
-.navbar {
-  background-color: rgb(14, 13, 13);
 }
 hr {
   color: whitesmoke !important;
@@ -88,19 +97,19 @@ hr {
 /* Jennifer photo styling */
 .jenniferImg-container {
   text-align: center;
-  background-color: #e8e6e1;
+  background-color: rgb(14, 13, 13);
   background-image: linear-gradient(
-    128deg,
-    rgb(227, 227, 221) 30%,
-    rgb(234, 223, 205) 50%,
-    rgb(234, 223, 205) 74%,
-    rgb(33 17 17) 74.5%,
+    163deg,
+    rgb(110 108 108) 30%,
+    rgb(94 93 93) 40%,
+    rgb(63 62 62) 70%,
+    rgb(33 17 17) 70.5%,
     rgb(14, 13, 13) 100%
   );
   animation: fadeIn ease-in-out 0.5s;
 }
 .jennifer-img {
-  width: 70%;
+  width: 100%;
   margin: auto;
 }
 
@@ -263,6 +272,7 @@ hr {
 .servicesTitles {
   font-size: 18px;
   font-weight: bold;
+  color: rgb(255 185 24);
 }
 .whyKw-parr {
   margin-top: 3rem;
@@ -293,17 +303,14 @@ hr {
 }
 .kwSpan {
   color: #ff0000cf;
-  background: -webkit-linear-gradient(#ff0000cf 60%, grey, black 83.5%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .subtitle {
   font-weight: bold;
   margin-top: 25px;
+  color: rgb(255 185 24);
 }
 .kwImages-container {
-  opacity: 0.2;
+  opacity: 0.1;
   position: absolute;
   margin-top: 25%;
   width: 90%;
@@ -338,9 +345,10 @@ hr {
 /* Strategy page styling */
 .planSuccess {
   text-align: center;
-  font-size: 21px;
+  font-size: 19px;
   font-weight: bold;
   letter-spacing: 5px;
+  color: rgb(255 185 24);
   border-bottom: solid 5px rgb(222 5 5 / 90%);
 }
 .planSuccess > p:first-child {
@@ -370,7 +378,7 @@ hr {
   font-weight: bold;
   margin: 3rem auto 1rem;
   text-align: center;
-  color: whitesmoke;
+  color: rgb(255 185 24);
 }
 .teamImages-container li {
   list-style: none;
@@ -776,7 +784,7 @@ hr {
   }
   /* ___________________ */
   .navbar {
-    position: absolute!important;
+    position: absolute !important;
     right: 0%;
     display: block !important;
     width: 125px;
