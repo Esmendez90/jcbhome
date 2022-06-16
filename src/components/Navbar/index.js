@@ -48,7 +48,7 @@ function Navigationbar() {
                 <Nav.Link href="/team">MY TEAM</Nav.Link>
               </div>
             </Nav>
-            <hr />
+           
             <ContactListComponent />
           </Navbar.Collapse>
         </Container>

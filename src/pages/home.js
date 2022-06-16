@@ -1,7 +1,10 @@
 import React from "react";
 import { ImgComponent } from "../components/ImageComponent";
 import Slogan from "../components/Slogan";
-import { faQuestionCircle, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLocationDot,
+  faPersonCircleQuestion,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const home = () => {
   return (
@@ -9,25 +12,26 @@ const home = () => {
       <ImgComponent
         imgContainerClass="jenniferImg-container"
         imgClass="jennifer-img"
-        src="./images/jenniferImg.png"
+        src="./images/jen3.png"
         alt="jennifer photo"
-      /> 
-       <div className="heading-container">
+      />
+      <div className="heading-container">
         <p>
           Jennifer<span>Mendez</span>
         </p>
         <p>Real Estate Agent</p>
         <p className="basedIn">
-          Based in <b>Ridgewood, NJ</b>.<FontAwesomeIcon icon={faLocationDot}/>
+          Based in <b>Ridgewood, NJ</b>.<FontAwesomeIcon icon={faLocationDot} />
         </p>
-        <p className="abitAboutMe"><a href="/about">
-<span>&#8212;</span> A little bit about me.</a></p>
+        <p className="abitAboutMe">
+          <a href="/about">
+            <span>&#8212;</span> A little bit about me.
+          </a>
+        </p>
         <div className="ask-container">
           <p>
-            HAVE A<br />
-            QUESTION
+            Have a question ?
           </p>
-          <FontAwesomeIcon className="questionIcon" icon={faQuestionCircle} />
           <div className="btn-container">
             <button type="button">
               <a
@@ -41,8 +45,8 @@ const home = () => {
           </div>
         </div>
         <Slogan
-        sloganContainerClass="slogan-container"
-        slogan="More than a friend, Your Realtor!"
+          sloganContainerClass="slogan-container"
+          slogan="More than a friend, Your Realtor!"
         />
       </div>
     </>

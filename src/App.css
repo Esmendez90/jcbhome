@@ -4,11 +4,23 @@ html {
 body {
   height: 100%;
   background-color: black; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to left, rgb(63, 62, 62), rgb(14, 13, 13));
   font-family: Helvetica, Arial, sans-serif !important;
+  margin-top: -2px;
+  background-image: conic-gradient(
+    from 283deg at 100% 23%,
+    rgb(32 31 31) 20deg,
+    rgb(14, 13, 13) 44deg,
+    rgb(22 7 8) 286deg,
+    rgb(94 93 93) 322deg,
+    rgb(63 62 62) 341deg
+  );
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* Navbar styling - mobile responsive */
+
 .navbar-nav {
   flex-direction: initial !important;
   margin-top: 0.5rem;
@@ -42,6 +54,13 @@ body {
   border-radius: 10%;
   box-shadow: 0px 0px 5px rgb(245, 245, 245);
 }
+.logoformated-img {
+  width: 90%;
+  position: fixed;
+  top: 60%;
+  z-index: -1;
+  opacity: 0.2;
+}
 .jcbTitle {
   color: rgb(211, 209, 209);
   margin: 0.5rem auto;
@@ -63,7 +82,7 @@ hr {
 }
 .contactList-container {
   column-count: 2;
-  margin: auto 0.5rem 0.5rem;
+  margin: 0.5rem;
   height: 120px;
 }
 .icons {
@@ -97,20 +116,14 @@ hr {
 /* Jennifer photo styling */
 .jenniferImg-container {
   text-align: center;
-  background-color: rgb(14, 13, 13);
-  background-image: linear-gradient(
-    163deg,
-    rgb(110 108 108) 30%,
-    rgb(94 93 93) 40%,
-    rgb(63 62 62) 70%,
-    rgb(33 17 17) 70.5%,
-    rgb(14, 13, 13) 100%
-  );
+  margin: 2rem auto;
   animation: fadeIn ease-in-out 0.5s;
 }
 .jennifer-img {
-  width: 100%;
+  width: 75%;
   margin: auto;
+  border-bottom: solid 1px rgb(63 62 62);
+  border-right: solid 1px rgb(63 62 62);
 }
 
 /* Headings 'my name is'...and i'm a ... */
@@ -163,7 +176,7 @@ hr {
   position: relative;
   height: 200px;
   width: 100%;
-  border: 1px solid whitesmoke;
+  margin: 1rem auto;
 }
 .questionIcon {
   position: absolute;
@@ -177,34 +190,36 @@ hr {
   box-shadow: 0px 30px 30px rgb(92, 91, 91);
 }
 .ask-container p {
-  padding: 30px 20px 20px;
+  padding: 30px 10px 20px;
+  color: rgb(211, 209, 209) !important;
+  margin: auto;
   width: fit-content;
-  color: rgb(255, 185, 24) !important;
-  text-shadow: 0 0 rgb(14, 13, 13);
 }
 .btn-container {
   padding: 10px 30px;
 }
 .btn-container button {
-  background-color: rgb(92, 91, 91);
-  padding: 5px 10px;
-  border-radius: 10px;
+  background-color: rgb(255 185 24);
+  box-shadow: 0px 0px 7px rgb(255 185 24);
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
 }
 .btn-container a {
   color: whitesmoke;
-  text-shadow: 0 0 rgb(92, 91, 91);
+  text-shadow: 1px 1px 2px rgb(92 91 91);
   text-decoration: none;
   font-weight: bold;
 }
 .btn-container a:hover {
-  color: rgb(255, 185, 24);
+  color: rgb(14, 13, 13);
+  text-shadow: 1px 1px 2px whitesmoke;
 }
 .slogan {
   font-size: 20px !important;
-  margin-top: 30px;
   text-align: center;
   font-weight: 500 !important;
-  letter-spacing: 1.1px;
+  letter-spacing: 1px;
 }
 
 /* Footer styling */
@@ -410,17 +425,16 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
-  /* body {
-    background-color: black; /* For browsers that do not support gradients */
-    /* background-image: linear-gradient(
-      to left,
-      rgb(63, 62, 62),
-      rgb(14, 13, 13)
-    ); 
-  } */
   /* Navbar */
+  .logoformated-img{
+    width: 50%;
+    top: 20%;
+  }
   .navbar-brand:first-child {
     width: 11%;
+  }
+  .me-auto div{
+    width: 20%;
   }
   .navbar-collapse,
   .me-auto {
@@ -446,16 +460,6 @@ hr {
     margin-right: 0;
     float: right;
     clear: left;
-    background-color: black;
-    /* background-image: linear-gradient(
-      140deg,
-      rgb(227, 227, 221) 50%,
-      rgb(234, 223, 205) 50%,
-      rgb(234, 223, 205) 74%,
-      rgb(33 17 17) 74.5%,
-      rgb(14, 13, 13) 100%
-    ); */
-    box-shadow: 0 10px 29px -10px rgb(97 95 95);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
   }
@@ -484,6 +488,12 @@ hr {
     font-size: 29px;
     text-align: center;
   }
+  .basedIn{
+    padding-top: 70px;
+  }
+  .abitAboutMe{
+    padding-bottom: 0;
+  }
   .basedIn,
   .abitAboutMe,
   .abitAboutMe > a {
@@ -494,13 +504,13 @@ hr {
   .slogan-container {
     width: 221%;
     padding-left: 23%;
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
   }
 
   .slogan {
     font-size: 27px !important;
     font-weight: bold !important;
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
   /* footer */
@@ -615,9 +625,6 @@ hr {
     right: 8%;
     font-size: 80px;
   }
-  .slogan-container {
-    margin-top: 9rem;
-  }
   .slogan {
     font-size: 31px !important;
   }
@@ -633,6 +640,9 @@ hr {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   /* Navbar */
+  .logoformated-img {
+    right: 0;
+  }
   .container {
     padding-right: 0 !important;
     padding-left: 0 !important;
@@ -645,13 +655,9 @@ hr {
     margin: auto;
   }
   .jcbTitle-container {
-    width: 100%;
-    text-align: center;
+    display: none;
   }
-  .jcbTitle {
-    margin: 0.5rem;
-    font-size: 16px;
-  }
+  
   .icons {
     margin: auto 0;
   }
@@ -668,6 +674,9 @@ hr {
 
   .me-auto {
     margin-right: inherit !important;
+  }
+  .me-auto div {
+    width: auto;
   }
   .me-auto div:not(:last-child) {
     margin-right: 1%;
@@ -697,7 +706,6 @@ hr {
   .jenniferImg-container {
     float: left;
     clear: right;
-    box-shadow: 15px 0 20px -9px rgb(97 95 95);
     transform: scaleX(1);
   }
   /* Heading container */
@@ -778,6 +786,11 @@ hr {
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .logoformated-img{
+    display: block;
+    width: 40%;
+ margin-right: 120px;
+  }
   /* Navbar */
   .navbar-brand:first-child {
     width: 9%;
@@ -812,9 +825,6 @@ hr {
   .nav-link {
     font-size: 12px;
     margin-top: 1rem;
-  }
-  hr {
-    margin-top: 2rem !important;
   }
 
   .contactList-container {
@@ -851,20 +861,9 @@ hr {
     padding-top: 0;
   }
 
-  /* ----------------------- */
-  /* .jenniferImg-container {
-    background-image: linear-gradient(
-      133deg,
-      rgb(227, 227, 221) 50%,
-      rgb(234, 223, 205) 50%,
-      rgb(234, 223, 205) 74%,
-      rgb(33 17 17) 74.5%,
-      rgb(14, 13, 13) 100%
-    );
-  } */
-  .jennifer-img {
+  /* .jennifer-img {
     width: 60%;
-  }
+  } */
   .heading-container {
     padding: 80px 10% 25px;
   }
@@ -954,16 +953,7 @@ hr {
 }
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (min-width: 1700px) {
-  /* .jenniferImg-container {
-    background-image: linear-gradient(
-      129deg,
-      rgb(227, 227, 221) 50%,
-      rgb(234, 223, 205) 50%,
-      rgb(234, 223, 205) 74%,
-      rgb(33 17 17) 74.5%,
-      rgb(14, 13, 13) 100%
-    );
-  } */
+
   .jennifer-img {
     width: 72% !important;
   }
