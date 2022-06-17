@@ -12,6 +12,7 @@ export function ContactListComponent() {
   return (
     <>
       <ul className="contactList-container">
+        <p>CONTACT ME:</p>
         <li className="icons">
           <a href="tel: 201-732-6844" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faPhone} /> <span>Phone</span>

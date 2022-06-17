@@ -2,10 +2,10 @@ import React from "react";
 import "../../App.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { ImgComponent } from "../ImageComponent";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ContactListComponent } from "../ListComponent/index";
-
+ 
 function Navigationbar() {
   return (
     <>
@@ -32,6 +32,12 @@ function Navigationbar() {
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
+            <Navbar.Toggle
+                  aria-controls="basic-navbar-nav"
+                  id="xmark-container"
+                >
+                  <FontAwesomeIcon icon={faXmark} />
+                </Navbar.Toggle>
               <div>
                 <Nav.Link href="/">HOME</Nav.Link>
               </div>

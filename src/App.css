@@ -17,11 +17,10 @@ body {
 
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
 }
 
 /* Navbar styling - mobile responsive */
-/* .navbar-collapse {
+.navbar-collapse {
   position: fixed;
   top: 0;
   left: -100%;
@@ -29,8 +28,8 @@ body {
   background-color: rgba(14 13 13 / 60%);
   min-height: calc(100vh);
   z-index: 1;
-  -webkit-animation: navbar-collapse .5s forwards;
-  animation: navbar-collapse .5s forwards;
+  -webkit-animation: navbar-collapse 0.5s forwards;
+  animation: navbar-collapse 0.5s forwards;
 }
 @keyframes navbar-collapse {
   100% {
@@ -47,20 +46,35 @@ body {
     left: -100%;
   }
 }
-.navbar-nav{
+.navbar-nav {
   display: block !important;
-  background-color: green;
+  padding: 2rem 1rem !important;
+}
+.contactList-container {
+  column-count: initial !important;
+  min-height: calc(100vh);
+  padding: 2rem;
+}
+.navbar-nav,
+.contactList-container {
+  background-color: #f5f5f5;
   margin-top: 0 !important;
   width: 80%;
 }
-.contactList-container{
-  column-count: initial !important;
-  background-color: green;
-    min-height: calc(100vh);
-    margin: 0 !important;
-    margin-top: -2px !important;
-    width: 80%;
-} */
+.contactList-container p {
+  margin-left: -10px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#xmark-container {
+  background-color: rgb(14, 13, 13);
+  position: absolute;
+  left: 60%;
+  top: 15px;
+  color: rgb(255 185 24) !important;
+}
 
 /* ------ */
 .navbar-nav {
@@ -69,23 +83,24 @@ body {
   justify-content: center;
   align-items: center;
 }
-.nav-link {
-  font-size: 13px;
-  color: rgb(211, 209, 209) !important;
+.nav-link,
+.icons a {
+  color: black !important;
+  font-size: 15px;
   font-weight: bold !important;
+  text-decoration: none;
 }
 
-.me-auto div:not(:last-child) {
-  border-right: 1px solid grey;
+.me-auto div {
   padding-right: 7px;
   padding-left: 7px;
 }
-.myteam-container {
+/* .myteam-container {
   padding-left: 7px;
 }
 .myteam-container a {
   text-align: center;
-}
+} */
 
 .navbar-brand:first-child {
   width: 15%;
@@ -118,15 +133,12 @@ body {
   color: rgb(245, 245, 245, 0.55) !important;
   border-color: rgb(245, 245, 245) !important;
 }
-hr {
-  color: whitesmoke !important;
-  margin: 0.5rem auto 1rem !important;
-}
-.contactList-container {
+
+/* .contactList-container {
   column-count: 2;
   margin: 0.5rem;
   height: 120px;
-}
+} */
 .icons {
   display: block;
   margin-left: -20px;
@@ -134,13 +146,13 @@ hr {
   margin-bottom: 0.7rem;
 }
 
-.icons a {
+/* .icons a {
   text-decoration: none;
   color: whitesmoke;
 }
 .icons a:hover {
   color: whitesmoke !important;
-}
+} */
 .icons svg {
   margin-right: 0.5rem;
 }
@@ -475,23 +487,29 @@ hr {
   .navbar-brand:first-child {
     width: 11%;
   }
-  .me-auto div {
-    width: 20%;
+  #xmark-container{
+    left: 50%
   }
-  .navbar-collapse,
+  .navbar-nav, .contactList-container {
+    width: 60%;
+  }
+  /* .me-auto div {
+    width: 20%;
+  } */
+  /* .navbar-collapse,
   .me-auto {
     text-align: center;
     justify-content: center;
-  }
-  .contactList-container {
+  } */
+  /* .contactList-container {
     column-count: 1;
     display: inline-flex;
     padding-left: 0;
     height: auto;
-  }
-  .icons {
+  } */
+  /* .icons {
     margin: auto 2rem 0 0;
-  }
+  } */
   .jcbTitle {
     font-size: 20px;
   }
