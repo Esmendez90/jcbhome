@@ -3,24 +3,65 @@ html {
 }
 body {
   height: 100%;
-  background-color: black; /* For browsers that do not support gradients */
+  background-color: black !important; /* For browsers that do not support gradients */
   font-family: Helvetica, Arial, sans-serif !important;
   margin-top: -2px;
-  background-image: conic-gradient(
+  /* background-image: conic-gradient(
     from 283deg at 100% 23%,
     rgb(32 31 31) 20deg,
     rgb(14, 13, 13) 44deg,
     rgb(32 31 31) 297deg,
     rgb(94 93 93) 330deg,
     rgb(63 62 62) 344deg
-  );
+  ); */
 
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 /* Navbar styling - mobile responsive */
+/* .navbar-collapse {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  background-color: rgba(14 13 13 / 60%);
+  min-height: calc(100vh);
+  z-index: 1;
+  -webkit-animation: navbar-collapse .5s forwards;
+  animation: navbar-collapse .5s forwards;
+}
+@keyframes navbar-collapse {
+  100% {
+    left: 0;
+  }
+}
+.collapse:not(.show) {
+  animation: collapse 0.5s backwards !important;
+  animation-delay: 0.1s !important;
+  display: block !important;
+}
+@keyframes collapse {
+  100% {
+    left: -100%;
+  }
+}
+.navbar-nav{
+  display: block !important;
+  background-color: green;
+  margin-top: 0 !important;
+  width: 80%;
+}
+.contactList-container{
+  column-count: initial !important;
+  background-color: green;
+    min-height: calc(100vh);
+    margin: 0 !important;
+    margin-top: -2px !important;
+    width: 80%;
+} */
 
+/* ------ */
 .navbar-nav {
   flex-direction: initial !important;
   margin-top: 0.5rem;
