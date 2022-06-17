@@ -227,12 +227,12 @@ body {
 }
 /* Ask away banner */
 .ask-container {
-  position: relative;
+  /* position: relative;
   height: 200px;
-  width: 100%;
+  width: 100%; */
   margin: 1rem auto;
 }
-.questionIcon {
+/* .questionIcon {
   position: absolute;
   top: 27%;
   right: 6%;
@@ -242,7 +242,7 @@ body {
   border-radius: 50%;
   border: 1px solid black;
   box-shadow: 0px 30px 30px rgb(92, 91, 91);
-}
+} */
 .ask-container p {
   padding: 30px 10px 20px;
   color: whitesmoke !important;
@@ -481,7 +481,7 @@ body {
 @media screen and (min-width: 768px) {
   /* Navbar */
   .logoformated-img {
-    width: 50%;
+    width: 95%;
     top: 20%;
   }
   .navbar-brand:first-child {
@@ -493,23 +493,7 @@ body {
   .navbar-nav, .contactList-container {
     width: 60%;
   }
-  /* .me-auto div {
-    width: 20%;
-  } */
-  /* .navbar-collapse,
-  .me-auto {
-    text-align: center;
-    justify-content: center;
-  } */
-  /* .contactList-container {
-    column-count: 1;
-    display: inline-flex;
-    padding-left: 0;
-    height: auto;
-  } */
-  /* .icons {
-    margin: auto 2rem 0 0;
-  } */
+
   .jcbTitle {
     font-size: 20px;
   }
@@ -525,21 +509,22 @@ body {
   }
 
   .jennifer-img {
-    width: 90%;
+    width: 100%;
   }
 
   /* I am JM and Im a ...container */
   .heading-container {
     width: 50%;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
+    padding-top: 70px;
     padding-left: 7%;
     padding-right: 7%;
   }
-  .questionIcon {
+  /* .questionIcon {
     right: 5%;
     font-size: 65px;
     box-shadow: 0px 20px 30px rgb(92 91 91);
-  }
+  } */
   .heading-container > p:first-child {
     font-size: 33px;
     text-align: center;
@@ -561,22 +546,22 @@ body {
     text-align: center;
   }
   /* Slogan container */
-  .slogan-container {
+  /* .slogan-container {
     width: 221%;
     padding-left: 23%;
-    /* margin-top: 6rem; */
-  }
-
+  } */
   .slogan {
     font-size: 27px !important;
     font-weight: bold !important;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
 
   /* footer */
-  .footer-container,
-  .navbar {
+  .footer-container {
     background-color: rgb(14, 13, 13, 0.1);
+    position: relative;
+    bottom: 0;
+    padding: 60px 15px;
   }
   .kwLogo-container,
   .realityLogo-container,
@@ -672,24 +657,15 @@ body {
   .navbar-toggler {
     font-size: 1.9rem !important;
   }
-  .nav-link {
-    font-size: 15px;
-  }
   .icons {
     font-size: 17px;
   }
   .heading-container {
-    margin-top: 6rem;
-  }
-  .questionIcon {
-    right: 8%;
-    font-size: 80px;
-  }
-  .slogan {
-    font-size: 31px !important;
+    margin-top: 3rem;
   }
   .footer-container {
-    margin-top: 2rem;
+    height: 30%;
+    
   }
 
   /* ABOUT PAGE SCREEN WIDTH 820PX */
@@ -700,13 +676,13 @@ body {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   /* Navbar */
-  .logoformated-img {
+  /* .logoformated-img {
     right: 0;
-  }
-  .container {
+  } */
+  /* .container {
     padding-right: 0 !important;
     padding-left: 0 !important;
-  }
+  } */
   .navbar-brand:first-child {
     width: 13%;
   }
@@ -719,26 +695,51 @@ body {
   }
 
   .icons {
-    margin: auto 0;
+    margin: auto 5px;
   }
 
   .icons span {
     display: none;
   }
-  .icons svg {
+  /* .icons svg {
     margin-right: 0.2rem;
-  }
+  } */
   .skiptranslate span {
     display: block;
   }
+  /* --------- */
+.navbar-collapse, .navbar-nav, .contactList-container {
+  position: initial;
+  background-color: initial;
+  min-height: initial;
+  padding: initial !important;
+}
+.navbar-nav, .contactList-container {
+  display: flex !important;
+  margin-bottom: 0;
+  justify-content: center;
+}
+.navbar-nav{
+  width: 100%;
+}
 
-  .me-auto {
+.contactList-container > p {
+  display: none;
+}
+.nav-link, .icons a{
+  color: whitesmoke !important;
+}
+
+
+  /* ---------- */
+
+  /* .me-auto {
     margin-right: inherit !important;
-  }
-  .me-auto div {
+  } */
+  /* .me-auto div {
     width: auto;
-  }
-  .me-auto div:not(:last-child) {
+  } */
+  /* .me-auto div:not(:last-child) {
     margin-right: 1%;
   }
   .myteam-container > a {
@@ -755,13 +756,13 @@ body {
   }
   .contactList-container {
     margin: 0.5rem 0 0.5rem 0.5rem;
-  }
-  .icons:not(:last-child) {
+  } */
+  /* .icons:not(:last-child) {
     margin-right: 0.5rem;
-  }
-  .icons {
+  } */
+  /* .icons {
     font-size: 18px;
-  }
+  } */
   /* Jennifer container */
   .jenniferImg-container {
     float: left;
@@ -788,11 +789,11 @@ body {
     width: 90%;
     margin: auto;
   }
-  .questionIcon {
+  /* .questionIcon {
     top: 25%;
     right: 10%;
     font-size: 89px;
-  }
+  } */
   .btn-container {
     padding: 0px 40px;
   }
