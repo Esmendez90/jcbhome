@@ -487,10 +487,11 @@ body {
   .navbar-brand:first-child {
     width: 11%;
   }
-  #xmark-container{
-    left: 50%
+  #xmark-container {
+    left: 50%;
   }
-  .navbar-nav, .contactList-container {
+  .navbar-nav,
+  .contactList-container {
     width: 60%;
   }
 
@@ -665,7 +666,6 @@ body {
   }
   .footer-container {
     height: 30%;
-    
   }
 
   /* ABOUT PAGE SCREEN WIDTH 820PX */
@@ -708,61 +708,33 @@ body {
     display: block;
   }
   /* --------- */
-.navbar-collapse, .navbar-nav, .contactList-container {
-  position: initial;
-  background-color: initial;
-  min-height: initial;
-  padding: initial !important;
-}
-.navbar-nav, .contactList-container {
-  display: flex !important;
-  margin-bottom: 0;
-  justify-content: center;
-}
-.navbar-nav{
-  width: 100%;
-}
-
-.contactList-container > p {
-  display: none;
-}
-.nav-link, .icons a{
-  color: whitesmoke !important;
-}
-
-
-  /* ---------- */
-
-  /* .me-auto {
-    margin-right: inherit !important;
-  } */
-  /* .me-auto div {
-    width: auto;
-  } */
-  /* .me-auto div:not(:last-child) {
-    margin-right: 1%;
+  .navbar-collapse,
+  .navbar-nav,
+  .contactList-container {
+    position: initial;
+    background-color: initial;
+    min-height: initial;
+    padding: initial !important;
   }
-  .myteam-container > a {
-    width: 85px;
+  .navbar-nav,
+  .contactList-container {
+    display: flex !important;
+    margin-bottom: 0;
+    justify-content: center;
   }
   .navbar-nav {
-    margin-top: 0;
-    margin-left: 0;
-    padding-right: 1.5rem !important;
     width: 100%;
   }
-  .nav-link {
-    margin-right: 0 !important;
+
+  .contactList-container > p {
+    display: none;
   }
-  .contactList-container {
-    margin: 0.5rem 0 0.5rem 0.5rem;
-  } */
-  /* .icons:not(:last-child) {
-    margin-right: 0.5rem;
-  } */
-  /* .icons {
-    font-size: 18px;
-  } */
+  .nav-link,
+  .icons a {
+    color: whitesmoke !important;
+  }
+
+  
   /* Jennifer container */
   .jenniferImg-container {
     float: left;
@@ -789,11 +761,7 @@ body {
     width: 90%;
     margin: auto;
   }
-  /* .questionIcon {
-    top: 25%;
-    right: 10%;
-    font-size: 89px;
-  } */
+ 
   .btn-container {
     padding: 0px 40px;
   }
@@ -811,6 +779,7 @@ body {
   .footer-container {
     background-color: rgb(14, 13, 13, 0);
     margin-top: 4rem;
+    z-index: -1;
   }
   .kwLogo-container,
   .realityLogo-container,
@@ -849,12 +818,9 @@ body {
 @media only screen and (min-width: 1200px) {
   .logoformated-img {
     display: block;
-    width: 40%;
-    margin-right: 120px;
-  }
-  /* Navbar */
-  .navbar-brand:first-child {
-    width: 9%;
+    top: 5%;
+    width: 65%;
+    margin: auto 10rem;
   }
   /* ___________________ */
   .navbar {
@@ -864,8 +830,11 @@ body {
     width: 125px;
     height: 100%;
     z-index: 1;
+    background-color: hsla(0, 4%, 5%, 0.1);
+    padding-top: 2rem !important;
+    height: 50rem;
+    min-height: calc(100vh) !important;
   }
-
   .goog-te-combo {
     width: -webkit-fill-available;
     font-size: 9px;
@@ -873,7 +842,6 @@ body {
   .container {
     display: block !important;
   }
-
   .jcbTitle-container {
     display: none;
   }
@@ -887,19 +855,22 @@ body {
     font-size: 12px;
     margin-top: 1rem;
   }
-
   .contactList-container {
-    display: initial;
+    display: contents !important;
+    text-align: center;
   }
   .icons {
     margin-right: 0 !important;
     margin-top: 1rem;
   }
+  .icons:nth-child(2) {
+    padding-top: 2rem;
+  }
   .icons svg {
-    margin-right: 0;
+    font-size: 19px;
   }
   .jennifer-img {
-    width: 78% !important;
+    width: 88% !important;
   }
   .heading-container {
     padding-top: 150px !important;
@@ -921,10 +892,7 @@ body {
     margin-top: 0;
     padding-top: 0;
   }
-
-  /* .jennifer-img {
-    width: 60%;
-  } */
+  
   .heading-container {
     padding: 80px 10% 25px;
   }
