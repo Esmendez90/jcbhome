@@ -2,15 +2,15 @@ import React from "react";
 import "./style.css";
 import { Accordion } from "react-bootstrap";
 
-export function AccordionComponent() {
+export function AccordionComponent(props) {
+  let { header, toSellers, tabToSeller, toServices, tabServices } = props;
   return (
     <>
       <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">
-          <Accordion.Header>FOR SELLERS</Accordion.Header>
-          <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          </Accordion.Body>
+          <Accordion.Header>{header}</Accordion.Header>
+          <Accordion.Body><a href={toSellers}>{tabToSeller}</a></Accordion.Body>
+          <Accordion.Body><a href={toServices}>{tabServices}</a></Accordion.Body>
         </Accordion.Item>
       </Accordion>
     </>

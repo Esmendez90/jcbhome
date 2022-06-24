@@ -14,7 +14,7 @@ function App() {
       <main>
         <img
           className="logoformated-img"
-          src="/images/logoformated.png"
+          src="/images/logo.png"
           alt="jcb logo formated"
         />
         <Router>
@@ -22,9 +22,9 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/forsellers" element={<Sellers />} />
-            <Route path="/team" element={<Team />} />
+            <Route path="/seller-services" element={<Services />} />
+            <Route path="/seller-plan-to-success" element={<Sellers />} />
+            <Route path="/myteam" element={<Team />} />
           </Routes>
         </Router>
       </main>

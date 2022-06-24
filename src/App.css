@@ -74,6 +74,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.nav-link{
+  padding: 0 !important;
+}
 .nav-link,
 .icons a {
   color: black !important;
@@ -83,15 +86,8 @@ body {
 }
 
 .me-auto div {
-  padding-right: 7px;
-  padding-left: 7px;
+  padding: 5px;
 }
-/* .myteam-container {
-  padding-left: 7px;
-}
-.myteam-container a {
-  text-align: center;
-} */
 
 .navbar-brand:first-child {
   width: 15%;

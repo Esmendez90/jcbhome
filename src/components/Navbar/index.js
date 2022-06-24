@@ -43,17 +43,24 @@ function Navigationbar() {
                 <Nav.Link href="/">HOME</Nav.Link>
               </div>
               <div>
-                <Nav.Link href="/about">ABOUT</Nav.Link>
+                <Nav.Link href="/about">ABOUT ME</Nav.Link>
               </div>
-             <AccordionComponent/>
-              <div>
+             <AccordionComponent
+             header="SELLERS"
+             toSellers="/seller-plan-to-success"
+             tabToSeller="Plan to Success"
+             toServices="/seller-services"
+             tabServices="Services"
+
+             />
+              {/* <div>
                 <Nav.Link href="/forsellers">FOR SELLERS</Nav.Link>
-              </div>
-              <div>
+              </div> */}
+              {/* <div>
                 <Nav.Link href="/services">SERVICES</Nav.Link>
-              </div>
+              </div> */}
               <div className="myteam-container">
-                <Nav.Link href="/team">MY TEAM</Nav.Link>
+                <Nav.Link href="/myteam">MY TEAM</Nav.Link>
               </div>
             </Nav>
            
