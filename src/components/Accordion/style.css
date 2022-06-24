@@ -1,0 +1,14 @@
+.accordion-item, .accordion-button{
+    padding: 0 !important;
+    background-color: whitesmoke !important;
+    border: none !important;
+}
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    font-size: 15px;
+    font-weight: bold !important;
+    box-shadow: none !important;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+}

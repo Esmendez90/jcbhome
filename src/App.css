@@ -251,14 +251,13 @@ body {
   border-radius: 50px;
 }
 .btn-container a {
-  color: whitesmoke;
-  text-shadow: 1px 1px 2px rgb(92 91 91);
+  color: rgb(32 31 31);
   text-decoration: none;
   font-weight: bold;
 }
 .btn-container a:hover {
-  color: rgb(14, 13, 13);
-  text-shadow: 1px 1px 2px whitesmoke;
+  text-decoration: underline;
+  color: rgb(32 31 31);
 }
 .slogan {
   font-size: 20px !important;

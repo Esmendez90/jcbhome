@@ -4,7 +4,8 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { ImgComponent } from "../ImageComponent";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ContactListComponent } from "../ListComponent/index";
+import { ContactListComponent } from "../ListComponent";
+import { AccordionComponent } from "../Accordion" ;
  
 function Navigationbar() {
   return (
@@ -44,11 +45,12 @@ function Navigationbar() {
               <div>
                 <Nav.Link href="/about">ABOUT</Nav.Link>
               </div>
+             <AccordionComponent/>
               <div>
-                <Nav.Link href="/services">SERVICES</Nav.Link>
+                <Nav.Link href="/forsellers">FOR SELLERS</Nav.Link>
               </div>
               <div>
-                <Nav.Link href="/strategy">STRATEGY</Nav.Link>
+                <Nav.Link href="/services">SERVICES</Nav.Link>
               </div>
               <div className="myteam-container">
                 <Nav.Link href="/team">MY TEAM</Nav.Link>

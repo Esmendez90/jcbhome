@@ -67,7 +67,7 @@ const about = () => {
             <img src="/images/kwsketch.png" alt="love keller william" />
           </div>
           <p>
-            <span>&#8212;</span> Why choose{" "}
+            <span>&#8212;</span> Why I chose{" "}
             <span className="kwSpan">Keller Williams</span> <span>&#8212;</span>
           </p>
           <p className="subtitle">Technology</p>

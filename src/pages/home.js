@@ -1,10 +1,7 @@
 import React from "react";
 import { ImgComponent } from "../components/ImageComponent";
 import Slogan from "../components/Slogan";
-import {
-  faLocationDot,
-  faPersonCircleQuestion,
-} from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const home = () => {
   return (
@@ -29,9 +26,7 @@ const home = () => {
           </a>
         </p>
         <div className="ask-container">
-          <p>
-            Have a question ?
-          </p>
+          <p>Have a question ?</p>
           <div className="btn-container">
             <button type="button">
               <a

@@ -5,7 +5,7 @@ import FooterComponent from "./components/Footer/index";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Services from "./pages/services";
-import Strategy from "./pages/strategy";
+import Sellers from "./pages/sellers";
 import Team from "./pages/team";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
             <Route path="/" exact element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/strategy" element={<Strategy />} />
+            <Route path="/forsellers" element={<Sellers />} />
             <Route path="/team" element={<Team />} />
           </Routes>
         </Router>
