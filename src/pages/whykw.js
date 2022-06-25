@@ -4,7 +4,7 @@ const whyKW = () => {
   return (
     <>
       <div className="why-kw-main-container">
-        <section id="page-header" className="background-cover-image">
+        <section id="page-header-whykw" className="background-cover-image">
           <div className="text-container">
             <h1>
               WHY I CHOSE <br /> <span>KELLER WILLIAMS</span>

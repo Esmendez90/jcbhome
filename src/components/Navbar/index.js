@@ -43,9 +43,9 @@ function Navigationbar() {
                 <Nav.Link href="/">HOME</Nav.Link>
               </div>
               <AccordionComponent
-                header="ABOUT ME"
+                header="ABOUT"
                 firstLinkToPage="/my-journey"
-                firstTabName="My Journey"
+                firstTabName="About me"
                 secondLinkToPage="/whykw"
                 secondTabName="Why I chose KW"
               />

@@ -3,14 +3,19 @@ import CarouselComponent from "../components/Carousel";
 const myjourney = () => {
   return (
     <>
-      <div className="topRedBlock"></div>
-      <div className="about-container">
-        <p>
-          <span>&#8212;</span> My Journey <span>&#8212;</span>
-        </p>
-        <div className="about-parr">
+      <div className="journey-main-container">
+        <section id="page-header-journey" className="background-cover-image">
+          <div className="text-container">
+            <h1>
+              A LITTLE BIT
+              <br /> <span>ABOUT ME</span>
+            </h1>
+          </div>
+        </section>
+
+        <section className="whykw-text-container journey-text-container" >
           <p>
-            I came to the United States about 17 years ago. Adapting to the new
+            <span>I</span> came to the United States about 17 years ago. Adapting to the new
             culture and lifestyle was very challenging. On top of that, the
             death of my father shortly after completely changed my life. My
             goals had to be put on standby in order to help my mother raising my
@@ -18,8 +23,8 @@ const myjourney = () => {
             move on with our lives, and keep the principles that our father
             instilled in us, and the determination to chase our dreams close to
             our hearts.
-            <br />
-            <br />
+          </p>
+          <p>
             As a young adult, I started my career in the medical field and spent
             a decent amount of years working with people with diverse
             backgrounds. I enjoyed my work and the people that surrounded me;
@@ -31,8 +36,8 @@ const myjourney = () => {
             covid-19, I realized that my opportunity to go after my dream had
             finally arrived, and in March 2020 I began building my path in this
             rewarding career.
-            <br />
-            <br />
+          </p>
+          <p>
             Real estate is to me the modus operandi to fullfil my dreams,
             including those that my dad would have loved to see become a
             reality. Thanks to this career, my husband and I have started an
@@ -41,8 +46,8 @@ const myjourney = () => {
             not only our life project, but also a way to generate a number of
             jobs in this region that needs it so much. For us, this is a way to
             share with others the many blessings we have received.
-            <br />
-            <br />
+          </p>
+          <p>
             During my first two years as a real estate agent, I have learned so
             much from my coach and the extraordinary people that are part of
             Keller Williams. I feel fortunate to belong to a company that truly
@@ -51,8 +56,8 @@ const myjourney = () => {
             in me, and to offer the best possible experience during a real
             estate transaction.
           </p>
-        </div>
-        <CarouselComponent />
+        </section>
+        {/* <CarouselComponent /> */}
       </div>
     </>
   );

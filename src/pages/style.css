@@ -1,7 +1,7 @@
-.why-kw-main-container {
+.why-kw-main-container, .journey-main-container {
     margin-bottom: 20rem;
 }
-#page-header {
+#page-header-whykw {
     background-image: url(/public/images/whykw.png);
 }
 
@@ -46,4 +46,20 @@
 .whykw-text-container h2 {
     margin-bottom: 1rem;
     font-weight: 600;
+}
+
+/*  MY JOURNEY */
+#page-header-journey {
+    background-image: url(/public/images/berrys.png);
+    margin-bottom: 0;
+}
+.journey-text-container p {
+    margin-bottom: 2rem;
+}
+.journey-text-container{
+    margin-top: -65px !important;
+}
+.journey-main-container span {
+    font-size: 30px;
+    font-weight: bold;
 }
