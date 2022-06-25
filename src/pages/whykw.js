@@ -7,16 +7,16 @@ const whyKW = () => {
         <section id="page-header" className="background-cover-image">
           <div className="text-container">
             <h1>
-              WHY I CHOSE <br/> <span>KELLER WILLIAMS</span>
+              WHY I CHOSE <br /> <span>KELLER WILLIAMS</span>
             </h1>
           </div>
         </section>
 
         <section>
-          <div>
-            <img />
+          <div className="image-left kw-image-container">
+            <img src="./images/kwtechnology.png" />
           </div>
-          <div>
+          <div className="tech-container whykw-text-container text-right">
             <h2>Technology</h2>
             <p>
               Leading-edge tech tools and training give me the edge in
@@ -33,11 +33,12 @@ const whyKW = () => {
         </section>
 
         <section>
-          <div>
-            <img />
+          <div className="image-right kw-image-container">
+            <img src="./images/kwtogether.png" />
           </div>
-          <h2>Teamwork</h2>
-          <div>
+          <div className="team-container whykw-text-container text-left">
+            <h2>Teamwork</h2>
+
             <p>
               Keller Williams Realty was designed to reward agents for working
               together. Based on the belief that we are all more successful if
@@ -50,10 +51,10 @@ const whyKW = () => {
         </section>
 
         <section>
-          <div>
-            <img />
+          <div className="image-left kw-image-container">
+            <img src="./images/kwstats.png" />
           </div>
-          <div>
+          <div className="knowledge-container whykw-text-container text-right">
             <h2>Knowledge</h2>
             <p>
               Keller Williams Realty helps me stay ahead of trends in the real
@@ -65,10 +66,10 @@ const whyKW = () => {
         </section>
 
         <section>
-          <div>
-            <img />
+          <div className="image-right kw-image-container">
+            <img src="./images/kwrely.png" />
           </div>
-          <div>
+          <div className="team-container whykw-text-container text-left">
             <h2>Reliability</h2>
             <p>
               Founded on the principles of trust and honesty, Keller Williams
@@ -80,10 +81,10 @@ const whyKW = () => {
           </div>
         </section>
         <section>
-          <div>
-            <img />
+          <div className="image-left kw-image-container">
+            <img src="./images/kwone.png" />
           </div>
-          <div>
+          <div className="record-container whykw-text-container text-right">
             <h2>Track Record</h2>
             <p>
               I’m proud to work for #1 Real Estate Franchise in the World, by
