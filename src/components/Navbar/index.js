@@ -5,8 +5,8 @@ import { ImgComponent } from "../ImageComponent";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ContactListComponent } from "../ListComponent";
-import { AccordionComponent } from "../Accordion" ;
- 
+import { AccordionComponent } from "../Accordion";
+
 function Navigationbar() {
   return (
     <>
@@ -33,37 +33,38 @@ function Navigationbar() {
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-            <Navbar.Toggle
-                  aria-controls="basic-navbar-nav"
-                  id="xmark-container"
-                >
-                  <FontAwesomeIcon icon={faXmark} />
-                </Navbar.Toggle>
+              <Navbar.Toggle
+                aria-controls="basic-navbar-nav"
+                id="xmark-container"
+              >
+                <FontAwesomeIcon icon={faXmark} />
+              </Navbar.Toggle>
               <div>
                 <Nav.Link href="/">HOME</Nav.Link>
               </div>
-              <div>
+              <AccordionComponent
+                header="ABOUT ME"
+                firstLinkToPage="/my-journey"
+                firstTabName="My Journey"
+                secondLinkToPage="/whykw"
+                secondTabName="Why I chose KW"
+              />
+              {/* <div>
                 <Nav.Link href="/about">ABOUT ME</Nav.Link>
-              </div>
-             <AccordionComponent
-             header="SELLERS"
-             toSellers="/seller-plan-to-success"
-             tabToSeller="Plan to Success"
-             toServices="/seller-services"
-             tabServices="Services"
+              </div> */}
+              <AccordionComponent
+                header="SELLERS"
+                firstLinkToPage="/seller-plan-to-success"
+                firstTabName="Plan to Success"
+                secondLinkToPage="/seller-services"
+                secondTabName="Marketing Services"
+              />
 
-             />
-              {/* <div>
-                <Nav.Link href="/forsellers">FOR SELLERS</Nav.Link>
-              </div> */}
-              {/* <div>
-                <Nav.Link href="/services">SERVICES</Nav.Link>
-              </div> */}
               <div className="myteam-container">
                 <Nav.Link href="/myteam">MY TEAM</Nav.Link>
               </div>
             </Nav>
-           
+
             <ContactListComponent />
           </Navbar.Collapse>
         </Container>

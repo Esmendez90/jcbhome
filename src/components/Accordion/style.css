@@ -30,9 +30,9 @@
     text-decoration: none;
     font-weight: 500;
 }
-.accordion-collapse:nth-child(2){
+.accordion-body div:nth-child(1){
     padding-top: 10px;
 }
-.accordion-collapse:nth-child(3){
+ .accordion-body div:nth-child(2){
     padding-bottom: 0;
-}
+} 

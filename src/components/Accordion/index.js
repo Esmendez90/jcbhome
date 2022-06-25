@@ -3,14 +3,16 @@ import "./style.css";
 import { Accordion } from "react-bootstrap";
 
 export function AccordionComponent(props) {
-  let { header, toSellers, tabToSeller, toServices, tabServices } = props;
+  let { header,firstLinkToPage, firstTabName, secondLinkToPage, secondTabName } = props;
   return (
     <>
-      <Accordion defaultActiveKey="0">
+      <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>{header}</Accordion.Header>
-          <Accordion.Body><a href={toSellers}>{tabToSeller}</a></Accordion.Body>
-          <Accordion.Body><a href={toServices}>{tabServices}</a></Accordion.Body>
+          <Accordion.Body>
+            <div><a href={firstLinkToPage}>{firstTabName}</a></div>
+            <div><a href={secondLinkToPage}>{secondTabName}</a></div>
+          </Accordion.Body>
         </Accordion.Item>
       </Accordion>
     </>
