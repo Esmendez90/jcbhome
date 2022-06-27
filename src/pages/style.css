@@ -1,65 +1,115 @@
-.why-kw-main-container, .journey-main-container {
-    margin-bottom: 20rem;
+.why-kw-main-container,
+.journey-main-container {
+  margin-bottom: 20rem;
 }
+/* HOME PAGE */
+.vide-hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  top: -82px;
+  z-index: -1;
+}
+.video {
+  background-image: url(/public/images/openingvideo.mp4);
+}
+.video-hero,
+.hero-background-video {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.video-hero,
+.hero-background-video,
+video {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  transform: translateX(-50%) translateY(-50%);
+  min-height: 100%;
+  min-width: 100%;
+  max-width: none;
+  height: 100%;
+  width: auto;
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+/* WHY KW PAGE */
 #page-header-whykw {
-    background-image: url(/public/images/whykw.png);
+  background-image: url(/public/images/whykw.png);
 }
 
 .background-cover-image {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 450px;
-    position: relative;
-    top: -80px;
-    z-index: -1;
-    margin-bottom: 20rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  position: relative;
+  top: -80px;
+  z-index: -1;
+  margin-bottom: 20rem;
+  min-height: calc(100vh);
 }
 .text-container {
-    position: relative;
-    top: 50%;
-    padding: 1rem;
-    font-family: "Arial black",Arial,sans-serif;
+  position: relative;
+  top: 50%;
+  padding: 1rem;
+  font-family: "Arial black", Arial, sans-serif;
 }
 .text-container h1 {
-    width: fit-content;
-    background-color: rgba(14,13,13, 0.5);
-    padding: 1rem;
-    color: rgb(255 185 24);
+  width: fit-content;
+  background-color: rgba(14, 13, 13, 0.5);
+  padding: 1rem;
+  color: rgb(255 185 24);
 }
 .text-container span {
-    color: red;
+  color: red;
 }
 
 /* IMAGE TECHNOLOGY */
 .kw-image-container img {
-    display: block;
-    width: 100%;
-    height: 270px;
+  display: block;
+  width: 100%;
+  height: 270px;
 }
 .whykw-text-container {
-    background-color: whitesmoke;
-    color: rgb(63 62 62);
-    margin: 0;
-    padding: 4rem;
+  background-color: whitesmoke;
+  color: rgb(63 62 62);
+  margin: 0;
+  padding: 4rem;
 }
 .whykw-text-container h2 {
-    margin-bottom: 1rem;
-    font-weight: 600;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 /*  MY JOURNEY */
 #page-header-journey {
-    background-image: url(/public/images/berrys.png);
-    margin-bottom: 0;
+  background-image: url(/public/images/ciannijoel.png);
+  margin-bottom: 0;
+  min-height: calc(100vh);
 }
 .journey-text-container p {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
-.journey-text-container{
-    margin-top: -65px !important;
+.journey-text-container {
+  margin-top: -65px !important;
 }
 .journey-main-container span {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
