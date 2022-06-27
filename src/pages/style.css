@@ -9,11 +9,11 @@
   width: 100%;
   overflow: hidden;
   display: block;
-  top: -82px;
+  top: -83px;
   z-index: -1;
 }
 .video {
-  background-image: url(/public/images/openingvideo.mp4);
+  background-image: url(/public/images/openingvideo2.mp4);
 }
 .video-hero,
 .hero-background-video {
@@ -78,6 +78,11 @@ video {
 }
 .text-container span {
   color: red;
+}
+/* h1 text in Home Page */
+.text-container span:nth-child(3) {
+  color: whitesmoke;
+  font-size: 26.5px;
 }
 
 /* IMAGE TECHNOLOGY */

@@ -10,25 +10,38 @@ const home = () => {
         <section className="vide-hero">
           <div className="video hero-background-video">
             <video autoPlay loop playsInline muted>
-              <source src="/images/openingvideo.mp4" type="video/mp4" />
+              <source src="/images/openingvideo2.mp4" type="video/mp4" />
             </video>
             <div className="text-container">
-              <div>
-                <h1>
-                  Jennifer <span>Mendez</span>
-                </h1>
-                <h2>Real Estate Agent</h2>
+              <h1>
+                Jennifer <span>MENDEZ</span>
+                <br />
+                <span>Real Estate Agent</span>
+              </h1>
+
+              <div className="ask-container">
+                <p>Have a question ?</p>
+                <div className="btn-container">
+                  <button type="button">
+                    <a
+                      href="https://api.whatsapp.com/send?phone=12017326844&amp;text=Hello, I have a question..."
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      ASK AWAY
+                    </a>
+                  </button>
+                </div>
               </div>
-              <ImgComponent
+            </div>
+          </div>
+        </section>
+        {/*          <ImgComponent
         imgContainerClass="jenniferImg-container"
         imgClass="jennifer-img"
         src="./images/jen3.png"
         alt="jennifer photo"
-      />
-            </div>
-          </div>
-        </section>
-        {/*  */}
+      />*/}
         {/* <div className="heading-container">
           <p>
             Jennifer<span>Mendez</span>
