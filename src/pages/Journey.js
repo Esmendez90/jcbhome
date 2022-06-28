@@ -1,29 +1,40 @@
 import React from "react";
+import { Carousel } from "react-bootstrap";
 import CarouselComponent from "../components/Carousel";
+import { ImgComponent } from "../components/ImageComponent";
+import "./style.css";
+
 const myjourney = () => {
   return (
     <>
       <div className="journey-main-container">
-        <section id="page-header-journey" className="background-cover-image">
-          <CarouselComponent />
+        <ImgComponent
+          imgContainerClass="logoImg-container"
+          imgClass="logoImg"
+          src="/images/logo.png"
+          alt="jcb logo"
+        />
+        {/* <section id="page-header-journey" > */}
+        <CarouselComponent>
           <div className="text-container">
             <h1>
               A LITTLE BIT
               <br /> <span>ABOUT ME</span>
             </h1>
           </div>
-        </section>
+        </CarouselComponent>
+        {/* </section> */}
 
-        <section className="whykw-text-container journey-text-container" >
+        <section className="whykw-text-container journey-text-container">
           <p>
-            <span>I</span> came to the United States about 17 years ago. Adapting to the new
-            culture and lifestyle was very challenging. On top of that, the
-            death of my father shortly after completely changed my life. My
-            goals had to be put on standby in order to help my mother raising my
-            two younger siblings. Against all odds, my family and I were able to
-            move on with our lives, and keep the principles that our father
-            instilled in us, and the determination to chase our dreams close to
-            our hearts.
+            <span>I</span> came to the United States about 17 years ago.
+            Adapting to the new culture and lifestyle was very challenging. On
+            top of that, the death of my father shortly after completely changed
+            my life. My goals had to be put on standby in order to help my
+            mother raising my two younger siblings. Against all odds, my family
+            and I were able to move on with our lives, and keep the principles
+            that our father instilled in us, and the determination to chase our
+            dreams close to our hearts.
           </p>
           <p>
             As a young adult, I started my career in the medical field and spent

@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "className":"d-block w-100 jcbslide",
+        "src":"/images/jcbslide.png",
+        "alt":"JCB slide"
+    },
+    {
+        "id":2,
+        "className":"d-block w-100",
+        "src":"/images/kwslide.png",
+        "alt":"keller williams slide"
+    },
+    {
+        "id":3,
+        "className":"d-block w-100",
+        "src":"/images/kwmotto.png",
+        "alt":"kw motto"
+    }
+    ,
+    {
+        "id":4,
+        "className":"d-block w-100",
+        "src":"/images/jcbmotto.png",
+        "alt":"jcb motto"
+    }
+]

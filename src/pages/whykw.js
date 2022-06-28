@@ -1,9 +1,16 @@
 import React from "react";
+import { ImgComponent } from "../components/ImageComponent";
 import "./style.css";
 const whyKW = () => {
   return (
     <>
       <div className="whykw-main-container">
+      <ImgComponent
+          imgContainerClass="logoImg-container"
+          imgClass="logoImg"
+          src="/images/logo.png"
+          alt="jcb logo"
+        />
         <section id="page-header-whykw" className="background-cover-image">
           <div className="text-container">
             <h1>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import images from "./images.json";
-
+import "./style.css"
 function CarouselComponent() {
   return (
     <Carousel>
@@ -11,6 +11,8 @@ function CarouselComponent() {
         </Carousel.Item>
       ))}
     </Carousel>
+
+    
   );
 }
 export default CarouselComponent;
