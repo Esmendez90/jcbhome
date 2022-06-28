@@ -1,8 +1,16 @@
-.why-kw-main-container,
-.journey-main-container {
-  margin-bottom: 20rem;
+.whykw-main-container,
+.journey-main-container,
+.home-main-container {
+  margin-bottom: 1rem;
+}
+.home-main-container .logoImg {
+  position: fixed;
+  z-index: -1;
+  top: 20%;
+  box-shadow: none;
 }
 /* HOME PAGE */
+
 .vide-hero {
   position: relative;
   height: 100vh;
@@ -10,10 +18,10 @@
   overflow: hidden;
   display: block;
   top: -83px;
-  z-index: -1;
+  margin-bottom: 18rem;
 }
 .video {
-  background-image: url(/public/images/openingvideo2.mp4);
+  background-image: url(/public/images/openingvideo.mp4);
 }
 .video-hero,
 .hero-background-video {
@@ -47,6 +55,8 @@ video {
   opacity: 1;
   transition: opacity 1.5s;
 }
+/* SWIPER */
+
 
 /* WHY KW PAGE */
 #page-header-whykw {
@@ -63,6 +73,7 @@ video {
   z-index: -1;
   margin-bottom: 20rem;
   min-height: calc(100vh);
+  border-bottom: 2px solid black;
 }
 .text-container {
   position: relative;
@@ -77,7 +88,7 @@ video {
   color: rgb(255 185 24);
 }
 .text-container span {
-  color: red;
+  color: #d20020;
 }
 /* h1 text in Home Page */
 .text-container span:nth-child(3) {
@@ -104,16 +115,9 @@ video {
 
 /*  MY JOURNEY */
 #page-header-journey {
-  background-image: url(/public/images/ciannijoel.png);
-  margin-bottom: 0;
-  min-height: calc(100vh);
+  background-image: url(/public/images/berrys.png);
 }
-.journey-text-container p {
-  margin-bottom: 2rem;
-}
-.journey-text-container {
-  margin-top: -65px !important;
-}
+
 .journey-main-container span {
   font-size: 30px;
   font-weight: bold;

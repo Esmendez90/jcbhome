@@ -13,11 +13,6 @@ function App() {
   return (
     <>
       <main>
-        <img
-          className="logoformated-img"
-          src="/images/logo.png"
-          alt="jcb logo formated"
-        />
         <Router>
           <Navigationbar />
           <Routes>

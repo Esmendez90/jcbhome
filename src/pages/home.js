@@ -1,8 +1,10 @@
 import React from "react";
 import { ImgComponent } from "../components/ImageComponent";
-import Slogan from "../components/Slogan";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Swiper } from "../components/Swiper";
+
+import Slogan from "../components/Swiper";
+//import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const home = () => {
   return (
     <>
@@ -10,7 +12,7 @@ const home = () => {
         <section className="vide-hero">
           <div className="video hero-background-video">
             <video autoPlay loop playsInline muted>
-              <source src="/images/openingvideo2.mp4" type="video/mp4" />
+              <source src="/images/openingvideo.mp4" type="video/mp4" />
             </video>
             <div className="text-container">
               <h1>
@@ -34,6 +36,31 @@ const home = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        
+          <ImgComponent
+            imgContainerClass="logoImg-container"
+            imgClass="logoImg"
+            src="/images/logo.png"
+            alt="jcb logo"
+          />
+
+          <Swiper />
+        
+        <section>
+          <div className="image-left kw-image-container">
+            <img src="./images/missionhouse.png" />
+          </div>
+          <div className="tech-container whykw-text-container text-right">
+            <h2>Our Mission</h2>
+            <p>
+              In JCB Real Estate Services, our mission is to provide guidence
+              and support to our clients with the process of purchasing,
+              leasing, or selling properties. We advise clients about market
+              conditions, conduct walkthroughs, and assist in every step of a
+              real estate transaction.
+            </p>
           </div>
         </section>
         {/*          <ImgComponent

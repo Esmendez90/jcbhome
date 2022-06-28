@@ -3,7 +3,7 @@ import "./style.css";
 const whyKW = () => {
   return (
     <>
-      <div className="why-kw-main-container">
+      <div className="whykw-main-container">
         <section id="page-header-whykw" className="background-cover-image">
           <div className="text-container">
             <h1>

@@ -1,0 +1,21 @@
+.carousel {
+    margin: 0 auto 2rem;
+}
+.carousel-item {
+  transition: transform 9s ease-in-out !important;
+}
+.carousel-indicators,
+.carousel-control-next,
+.carousel-control-prev {
+  display: none !important;
+}
+.carousel-inner {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.d-block {
+    height: 65px;
+}
+.jcbslide{
+    padding-top: 5px;
+}

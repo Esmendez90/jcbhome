@@ -5,6 +5,7 @@ const myjourney = () => {
     <>
       <div className="journey-main-container">
         <section id="page-header-journey" className="background-cover-image">
+          <CarouselComponent />
           <div className="text-container">
             <h1>
               A LITTLE BIT
