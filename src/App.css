@@ -19,7 +19,7 @@ body {
   background-attachment: fixed;
 }
 
-/* Navbar styling - mobile responsive */
+/* NAVBAR - mobile responsive */
 nav {
   z-index: 2;
 }
@@ -69,8 +69,6 @@ nav {
   top: 15px;
   color: rgb(255 185 24) !important;
 }
-
-/* ------ */
 .navbar-nav {
   flex-direction: initial !important;
   margin-top: 0.5rem;
@@ -101,13 +99,6 @@ nav {
   border-radius: 10%;
   box-shadow: 0px 0px 3px rgb(245, 245, 245);
 }
-.logoformated-img {
-  width: 90%;
-  position: fixed;
-  top: 22%;
-  z-index: -1;
-  /* opacity: 0.9; */
-}
 .jcbTitle {
   color: whitesmoke;
   margin: 0.5rem auto;
@@ -115,7 +106,6 @@ nav {
   text-align: center;
   font-weight: bold;
 }
-
 .fa-bars {
   color: whitesmoke;
 }
@@ -123,122 +113,82 @@ nav {
   color: rgb(245, 245, 245, 0.55) !important;
   border-color: rgb(245, 245, 245) !important;
 }
-
-/* .contactList-container {
-  column-count: 2;
-  margin: 0.5rem;
-  height: 120px;
-} */
 .icons {
   display: block;
   margin-left: -20px;
   font-size: 15px;
   margin-bottom: 0.7rem;
 }
-
-/* .icons a {
-  text-decoration: none;
-  color: whitesmoke;
-}
-.icons a:hover {
-  color: whitesmoke !important;
-} */
 .icons svg {
   margin-right: 0.5rem;
 }
-
 .icons:nth-child(6) {
   display: block;
   margin-right: 0;
 }
-
 .skiptranslate:nth-child(2),
 .goog-te-combo:nth-child(2) {
   display: none;
 }
 
-/* Jennifer photo styling */
-.jenniferImg-container {
-  text-align: center;
-  margin: 2rem auto;
-  animation: fadeIn ease-in-out 0.5s;
+.main-container {
+  margin-bottom: 1rem;
 }
-.jennifer-img {
-  width: 75%;
-  margin: auto;
-  border-bottom: solid 1px rgb(63 62 62);
-  border-right: solid 1px rgb(63 62 62);
+.main-container .logoImg {
+  position: fixed;
+  z-index: -1;
+  top: 20%;
+  box-shadow: none;
 }
-
-/* Headings 'my name is'...and i'm a ... */
-.heading-container {
-  padding: 30px 10%;
+/* HOME PAGE */
+.vide-hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  top: -83px;
+  margin-bottom: 18rem;
 }
-
-.heading-container p:not(:nth-child(3)) {
-  color: rgb(255 185 24);
-  margin-bottom: 0;
-  font-size: 27px;
-  font-weight: 600;
+.video {
+  background-image: url(/public/images/openingvideo.mp4);
 }
-.heading-container span {
-  margin-left: 0.5rem;
-  color: whitesmoke;
-}
-.heading-container p:nth-child(2) {
-  color: rgb(211, 209, 209);
-  font-size: 25px;
-  margin-top: -14px;
-  font-weight: 550;
-}
-.basedIn {
-  padding: 30px 0 0;
-  margin-bottom: -15px;
-  color: whitesmoke;
-}
-.basedIn > svg {
-  vertical-align: -0.05em;
-  margin-left: 0.2rem;
-}
-.abitAboutMe {
-  padding-bottom: 30px;
-}
-.abitAboutMe span {
-  margin-left: 0;
-}
-.abitAboutMe a:hover {
-  color: rgb(255 185 24) !important;
-}
-.abitAboutMe a {
-  color: rgb(211, 209, 209);
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: normal;
-}
-/* Ask away banner */
-.ask-container {
-  /* position: relative;
-  height: 200px;
-  width: 100%; */
-  /* margin: 1rem auto; */
-}
-/* .questionIcon {
+.video-hero,
+.hero-background-video {
   position: absolute;
-  top: 27%;
-  right: 6%;
-  font-size: 90px;
-  color: rgb(14, 13, 13);
-  background-color: rgb(255, 185, 24);
-  border-radius: 50%;
-  border: 1px solid black;
-  box-shadow: 0px 30px 30px rgb(92, 91, 91);
-} */
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.video-hero,
+.hero-background-video,
+video {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  transform: translateX(-50%) translateY(-50%);
+  min-height: 100%;
+  min-width: 100%;
+  max-width: none;
+  height: 100%;
+  width: auto;
+  opacity: 1;
+  transition: opacity 1.5s;
+}
 .ask-container p {
   margin: 2rem 0.5rem 1rem;
   font-size: 22px;
   color: whitesmoke;
-  /* margin: auto; */
-  /* width: fit-content; */
 }
 .btn-container {
   width: 70%;
@@ -259,14 +209,43 @@ nav {
   text-decoration: underline;
   color: rgb(47 45 45);
 }
-.slogan {
-  font-size: 20px !important;
-  text-align: center;
-  font-weight: 500 !important;
-  letter-spacing: 1px;
-} 
+.text-header-container {
+  position: relative;
+  top: 50%;
+  padding: 1rem;
+  font-family: "Arial black", Arial, sans-serif;
+}
+.text-header-container h1 {
+  width: fit-content;
+  background-color: rgba(14, 13, 13, 0.5);
+  padding: 1rem;
+  color: rgb(255 185 24);
+}
+.text-header-container span {
+  color: #d20020;
+}
+ /* h1 text in Home Page  */
+.text-header-container span:nth-child(3) {
+  color: whitesmoke;
+  font-size: 26.5px;
+}
+.banner-image-container img {
+  display: block;
+  width: 100%;
+  height: 270px;
+}
+.text-container {
+  background-color: whitesmoke;
+  color: rgb(63 62 62);
+  margin: 0;
+  padding: 4rem;
+}
+.text-container h2 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
 
-/* Footer styling */
+/* FOOTER */
 .footer-container {
   padding: 60px 0.75rem 15px;
   background-color: rgb(14, 13, 13, 0.3);
@@ -304,6 +283,35 @@ nav {
   font-family: serif;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* About Page styling */
 .topRedBlock {
   display: block;
@@ -317,8 +325,8 @@ nav {
 .about-container,
 .services-container,
 .strategy-container {
-  padding: 30px 10%;
-  color: whitesmoke;
+  /* padding: 30px 10%; */
+  /* color: whitesmoke; */
 }
 .about-container > p:first-child,
 .whyKw-parr > p:nth-child(2) {
@@ -336,30 +344,7 @@ nav {
 .whyKw-parr {
   margin-top: 3rem;
 }
-/* .carousel {
-  margin: 30px auto;
-}
-.carousel-item {
-  padding: 12px !important;
-  animation: fadeIn ease-in-out 1s !important;
-  transition: none !important;
-}
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0 !important;
-  }
-  100% {
-    opacity: 1 !important;
-  }
-}
-.d-block {
-  margin: auto !important;
-  width: 100% !important;
-  height: 240px !important;
-  border-radius: 50% !important;
-  box-shadow: 0px 0px 4px whitesmoke !important;
-} */
 .kwSpan {
   color: #ff0000cf;
 }

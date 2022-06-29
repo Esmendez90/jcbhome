@@ -1,13 +1,11 @@
 import React from "react";
 import { ImgComponent } from "../components/ImageComponent";
-import { Swiper } from "../components/Swiper";
-
 //import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const home = () => {
   return (
     <>
-      <div className="home-main-container">
+      <div className="main-container home-container">
       <ImgComponent
           imgContainerClass="logoImg-container"
           imgClass="logoImg"
@@ -19,7 +17,7 @@ const home = () => {
             <video autoPlay loop playsInline muted>
               <source src="/images/openingvideo.mp4" type="video/mp4" />
             </video>
-            <div className="text-container">
+            <div className="text-header-container">
               <h1>
                 Jennifer <span>MENDEZ</span>
                 <br />
@@ -43,12 +41,12 @@ const home = () => {
             </div>
           </div>
         </section>
-        {/* <Swiper /> */}
+     
         <section>
-          <div className="image-left kw-image-container">
+          <div className="banner-image-container image-left">
             <img src="./images/missionhouse.png" />
           </div>
-          <div className="tech-container whykw-text-container text-right">
+          <div className="text-container mission-text-container text-right">
             <h2>Our Mission</h2>
             <p>
               In JCB Real Estate Services, our mission is to provide guidence

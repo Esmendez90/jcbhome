@@ -2,9 +2,9 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import images from "./images.json";
 import "./style.css"
-function CarouselComponent() {
+export function CarouselComponent2() {
   return (
-    <Carousel fade>
+    <Carousel>
       {images.map(({ id, className, src, alt }) => (
         <Carousel.Item key={id}>
           <img className={className} src={src} alt={alt} />
@@ -15,4 +15,4 @@ function CarouselComponent() {
     
   );
 }
-export default CarouselComponent;
+// export default CarouselComponent2;

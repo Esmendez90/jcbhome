@@ -6,7 +6,7 @@ import Home from "./pages/home";
 import Journey from "./pages/journey";
 import Whykw from "./pages/whykw";
 import Services from "./pages/services";
-import Sellers from "./pages/sellers";
+import Plan from "./pages/plan";
 import Team from "./pages/team";
 
 function App() {
@@ -20,12 +20,12 @@ function App() {
             <Route path="/my-journey" element={<Journey />} />
             <Route path="/whykw" element={<Whykw />} />
             <Route path="/seller-services" element={<Services />} />
-            <Route path="/seller-plan-to-success" element={<Sellers />} />
+            <Route path="/seller-plan-to-success" element={<Plan />} />
             <Route path="/myteam" element={<Team />} />
           </Routes>
         </Router>
       </main>
-      <FooterComponent />
+      {/* <FooterComponent /> */}
     </>
   );
 }

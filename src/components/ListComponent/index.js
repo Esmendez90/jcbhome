@@ -50,9 +50,9 @@ export function ContactListComponent() {
             <FontAwesomeIcon icon={faFacebookMessenger} /> <span>Messenger</span>
           </a>
         </li>
-        <li className="icons">
+        {/* <li className="icons">
           <GoogleTranslate/>
-        </li>
+        </li> */}
       </ul>
     </>
   );

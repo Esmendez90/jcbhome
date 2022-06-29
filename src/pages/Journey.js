@@ -1,5 +1,4 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
 import CarouselComponent from "../components/Carousel";
 import { ImgComponent } from "../components/ImageComponent";
 import "./style.css";
@@ -7,25 +6,24 @@ import "./style.css";
 const myjourney = () => {
   return (
     <>
-      <div className="journey-main-container">
+      <div className="main-container journey-container">
         <ImgComponent
           imgContainerClass="logoImg-container"
           imgClass="logoImg"
           src="/images/logo.png"
           alt="jcb logo"
         />
-        {/* <section id="page-header-journey" > */}
-        <CarouselComponent>
-          <div className="text-container">
-            <h1>
-              A LITTLE BIT
-              <br /> <span>ABOUT ME</span>
-            </h1>
-          </div>
-        </CarouselComponent>
-        {/* </section> */}
+        <section>
+        <CarouselComponent />
 
-        <section className="whykw-text-container journey-text-container">
+        <div className="text-header-container journey-text-header">
+          <h1>
+            A LITTLE BIT
+            <br /> <span>ABOUT ME</span>
+          </h1>
+        </div>
+        </section>
+        <section className="text-container journey-text-container">
           <p>
             <span>I</span> came to the United States about 17 years ago.
             Adapting to the new culture and lifestyle was very challenging. On
@@ -69,7 +67,6 @@ const myjourney = () => {
             estate transaction.
           </p>
         </section>
-        {/* <CarouselComponent /> */}
       </div>
     </>
   );

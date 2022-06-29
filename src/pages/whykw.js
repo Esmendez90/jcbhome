@@ -4,7 +4,7 @@ import "./style.css";
 const whyKW = () => {
   return (
     <>
-      <div className="whykw-main-container">
+      <div className="main-container whykw">
       <ImgComponent
           imgContainerClass="logoImg-container"
           imgClass="logoImg"
@@ -12,7 +12,7 @@ const whyKW = () => {
           alt="jcb logo"
         />
         <section id="page-header-whykw" className="background-cover-image">
-          <div className="text-container">
+          <div className="text-header-container">
             <h1>
               WHY I CHOSE <br /> <span>KELLER WILLIAMS</span>
             </h1>
@@ -20,10 +20,10 @@ const whyKW = () => {
         </section>
 
         <section>
-          <div className="image-left kw-image-container">
-            <img src="./images/kwtechnology.png" />
+          <div className="banner-image-container image-left ">
+            <img src="./images/kwtechnology.png"/>
           </div>
-          <div className="tech-container whykw-text-container text-right">
+          <div className="text-container technology-container text-right">
             <h2>Technology</h2>
             <p>
               Leading-edge tech tools and training give me the edge in
@@ -40,10 +40,10 @@ const whyKW = () => {
         </section>
 
         <section>
-          <div className="image-right kw-image-container">
+          <div className="banner-image-container image-right ">
             <img src="./images/kwtogether.png" />
           </div>
-          <div className="team-container whykw-text-container text-left">
+          <div className="text-container team-container text-left">
             <h2>Teamwork</h2>
 
             <p>
@@ -58,10 +58,10 @@ const whyKW = () => {
         </section>
 
         <section>
-          <div className="image-left kw-image-container">
+          <div className="banner-image-container image-left">
             <img src="./images/kwstats.png" />
           </div>
-          <div className="knowledge-container whykw-text-container text-right">
+          <div className="text-container knowledge-container text-right">
             <h2>Knowledge</h2>
             <p>
               Keller Williams Realty helps me stay ahead of trends in the real
@@ -73,10 +73,10 @@ const whyKW = () => {
         </section>
 
         <section>
-          <div className="image-right kw-image-container">
+          <div className="banner-image-container image-right">
             <img src="./images/kwrely.png" />
           </div>
-          <div className="team-container whykw-text-container text-left">
+          <div className="text-container reliability-container text-left">
             <h2>Reliability</h2>
             <p>
               Founded on the principles of trust and honesty, Keller Williams
@@ -88,10 +88,10 @@ const whyKW = () => {
           </div>
         </section>
         <section>
-          <div className="image-left kw-image-container">
+          <div className="banner-image-container image-left">
             <img src="./images/kwone.png" />
           </div>
-          <div className="record-container whykw-text-container text-right">
+          <div className="text-container record-container text-right">
             <h2>Track Record</h2>
             <p>
               I’m proud to work for #1 Real Estate Franchise in the World, by

@@ -1,8 +1,12 @@
 import React from "react";
+import { CarouselComponent2 } from "../components/Carousel2/index";
 const services = () => {
   return (
     <>
-      <div className="topRedBlock topRedBlock2"></div>
+      <div className="main-container services-container">
+        <CarouselComponent2 />
+      </div>
+      {/* <div className="topRedBlock topRedBlock2"></div>
       <div className="services-container">
         <img src="/images/kwmarketing.png" alt="marketing logo" className="marketingLogo-img"/>
         <div className="marketingStrat-container">
@@ -67,7 +71,7 @@ const services = () => {
         </div>
         <img src="/images/kwls.jpeg" alt="marketing logo" className="marketingLogo-img"/>
 
-      </div>
+      </div> */}
     </>
   );
 };
