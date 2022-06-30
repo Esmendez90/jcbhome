@@ -5,6 +5,15 @@ const services = () => {
     <>
       <div className="main-container services-container">
         <CarouselComponent2 />
+        <section>
+        <div className="text-header-container journey-text-header">
+          <h1>
+            A LITTLE BIT
+            <br /> <span>ABOUT ME</span>
+          </h1>
+          <p>Some text</p>
+        </div>
+        </section>
       </div>
       {/* <div className="topRedBlock topRedBlock2"></div>
       <div className="services-container">

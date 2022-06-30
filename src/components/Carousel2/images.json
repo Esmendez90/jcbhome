@@ -2,19 +2,26 @@
     {
         "id":1,
         "className":"d-block",
-        "src":"/images/kwmarketing.png",
+        "src":"/images/lense.jpg",
         "alt":"picture of jennifer and cianni"
     },
     {
         "id":2,
         "className":"d-block",
-        "src":"/images/medanae.jpg",
+        "src":"/images/flyer.jpg",
         "alt":"picture of jennifer and danae"
     },
     {
         "id":3,
         "className":"d-block",
-        "src":"/images/joel.jpg",
+        "src":"/images/trainkw.png",
+        "alt":"picture of joel"
+    }
+    ,
+    {
+        "id":4,
+        "className":"d-block",
+        "src":"/images/kwls.png",
         "alt":"picture of joel"
     }
 ]

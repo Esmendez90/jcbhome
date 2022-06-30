@@ -312,23 +312,8 @@ video {
 
 
 
-/* About Page styling */
-.topRedBlock {
-  display: block;
-  width: 80%;
-  height: 20px;
-  background-color: rgb(222 5 5 / 90%);
-}
-.topRedBlock2 {
-  margin-left: 20%;
-}
-.about-container,
-.services-container,
-.strategy-container {
-  /* padding: 30px 10%; */
-  /* color: whitesmoke; */
-}
-.about-container > p:first-child,
+
+/* .about-container > p:first-child,
 .whyKw-parr > p:nth-child(2) {
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -365,10 +350,10 @@ video {
 }
 .kwImages-container img:not(:last-child) {
   margin-bottom: 2rem;
-}
+} */
 
 /* Services page styling */
-.marketingStrat-container {
+/* .marketingStrat-container {
   border-left: solid 5px rgb(222 5 5 / 90%);
   padding-left: 15px;
   margin-bottom: 5rem;
@@ -384,10 +369,10 @@ video {
 .marketingLogo-img {
   width: 113%;
   margin-bottom: 5rem;
-}
+} */
 
 /* Strategy page styling */
-.planSuccess {
+/* .planSuccess {
   text-align: center;
   font-size: 19px;
   font-weight: bold;
@@ -411,8 +396,8 @@ video {
 
 .strategy-container > p:last-child {
   margin-bottom: 30px;
-}
-/* TEAM PAGE */
+} */
+/* TEAM PAGE
 .teamImages-container {
   padding: 2rem;
   text-align: center;
@@ -451,7 +436,7 @@ video {
 }
 .kwnumberone-img img {
   width: 100%;
-}
+} */
 
 @media screen and (min-width: 768px) {
   /* Navbar */
@@ -474,7 +459,7 @@ video {
     font-size: 20px;
   }
   /* Jennifer picture */
-  .jenniferImg-container {
+  /* .jenniferImg-container {
     width: 50%;
     margin-left: auto;
     margin-right: 0;
@@ -482,26 +467,25 @@ video {
     clear: left;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-  }
+  } */
 
-  .jennifer-img {
+  /* .jennifer-img {
     width: 100%;
-  }
+  } */
 
   /* I am JM and Im a ...container */
-  .heading-container {
+  /* .heading-container {
     width: 50%;
-    /* margin-top: 4rem; */
     padding-top: 70px;
     padding-left: 7%;
     padding-right: 7%;
-  }
+  } */
   /* .questionIcon {
     right: 5%;
     font-size: 65px;
     box-shadow: 0px 20px 30px rgb(92 91 91);
   } */
-  .heading-container > p:first-child {
+  /* .heading-container > p:first-child {
     font-size: 33px;
     text-align: center;
   }
@@ -514,23 +498,15 @@ video {
   }
   .abitAboutMe {
     padding-bottom: 0;
-  }
-  .basedIn,
+  } */
+  /* .basedIn,
   .abitAboutMe,
   .abitAboutMe > a {
     font-size: 20px;
     text-align: center;
-  }
-  /* Slogan container */
-  /* .slogan-container {
-    width: 221%;
-    padding-left: 23%;
   } */
-  .slogan {
-    font-size: 27px !important;
-    font-weight: bold !important;
-    /* margin-top: 40px; */
-  }
+ 
+ 
 
   /* footer */
   .footer-container {
@@ -549,7 +525,7 @@ video {
     width: 11%;
   }
   /* ABOUT PAGE  screen width min 768px*/
-  .about-container,
+  /* .about-container,
   .services-container,
   .strategy-container {
     padding: 30px 15%;
@@ -606,11 +582,11 @@ video {
   }
   .group1:last-child {
     padding-right: 0;
-  }
+  } */
   /* SERVICES PAGE 768PX */
-  .marketingLogo-img {
+  /* .marketingLogo-img {
     width: 100%;
-  }
+  } */
   /* MY TEAM PAGE */
   .teamImages-container img {
     width: 100%;

@@ -37,3 +37,6 @@
 .services-container .carousel {
   transform: translateX(-50%) translateY(0);
 }
+.services-container .carousel-indicators,.services-container .carousel-control-next,.services-container .carousel-control-prev {
+ display: flex !important;
+}
