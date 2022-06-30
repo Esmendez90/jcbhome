@@ -1,27 +1,38 @@
 [
     {
-        "id":1,
-        "className":"d-block",
-        "src":"/images/lense.jpg",
-        "alt":"picture of jennifer and cianni"
+        "id": 1,
+        "className": "d-block",
+        "src": "/images/lense.jpg",
+        "alt": "picture of jennifer and cianni",
+        "header1": "Marketing Strategies",
+        "text": "Offering staging consultation, professional photography, yard sign and coming soon rider, marketing brochures and Just Listed Cards, host brokers tour, public Open House weekly update.",
+        "text2": "Property goes live and syndicated online 24/7 through more than 350 of the most popular searches Websites"
     },
     {
-        "id":2,
-        "className":"d-block",
-        "src":"/images/flyer.jpg",
-        "alt":"picture of jennifer and danae"
+        "id": 2,
+        "className": "d-block",
+        "src": "/images/flyer.jpg",
+        "alt": "picture of jennifer and danae",
+        "header1": "Your Custom Marketing Plan",
+        "text": "Smart, Targeted Networking",
+        "text2": "From dynamic fliers, to lead- optimized landing pages, to beautiful postcards, to custom lookbooks, we'll determine what professionally printed or digital marketing pieces will move the needle to maximize the sale of your property. As an active member in the real estate community and our community at large, I will market your listing to top agents and buyer specialists in the area, generating excitement and ensuring maximum exposure."
     },
     {
-        "id":3,
-        "className":"d-block",
-        "src":"/images/trainkw.png",
-        "alt":"picture of joel"
-    }
-    ,
+        "id": 3,
+        "className": "d-block",
+        "src": "/images/trainkw.png",
+        "alt": "picture of joel",
+        "header1": "Promotional Assets... Best In Class!",
+        "text": "Our web network boasts 2.6 million unique visitors a month.",
+        "text2": "Among the features specifically designed to give costumers all the real estate information they want, are local featured listings on the landing page and a mobile optimized version of the site. Keller Williams associates enjoy the benefits of receiving text messages directly from consumers through their listings. Listings have increased open house visibility via a real-time open house search."
+    },
     {
-        "id":4,
-        "className":"d-block",
-        "src":"/images/kwls.png",
-        "alt":"picture of joel"
+        "id": 4,
+        "className": "d-block",
+        "src": "/images/kwls.png",
+        "alt": "picture of joel",
+        "header1": "Online Marketing",
+        "text": "Extended Market Reach",
+        "text2": "When you list with me, we'll have access to the Keller Williams Listing System, or KWLS. This proprietary, exclusive system ensures your property is marketed online 24/7 through more than 350 of the most popular search Websites."
     }
 ]

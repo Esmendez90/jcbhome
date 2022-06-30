@@ -40,3 +40,14 @@
 .services-container .carousel-indicators,.services-container .carousel-control-next,.services-container .carousel-control-prev {
  display: flex !important;
 }
+.services-text-header {
+  position: absolute;
+  color: white;
+}
+.services-text-container{
+  padding: 0 3rem;
+  font-size: 15px;
+}
+.services-container .text-header-container {
+  top: 20%;
+}
