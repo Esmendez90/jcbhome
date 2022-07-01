@@ -37,17 +37,32 @@
 .services-container .carousel {
   transform: translateX(-50%) translateY(0);
 }
-.services-container .carousel-indicators,.services-container .carousel-control-next,.services-container .carousel-control-prev {
- display: flex !important;
+.services-container .carousel-indicators,
+.services-container .carousel-control-next,
+.services-container .carousel-control-prev {
+  display: flex !important;
 }
 .services-text-header {
   position: absolute;
   color: white;
+  margin: auto;
+  padding: 1rem;
+  padding-left: 3rem;
 }
-.services-text-container{
-  padding: 0 3rem;
+.services-text-header h1 {
+  padding: 0;
+  padding-right: 6rem;
+  color: white;
+  background-color: rgba(14, 13, 13, 0);
+}
+.services-text-container {
   font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: 1rem;
 }
 .services-container .text-header-container {
-  top: 20%;
+  top: 25%;
+  text-shadow: 1px 1px 1px black;
 }
