@@ -1,12 +1,26 @@
 import React from "react";
-import TeamImages from "../components/teamImages";
+import TeamImages from "../components/Swiper";
+import { ImgComponent } from "../components/ImageComponent";
+
 const team = () => {
   return (
     <>
-    <div className="topRedBlock topRedBlock2"></div>
-      <p className="teamTitle"><span>—</span> Meet My Team <span>—</span></p>
-      <TeamImages />
-  
+      <div className="main-container plan-container">
+        <ImgComponent
+          imgContainerClass="logoImg-container"
+          imgClass="logoImg"
+          src="/images/logo.png"
+          alt="jcb logo"
+        />
+        <section id="team-header-plan" className="background-cover-image">
+          <div className="text-header-container">
+            <h1>
+              WE BUILD THE PLAN <br /> <span>YOU BUILD SUCCESS</span>
+            </h1>
+          </div>
+        </section>
+        <TeamImages />
+      </div>
     </>
   );
 };

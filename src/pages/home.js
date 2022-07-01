@@ -44,7 +44,7 @@ const home = () => {
      
         <section>
           <div className="banner-image-container image-left">
-            <img src="./images/missionhouse.png" />
+            <img src="./images/steptarget.png" />
           </div>
           <div className="text-container mission-text-container text-right">
             <h2>Our Mission</h2>

@@ -217,7 +217,7 @@ video {
 }
 .text-header-container h1 {
   width: fit-content;
-  background-color: rgba(14, 13, 13, 0.5);
+  background-color: rgba(14, 13, 13, 0.2);
   padding: 1rem;
   color: rgb(255 185 24);
 }

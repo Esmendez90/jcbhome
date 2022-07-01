@@ -11,6 +11,13 @@
 #page-header-whykw {
   background-image: url(/public/images/whykw.png);
 }
+#page-header-plan {
+  background-image: url(/public/images/buildings.jpg);
+}
+#team-header-plan {
+  background-image: url(/public/images/chess.jpg);
+ 
+}
 
 .background-cover-image {
   background-position: center;
@@ -65,4 +72,13 @@
 .services-container .text-header-container {
   top: 25%;
   text-shadow: 1px 1px 1px black;
+}
+
+/* PLAN PAGE */
+#page-header-plan .text-header-container {
+  text-align: center;
+  padding: 0;
+}
+.plan-container .text-header-container h1 {
+  margin: auto;
 }

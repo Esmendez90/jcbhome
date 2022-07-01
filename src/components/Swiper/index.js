@@ -1,18 +1,41 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
-import images from "./images.json";
-import "./style.css";
 
-export function Swiper() {
+import { Navigation, Pagination, Scrollbar, A11y, EffectCoverflow } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+// import "swiper/css/scrollbar";
+import "./style.css";
+import images from "./images.json";
+
+function TeamImages() {
   return (
     <>
-      <Carousel interval={1}>
-        {images.map(({ id, className, src, alt }) => (
-          <Carousel.Item key={id}>
+      <Swiper
+        // install Swiper modules
+       
+        modules={[Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]}effect="coverflow"
+        spaceBetween={50}
+        slidesPerView={3}
+        navigation
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log("slide change")}
+      >
+        {images.map(({ id, className, src, alt, member, title }) => (
+          <SwiperSlide key={id}>
             <img className={className} src={src} alt={alt} />
-          </Carousel.Item>
+            <p className="member-title">
+              {member} <span></span> {title}
+            </p>
+          </SwiperSlide>
         ))}
-      </Carousel>
+      </Swiper>
     </>
   );
 }
+export default TeamImages;

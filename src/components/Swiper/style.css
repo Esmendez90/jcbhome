@@ -1,0 +1,12 @@
+.swiper-slide{
+    /* width: 101.6667px !important;
+    margin-right: 40px !important; */
+}
+.d-block {
+   height: 400px;
+    min-height: auto;
+}
+.member-title{
+    color: white;
+    text-align: center;
+}
