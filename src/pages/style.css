@@ -15,7 +15,9 @@
   background-image: url(/public/images/buildings.jpg);
 }
 #team-header-plan {
-  background-image: url(/public/images/chess.jpg);
+  background-image: url(/public/images/puzzle.png);
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
  
 }
 
@@ -81,4 +83,10 @@
 }
 .plan-container .text-header-container h1 {
   margin: auto;
+  color: whitesmoke;
+  background-color: rgba(14, 13, 13, 0);
+}
+.plan-container .text-header-container {
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }

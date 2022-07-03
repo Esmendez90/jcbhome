@@ -15,7 +15,7 @@ const team = () => {
         <section id="team-header-plan" className="background-cover-image">
           <div className="text-header-container">
             <h1>
-              WE BUILD THE PLAN <br /> <span>YOU BUILD SUCCESS</span>
+              MY TEAM<br /> <span>MAKING THINGS POSSIBLE</span>
             </h1>
           </div>
         </section>

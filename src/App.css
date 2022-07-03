@@ -458,53 +458,10 @@ video {
   .jcbTitle {
     font-size: 20px;
   }
-  /* Jennifer picture */
-  /* .jenniferImg-container {
-    width: 50%;
-    margin-left: auto;
-    margin-right: 0;
-    float: right;
-    clear: left;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  } */
+  .vide-hero{
+    top: -97px;
+  }
 
-  /* .jennifer-img {
-    width: 100%;
-  } */
-
-  /* I am JM and Im a ...container */
-  /* .heading-container {
-    width: 50%;
-    padding-top: 70px;
-    padding-left: 7%;
-    padding-right: 7%;
-  } */
-  /* .questionIcon {
-    right: 5%;
-    font-size: 65px;
-    box-shadow: 0px 20px 30px rgb(92 91 91);
-  } */
-  /* .heading-container > p:first-child {
-    font-size: 33px;
-    text-align: center;
-  }
-  .heading-container p:nth-child(2) {
-    font-size: 29px;
-    text-align: center;
-  }
-  .basedIn {
-    padding-top: 70px;
-  }
-  .abitAboutMe {
-    padding-bottom: 0;
-  } */
-  /* .basedIn,
-  .abitAboutMe,
-  .abitAboutMe > a {
-    font-size: 20px;
-    text-align: center;
-  } */
  
  
 

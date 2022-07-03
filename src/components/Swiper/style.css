@@ -1,12 +1,13 @@
-.swiper-slide{
-    /* width: 101.6667px !important;
-    margin-right: 40px !important; */
+.plan-container .swiper {
+    background-color: whitesmoke;
+    padding: 2rem 0;
 }
-.d-block {
+.plan-container .d-block {
    height: 400px;
     min-height: auto;
 }
-.member-title{
-    color: white;
+.plan-container .member-title{
+    color: black;
     text-align: center;
+    font-weight: 600;
 }
