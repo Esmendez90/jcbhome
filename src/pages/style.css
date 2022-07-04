@@ -90,3 +90,18 @@
   -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+
+/* TEAM PAGE */
+.plan-container .swiper {
+  background-color: whitesmoke;
+  padding: 2rem 0;
+}
+.plan-container .d-block {
+ height: 400px;
+  min-height: auto;
+}
+.plan-container .member-title{
+  color: black;
+  text-align: center;
+  font-weight: 600;
+}

@@ -19,7 +19,7 @@ const home = () => {
             </video>
             <div className="text-header-container">
               <h1>
-                Jennifer <span>MENDEZ</span>
+                JENNIFER <span>MENDEZ</span>
                 <br />
                 <span>Real Estate Agent</span>
               </h1>
