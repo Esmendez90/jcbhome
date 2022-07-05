@@ -1,17 +1,17 @@
 import React from "react";
 import { ImgComponent } from "../components/ImageComponent";
-//import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const home = () => {
   return (
     <>
       <div className="main-container home-container">
-      <ImgComponent
+      {/* <ImgComponent
           imgContainerClass="logoImg-container"
           imgClass="logoImg"
           src="/images/logo.png"
           alt="jcb logo"
-        />
+        /> */}
         <section className="vide-hero">
           <div className="video hero-background-video">
             <video autoPlay loop playsInline muted>
@@ -19,10 +19,11 @@ const home = () => {
             </video>
             <div className="text-header-container">
               <h1>
-                JENNIFER <span>MENDEZ</span>
+                JENNIFER<span> MENDEZ</span>
                 <br />
                 <span>Real Estate Agent</span>
               </h1>
+              <p className="basedIn">Based in Ridgewood, NJ <FontAwesomeIcon icon={faLocationDot}/></p>
 
               <div className="ask-container">
                 <p>Have a question ?</p>
@@ -41,12 +42,18 @@ const home = () => {
             </div>
           </div>
         </section>
+        <section>
+          <div className="text-container motto-text-container">
+            <h2>More than a friend, Your Realtor! </h2>
+         
+          </div>
+        </section>
      
         <section>
-          <div className="banner-image-container image-left">
+          <div className="banner-image-container image-right">
             <img src="./images/steptarget.png" />
           </div>
-          <div className="text-container mission-text-container text-right">
+          <div className="text-container mission-text-container text-left">
             <h2>Our Mission</h2>
             <p>
               In JCB Real Estate Services, our mission is to provide guidence

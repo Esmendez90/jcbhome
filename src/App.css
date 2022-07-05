@@ -3,9 +3,9 @@ html {
 }
 body {
   height: 100%;
-  background-color: black !important; /* For browsers that do not support gradients */
+  background-color: white !important;
   font-family: Helvetica, Arial, sans-serif !important;
-  margin-top: -2px;
+  /* margin-top: -2px;
   background-image: conic-gradient(
     from 283deg at 100% 23%,
     rgb(32 31 31) 20deg,
@@ -16,7 +16,7 @@ body {
   ) !important;
 
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
 /* NAVBAR - mobile responsive */
@@ -75,7 +75,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.nav-link{
+.nav-link {
   padding: 0 !important;
 }
 .nav-link,
@@ -100,7 +100,8 @@ nav {
   box-shadow: 0px 0px 3px rgb(245, 245, 245);
 }
 .jcbTitle {
-  color: whitesmoke;
+  color: white;
+  text-shadow: 0.1px 0.1px 0 rgb(52, 52, 52);
   margin: 0.5rem auto;
   letter-spacing: 1px;
   text-align: center;
@@ -131,15 +132,15 @@ nav {
   display: none;
 }
 
-.main-container {
+/* .main-container {
   margin-bottom: 1rem;
-}
-.main-container .logoImg {
+} */
+/* .main-container .logoImg {
   position: fixed;
   z-index: -1;
   top: 20%;
   box-shadow: none;
-}
+} */
 /* HOME PAGE */
 .vide-hero {
   position: relative;
@@ -148,7 +149,7 @@ nav {
   overflow: hidden;
   display: block;
   top: -83px;
-  margin-bottom: 18rem;
+  /* margin-bottom: 18rem; */
 }
 .video {
   background-image: url(/public/images/openingvideo.mp4);
@@ -185,29 +186,51 @@ video {
   opacity: 1;
   transition: opacity 1.5s;
 }
+.basedIn,
 .ask-container p {
-  margin: 2rem 0.5rem 1rem;
-  font-size: 22px;
-  color: whitesmoke;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+.basedIn svg {
+  padding-bottom: 2px;
+}
+.ask-container {
+  margin-top: 2rem;
 }
 .btn-container {
-  width: 70%;
+  width: 50%;
 }
 .btn-container button {
-  background-color: rgb(255 185 24);
-  box-shadow: 0px 0px 3px rgb(255 185 24);
+  background-color: rgba(223, 221, 218, 0.5);
+  /* box-shadow: 0px 0px 3px rgb(255 185 24); */
   width: 100%;
   height: 50px;
   border-radius: 50px;
 }
 .btn-container a {
-  color: rgb(47 45 45);
+  color: black;
   text-decoration: none;
   font-weight: bold;
 }
 .btn-container a:hover {
   text-decoration: underline;
-  color: rgb(47 45 45);
+  color: black;
+}
+.home-container:nth-child(2) {
+  background-color: white;
+}
+.motto-text-container {
+  margin-top: -73px !important;
+  margin-bottom: 10px !important;
+  text-align: center;
+  background-color: rgb(255 185 24) !important;
+  color: black !important;
+  padding: 8rem 4rem !important;
+}
+.motto-text-container h2 {
+  margin-bottom: 0 !important;
 }
 .text-header-container {
   position: relative;
@@ -217,14 +240,15 @@ video {
 }
 .text-header-container h1 {
   width: fit-content;
-  background-color: rgba(14, 13, 13, 0.2);
-  padding: 1rem;
+  /* background-color: rgba(14, 13, 13, 0.2);
+  padding: 1rem; */
   color: rgb(255 185 24);
+  text-shadow: 0.3px 0.3px 0 black;
 }
-.text-header-container span {
+/* .text-header-container span {
   color: #d20020;
-}
- /* h1 text in Home Page  */
+} */
+/* h1 text in Home Page  */
 .text-header-container span:nth-child(3) {
   color: whitesmoke;
   font-size: 26.5px;
@@ -236,7 +260,9 @@ video {
 }
 .text-container {
   background-color: whitesmoke;
-  color: rgb(63 62 62);
+  /* background-color: #fbefef; */
+  /* color: rgb(63 62 62); */
+  color: black;
   margin: 0;
   padding: 4rem;
 }
@@ -247,9 +273,13 @@ video {
 
 /* FOOTER */
 .footer-container {
-  padding: 60px 0.75rem 15px;
-  background-color: rgb(14, 13, 13, 0.3);
   text-align: center;
+  margin-top: 10px;
+}
+.footer-container section {
+  padding: 2rem 1rem;
+  background-color: rgb(38 17 100);
+  /* color: rgb(63 62 62); */
 }
 .kwLogo-container,
 .realityLogo-container,
@@ -268,182 +298,21 @@ video {
 }
 
 .footer-container p {
-  font-size: 14px;
-  margin-bottom: 0;
-  color: whitesmoke;
+  font-size: 13px;
+  color: white;
 }
 .createdBy {
-  margin-top: 20px;
-  font-size: 12px !important;
+  margin-bottom: 0px;
 }
 .createdBy span {
-  border: 1px solid whitesmoke;
+  border: 1px solid white;
   border-radius: 50%;
   padding: 3.5px 2.5px;
   font-family: serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .about-container > p:first-child,
-.whyKw-parr > p:nth-child(2) {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-.about-container > p:first-child,
-.whyKw-parr > p:nth-child(2),
-.servicesTitles {
-  font-size: 18px;
-  font-weight: bold;
-  color: rgb(255 185 24);
-}
-.whyKw-parr {
-  margin-top: 3rem;
-}
-
-.kwSpan {
-  color: #ff0000cf;
-}
-.subtitle {
-  font-weight: bold;
-  margin-top: 25px;
-  color: rgb(255 185 24);
-}
-.kwImages-container {
-  opacity: 0.1;
-  position: absolute;
-  margin-top: 25%;
-  width: 90%;
-}
-.kwImages-container img {
-  width: 100%;
-  height: 18rem;
-}
-.kwImages-container img:not(:last-child) {
-  margin-bottom: 2rem;
-} */
-
-/* Services page styling */
-/* .marketingStrat-container {
-  border-left: solid 5px rgb(222 5 5 / 90%);
-  padding-left: 15px;
-  margin-bottom: 5rem;
-}
-
-.servicesSecondTitle {
-  font-size: 18px;
-  margin-top: -23px;
-}
-.services-parr {
-  margin-left: 20px;
-}
-.marketingLogo-img {
-  width: 113%;
-  margin-bottom: 5rem;
-} */
-
-/* Strategy page styling */
-/* .planSuccess {
-  text-align: center;
-  font-size: 19px;
-  font-weight: bold;
-  letter-spacing: 5px;
-  color: rgb(255 185 24);
-  border-bottom: solid 5px rgb(222 5 5 / 90%);
-}
-.planSuccess > p:first-child {
-  margin-bottom: -8px;
-}
-.planSuccess > :nth-child(2) {
-  margin-bottom: 0;
-}
-.strategy-container > p:nth-child(2) {
-  margin: 30px auto 0;
-}
-.strategyPath-img {
-  width: 100%;
-  margin: 30px auto;
-}
-
-.strategy-container > p:last-child {
-  margin-bottom: 30px;
-} */
-/* TEAM PAGE
-.teamImages-container {
-  padding: 2rem;
-  text-align: center;
-}
-.teamTitle {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 3rem auto 1rem;
-  text-align: center;
-  color: rgb(255 185 24);
-}
-.teamImages-container li {
-  list-style: none;
-}
-.teamImages-container li:not(:last-child) {
-  margin-bottom: 2rem;
-}
-.teamImages-container img {
-  width: 85%;
-  height: 250px;
-}
-.member-title {
-  text-align: center;
-  margin-top: 1rem;
-  color: whitesmoke;
-  font-size: 18px;
-}
-.member-title > span {
-  border-left: 1px solid whitesmoke;
-  margin: 10px;
-  margin-right: 15px;
-}
-.kwnumberone-img {
-  padding: 2rem;
-  text-align: center;
-}
-.kwnumberone-img img {
-  width: 100%;
-} */
-
 @media screen and (min-width: 768px) {
   /* Navbar */
-  .logoformated-img {
-    width: 95%;
-    top: 20%;
-  }
   .navbar-brand:first-child {
     width: 11%;
   }
@@ -454,24 +323,46 @@ video {
   .contactList-container {
     width: 60%;
   }
-
   .jcbTitle {
     font-size: 20px;
   }
-  .vide-hero{
+  .vide-hero {
     top: -7rem;
   }
-
- 
- 
+  .text-header-container {
+    padding-left: 3rem;
+  }
+  .basedIn,
+  .ask-container p {
+    font-size: 22px;
+  }
+  .btn-container {
+    width: 30%;
+  }
+  .motto-text-container {
+    margin-top: -102px !important;
+  }
+  .home-container section:nth-child(3) {
+    position: relative;
+  }
+  .mission-text-container {
+    background-color: rgba(222, 229, 248, 0);
+    position: absolute;
+    top: 3%;
+    width: 63%;
+  }
+  .mission-text-container h2 {
+    padding-left: 1rem;
+  }
+  .mission-text-container p {
+    background-color: rgb(237 238 240 / 40%);
+    padding: 1rem;
+  }
+  .banner-image-container img {
+    height: 500px;
+  }
 
   /* footer */
-  .footer-container {
-    background-color: rgb(14, 13, 13, 0.1);
-    position: relative;
-    bottom: 0;
-    padding: 60px 15px;
-  }
   .kwLogo-container,
   .realityLogo-container,
   .jcbLogo-container {
@@ -481,140 +372,43 @@ video {
   .jcbLogo-container {
     width: 11%;
   }
-  /* ABOUT PAGE  screen width min 768px*/
-  /* .about-container,
-  .services-container,
-  .strategy-container {
-    padding: 30px 15%;
-  }
-  .carousel {
-    margin: 60px auto;
-  }
-  .d-block {
-    width: 50%;
-  }
-  .carousel-control-next,
-  .carousel-control-prev {
-    width: 25% !important;
-  }
-  .kwImages-container {
-    width: 85%;
-  }
-  .kwImages-container {
-    margin-top: 20%;
-    opacity: 1;
-  }
-  .kwImages-container img {
-    width: 30%;
-    height: 12rem;
-  }
-  .kwImages-container img:first-child,
-  .kwImages-container img:nth-child(3) {
-    margin-left: 53%;
-  }
-  .kwImages-container img:nth-child(2) {
-    margin-top: 6rem;
-    margin-right: 50%;
-  }
-  .kwImages-container img:nth-child(3),
-  .kwImages-container img:last-child {
-    margin-top: 2rem;
-  }
-  .kwImages-container img:last-child {
-    opacity: 0.8;
-  }
-
-  .group1 {
-    padding-right: 40%;
-  }
-  .group2 {
-    padding-left: 40%;
-    text-align: right;
-  }
-  .subtitle {
-    margin-top: 4rem;
-  }
-  .whyKw-parr p:nth-child(3) {
-    margin-top: 0;
-  }
-  .group1:last-child {
-    padding-right: 0;
-  } */
-  /* SERVICES PAGE 768PX */
-  /* .marketingLogo-img {
-    width: 100%;
-  } */
-  /* MY TEAM PAGE */
-  .teamImages-container img {
-    width: 100%;
-  }
-  .teamImages-container li {
-    width: 27%;
-    display: inline-grid;
-    margin-right: 22px;
-    margin-left: 22px;
-  }
-  .kwnumberone-img img {
-    width: 70%;
+  .footer-container p {
+    font-size: 14px;
   }
 }
 
-@media screen and (min-width: 820px) {
-  .navbar-brand:first-child {
-    width: 13%;
-  }
-  .navbar-toggler {
-    font-size: 1.9rem !important;
-  }
-  .icons {
-    font-size: 17px;
-  }
-  .heading-container {
-    margin-top: 3rem;
-  }
-  .footer-container {
-    height: 30%;
-  }
-
-  /* ABOUT PAGE SCREEN WIDTH 820PX */
-  .kwImages-container {
-    margin-top: 14.5%;
-  }
-}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   /* Navbar */
-  /* .logoformated-img {
-    right: 0;
-  } */
-  /* .container {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-  } */
-  .navbar-brand:first-child {
+  /* .navbar-brand:first-child {
     width: 13%;
-  }
+  } */
   .logoImg-container {
     width: 70px;
     margin: auto;
   }
-  .jcbTitle-container {
+  .jcbTitle {
     display: none;
   }
-
-  .icons {
-    margin: auto 5px;
+  /* #basic-navbar-nav {
+    display: initial !important;
+  } */
+  .navbar-collapse {
+    background-color: rgba(14 13 13 / 0);
+  }
+  .navbar-nav,
+  .contactList-container {
+    width: 20%;
+    background-color: rgba(14 13 13 / 0);
   }
 
   .icons span {
     display: none;
   }
-  /* .icons svg {
-    margin-right: 0.2rem;
-  } */
-  .skiptranslate span {
+
+  /* .skiptranslate span {
     display: block;
-  }
+  } */
   /* --------- */
   .navbar-collapse,
   .navbar-nav,
@@ -624,70 +418,57 @@ video {
     min-height: initial;
     padding: initial !important;
   }
+  .contactList-container p {
+    display: none;
+  }
   .navbar-nav,
   .contactList-container {
     display: flex !important;
     margin-bottom: 0;
     justify-content: center;
   }
+  .me-auto {
+    margin-right: 0!important;
+}
   .navbar-nav {
     width: 100%;
   }
-
-  .contactList-container > p {
-    display: none;
+  .icons, .me-auto div {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 1rem;
   }
-  .nav-link,
-  .icons a {
-    color: whitesmoke !important;
+  /* ACCORDION NAVBAR */
+  #accordion-item,
+  #accordion-item .accordion-button {
+    background-color: rgba(14, 13, 13, 0) !important;
+    margin-right: 10px;
   }
-
-  
-  /* Jennifer container */
-  .jenniferImg-container {
-    float: left;
-    clear: right;
-    transform: scaleX(1);
+  .motto-text-container {
+    margin-bottom: 0 !important;
   }
-  /* Heading container */
-  .heading-container {
-    float: right;
-    margin-top: 0;
+  .home-container section:nth-child(3) {
+    display: inline-flex;
   }
-  .heading-container > p:first-child {
-    font-size: 30px;
+  .banner-image-container {
+    width: 50%;
   }
-  .heading-container p:nth-child(2) {
-    font-size: 26px;
+  .mission-text-container {
+    width: 50%;
+    background-color: initial;
+    position: initial;
+    padding: 7rem;
   }
-  .basedIn,
-  .abitAboutMe > a {
-    font-size: 17px;
-  }
-  .ask-container {
-    height: 190px;
-    width: 90%;
-    margin: auto;
-  }
- 
-  .btn-container {
-    padding: 0px 40px;
-  }
-  /* Slogan */
-  .slogan-container {
-    width: auto;
+  .mission-text-container h2 {
     padding-left: 0;
-    margin-top: 40px;
   }
-  .slogan {
-    margin-top: 0;
-    font-size: 20px !important;
+  .mission-text-container p {
+    background-color: rgb(237 238 240 / 0);
+    padding: 0;
   }
-  /* Footer */
+  /* FOOTER */
   .footer-container {
-    background-color: rgb(14, 13, 13, 0);
-    margin-top: 4rem;
-    z-index: -1;
+    margin-top: -6px;
   }
   .kwLogo-container,
   .realityLogo-container,
@@ -697,41 +478,10 @@ video {
   .jcbLogo-container {
     width: 7%;
   }
-
-  /* ABOUT PAGE 992PX */
-  .about-container,
-  .services-container,
-  .strategy-container {
-    padding: 30px 20%;
-  }
-  .kwImages-container {
-    margin-top: 11%;
-  }
-  .kwImages-container img {
-    width: 25%;
-  }
-  .kwImages-container img:first-child,
-  .kwImages-container img:nth-child(3) {
-    margin-left: 46%;
-  }
-  .kwImages-container img:first-child {
-    margin-bottom: 0;
-    margin-top: 2rem;
-  }
-  .kwImages-container img:last-child {
-    margin-right: 10%;
-  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .logoformated-img {
-    display: block;
-    top: 5%;
-    width: 65%;
-    margin: auto 10rem;
-  }
-  /* ___________________ */
-  .navbar {
+  /* .navbar {
     position: absolute !important;
     right: 0%;
     display: block !important;
@@ -742,8 +492,8 @@ video {
     padding-top: 2rem !important;
     height: 50rem;
     min-height: calc(100vh) !important;
-  }
-  .goog-te-combo {
+  } */
+  /* .goog-te-combo {
     width: -webkit-fill-available;
     font-size: 9px;
   }
@@ -800,7 +550,7 @@ video {
     margin-top: 0;
     padding-top: 0;
   }
-  
+
   .heading-container {
     padding: 80px 10% 25px;
   }
@@ -820,90 +570,15 @@ video {
   }
   .jcbLogo-container {
     width: 5%;
-  }
-  /* ABOUT PAGE 1200PX */
-  .about-container > p:first-child,
-  .whyKw-parr > p:nth-child(2) {
-    font-size: 20px;
-  }
-  .d-block {
-    width: 35%;
-  }
-  .kwImages-container {
-    margin-top: 3rem;
-    width: 80%;
-  }
-  .kwImages-container img:first-child,
-  .kwImages-container img:nth-child(3) {
-    margin-left: 50%;
-  }
-  .kwImages-container img:nth-child(2) {
-    margin-top: 5rem;
-    margin-bottom: 0;
-  }
-  .kwImages-container img:nth-child(3) {
-    margin-top: 1rem;
-    margin-bottom: 0;
-  }
-  .kwImages-container img:last-child {
-    margin-top: 0;
-  }
-  /* SERVICES PAGE 1200PX */
-  .marketingLogo-img {
-    width: 70%;
-  }
-  /* STRATEGY PAGE 1200PX */
-  .strategyPath-img {
-    display: block;
-    width: 60%;
-  }
-  /* TEAM PAGE 1200PX */
-  .myteam-container > a {
-    width: auto;
-  }
-  .teamImages-container img {
-    width: 80%;
-  }
-  .kwnumberone-img img {
-    width: 50%;
-  }
+  } */
 }
 
 /* Extra large devices (large laptops and desktops, 1500px and up) */
 @media only screen and (min-width: 1500px) {
-  .kwImages-container img:nth-child(3) {
-    margin-top: -10px;
-  }
-  .planSuccess {
-    font-size: 38px;
-  }
 }
 /* Extra large devices (large laptops and desktops, 1600px and up) */
 @media only screen and (min-width: 1600px) {
-  .subtitle {
-    margin-top: 5rem;
-  }
-  .d-block {
-    width: 30%;
-    height: 250px;
-  }
 }
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (min-width: 1700px) {
-  .jennifer-img {
-    width: 72% !important;
-  }
-  .kwImages-container img:nth-child(3) {
-    margin-top: 40px;
-  }
-  .subtitle:nth-child(9),
-  .subtitle:nth-child(7) {
-    margin-top: 8rem;
-  }
-  .kwImages-container img:last-child {
-    margin-top: 4rem;
-  }
-  .subtitle:nth-child(11) {
-    margin-top: 7rem;
-  }
 }

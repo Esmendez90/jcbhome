@@ -7,7 +7,7 @@ export function AccordionComponent(props) {
   return (
     <>
       <Accordion>
-        <Accordion.Item eventKey="0">
+        <Accordion.Item eventKey="0" id="accordion-item">
           <Accordion.Header>{header}</Accordion.Header>
           <Accordion.Body>
             <div><a href={firstLinkToPage}>{firstTabName}</a></div>
