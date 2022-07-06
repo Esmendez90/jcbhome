@@ -265,6 +265,9 @@ video {
   color: black;
   margin: 0;
   padding: 4rem;
+  justify-content: center;
+  align-items: center;
+  display: grid;
 }
 .text-container h2 {
   margin-bottom: 1rem;
@@ -350,6 +353,7 @@ video {
     position: absolute;
     top: 3%;
     width: 63%;
+
   }
   .mission-text-container h2 {
     padding-left: 1rem;
@@ -380,9 +384,6 @@ video {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   /* Navbar */
-  /* .navbar-brand:first-child {
-    width: 13%;
-  } */
   .logoImg-container {
     width: 70px;
     margin: auto;
@@ -390,9 +391,6 @@ video {
   .jcbTitle {
     display: none;
   }
-  /* #basic-navbar-nav {
-    display: initial !important;
-  } */
   .navbar-collapse {
     background-color: rgba(14 13 13 / 0);
   }
@@ -406,10 +404,6 @@ video {
     display: none;
   }
 
-  /* .skiptranslate span {
-    display: block;
-  } */
-  /* --------- */
   .navbar-collapse,
   .navbar-nav,
   .contactList-container {
@@ -427,9 +421,7 @@ video {
     margin-bottom: 0;
     justify-content: center;
   }
-  .me-auto {
-    margin-right: 0!important;
-}
+
   .navbar-nav {
     width: 100%;
   }
@@ -438,11 +430,34 @@ video {
     margin-bottom: 0;
     margin-right: 1rem;
   }
+  .contactList-container{
+    margin-right: 1.5rem;
+  }
   /* ACCORDION NAVBAR */
+  .accordion, .accordion-collapse {
+    margin-right: 0 !important;
+    height: 0 !important;
+    margin-bottom: 1rem !important;
+    padding-bottom: 6.5px !important;
+  }
+  .accordion-header {
+    margin-left: 10px;
+  }
+  .accordion-body, .accordion-linkTo-container {
+    width: fit-content;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+  }
   #accordion-item,
   #accordion-item .accordion-button {
     background-color: rgba(14, 13, 13, 0) !important;
     margin-right: 10px;
+  }
+  .accordion-button::after {
+    margin-left: 1rem !important;
+  }
+  .accordion-body a {
+    color: black !important;
   }
   .motto-text-container {
     margin-bottom: 0 !important;
@@ -481,96 +496,11 @@ video {
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* .navbar {
-    position: absolute !important;
-    right: 0%;
-    display: block !important;
-    width: 125px;
-    height: 100%;
-    z-index: 1;
-    background-color: hsla(0, 4%, 5%, 0.1);
-    padding-top: 2rem !important;
-    height: 50rem;
-    min-height: calc(100vh) !important;
-  } */
-  /* .goog-te-combo {
-    width: -webkit-fill-available;
-    font-size: 9px;
-  }
-  .container {
-    display: block !important;
-  }
-  .jcbTitle-container {
-    display: none;
-  }
-  #basic-navbar-nav {
-    display: block !important;
-  }
-  .navbar-nav {
-    display: initial !important;
-  }
-  .nav-link {
-    font-size: 12px;
-    margin-top: 1rem;
-  }
-  .contactList-container {
-    display: contents !important;
-    text-align: center;
-  }
-  .icons {
-    margin-right: 0 !important;
-    margin-top: 1rem;
-  }
-  .icons:nth-child(2) {
-    padding-top: 2rem;
-  }
-  .icons svg {
-    font-size: 19px;
-  }
-  .jennifer-img {
-    width: 88% !important;
-  }
-  .heading-container {
-    padding-top: 150px !important;
-    padding-bottom: 50px !important;
-  }
-  .heading-container > p:first-child {
-    font-size: 33px;
-  }
-  .heading-container p:nth-child(2) {
-    font-size: 29px;
-  }
-  .ask-container {
-    margin-top: 24px;
-  }
-  .slogan-container {
-    margin-top: 60px !important;
-  }
-  .footer-container {
-    margin-top: 0;
-    padding-top: 0;
-  }
-
-  .heading-container {
-    padding: 80px 10% 25px;
-  }
-  .basedIn {
-    padding-top: 25px;
-  }
-  .ask-container {
-    height: 180px;
-    width: 70%;
-  }
-  .ask-container p {
-    padding-bottom: 10px;
-  }
-  .kwLogo-container,
-  .realityLogo-container {
-    width: 7%;
-  }
-  .jcbLogo-container {
-    width: 5%;
-  } */
+main, .footer-container {
+  width: 80%;
+  margin: auto;
+  box-shadow: 1px 1px 10px black;
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1500px and up) */

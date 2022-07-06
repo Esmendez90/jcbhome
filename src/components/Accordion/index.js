@@ -10,8 +10,8 @@ export function AccordionComponent(props) {
         <Accordion.Item eventKey="0" id="accordion-item">
           <Accordion.Header>{header}</Accordion.Header>
           <Accordion.Body>
-            <div><a href={firstLinkToPage}>{firstTabName}</a></div>
-            <div><a href={secondLinkToPage}>{secondTabName}</a></div>
+            <div className="accordion-linkTo-container"><a href={firstLinkToPage}>{firstTabName}</a></div>
+            <div className="accordion-linkTo-container"><a href={secondLinkToPage}>{secondTabName}</a></div>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

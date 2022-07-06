@@ -6,7 +6,7 @@ const home = () => {
   return (
     <>
       <div className="main-container home-container">
-      {/* <ImgComponent
+        {/* <ImgComponent
           imgContainerClass="logoImg-container"
           imgClass="logoImg"
           src="/images/logo.png"
@@ -23,7 +23,9 @@ const home = () => {
                 <br />
                 <span>Real Estate Agent</span>
               </h1>
-              <p className="basedIn">Based in Ridgewood, NJ <FontAwesomeIcon icon={faLocationDot}/></p>
+              <p className="basedIn">
+                Based in Ridgewood, NJ <FontAwesomeIcon icon={faLocationDot} />
+              </p>
 
               <div className="ask-container">
                 <p>Have a question ?</p>
@@ -45,23 +47,24 @@ const home = () => {
         <section>
           <div className="text-container motto-text-container">
             <h2>More than a friend, Your Realtor! </h2>
-         
           </div>
         </section>
-     
+
         <section>
           <div className="banner-image-container image-right">
             <img src="./images/steptarget.png" />
           </div>
           <div className="text-container mission-text-container text-left">
-            <h2>Our Mission</h2>
-            <p>
-              In JCB Real Estate Services, our mission is to provide guidence
-              and support to our clients with the process of purchasing,
-              leasing, or selling properties. We advise clients about market
-              conditions, conduct walkthroughs, and assist in every step of a
-              real estate transaction.
-            </p>
+            <div>
+              <h2>Our Mission</h2>
+              <p>
+                In JCB Real Estate Services, our mission is to provide guidence
+                and support to our clients with the process of purchasing,
+                leasing, or selling properties. We advise clients about market
+                conditions, conduct walkthroughs, and assist in every step of a
+                real estate transaction.
+              </p>
+            </div>
           </div>
         </section>
       </div>

@@ -7,12 +7,12 @@ const myjourney = () => {
   return (
     <>
       <div className="main-container journey-container">
-        <ImgComponent
+        {/* <ImgComponent
           imgContainerClass="logoImg-container"
           imgClass="logoImg"
           src="/images/logo.png"
           alt="jcb logo"
-        />
+        /> */}
         <section>
         <CarouselComponent />
 
