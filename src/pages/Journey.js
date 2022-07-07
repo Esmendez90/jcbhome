@@ -1,18 +1,12 @@
 import React from "react";
 import CarouselComponent from "../components/Carousel";
-import { ImgComponent } from "../components/ImageComponent";
 import "./style.css";
 
 const myjourney = () => {
   return (
     <>
       <div className="main-container journey-container">
-        {/* <ImgComponent
-          imgContainerClass="logoImg-container"
-          imgClass="logoImg"
-          src="/images/logo.png"
-          alt="jcb logo"
-        /> */}
+    
         <section>
           <CarouselComponent />
 
