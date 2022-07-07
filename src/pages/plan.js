@@ -6,12 +6,12 @@ const strategy = () => {
   return (
     <>
       <div className="main-container plan-container">
-        <ImgComponent
+        {/* <ImgComponent
           imgContainerClass="logoImg-container"
           imgClass="logoImg"
           src="/images/logo.png"
           alt="jcb logo"
-        />
+        /> */}
         <section id="page-header-plan" className="background-cover-image">
           <div className="text-header-container">
             <h1>
@@ -21,10 +21,10 @@ const strategy = () => {
         </section>
 
         <section>
-          <div className="banner-image-container image-left">
+          {/* <div className="banner-image-container image-left">
             <img src="./images/missionhouse.png" />
-          </div>
-          <div className="text-container plan-text-container text-right">
+          </div> */}
+          <div className="text-container plan-text-container">
             <h2>Open Houses</h2>
             <p>
               Open houses are one of the best ways to create exposure for your

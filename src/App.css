@@ -240,9 +240,6 @@ video {
 }
 .text-header-container h1 {
   width: fit-content;
-  /* background-color: rgba(14, 13, 13, 0.2);
-  padding: 1rem; */
-  font-size: 3rem;
   color: rgb(255 185 24);
   text-shadow: 0.3px 0.3px 0 black;
 }
@@ -335,6 +332,9 @@ video {
   }
   .text-header-container {
     padding-left: 3rem;
+  }
+  .text-header-container h1 {
+    font-size: 3rem;
   }
   .basedIn,
   .ask-container p {
@@ -459,6 +459,9 @@ video {
   }
   .accordion-body a {
     color: black !important;
+  }
+  .text-header-container {
+    top: 38%;
   }
   .motto-text-container {
     margin-bottom: 0 !important;

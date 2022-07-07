@@ -3,16 +3,16 @@
         "id": 1,
         "className": "d-block",
         "src": "/images/kwone.png",
-        "alt": "picture of Jennifer",
+        "alt": "kw #1 logo",
         "member": "KW #1",
-        "title": "Realtor"
+        "title": "Keller Williams"
     },
     {
         "id": 2,
         "className": "d-block",
         "src": "/images/jennifer.jpeg",
         "alt": "picture of Jennifer",
-        "member": "Jennifer Mendez",
+        "member": "JENNIFER MENDEZ",
         "title": "Realtor"
     },
     {
@@ -20,7 +20,7 @@
         "className": "d-block",
         "src": "/images/leo.png",
         "alt": "picture of leo",
-        "member": "Leo Czekalski III",
+        "member": "LEO CZEKALSKI",
         "title": "Career Development Coach"
     },
     {
@@ -28,7 +28,7 @@
         "className": "d-block",
         "src": "/images/david.png",
         "alt": "picture of David",
-        "member": "David Lotan",
+        "member": "DAVID LOTAN",
         "title": "VP of Career Development"
     },
     {
@@ -36,7 +36,7 @@
         "className": "d-block",
         "src": "/images/reese.png",
         "alt": "picture of Reese",
-        "member": "Reese Cirino",
+        "member": "REESE CIRINO",
         "title": "Business Growth Coordinator"
     },
     {
@@ -44,7 +44,7 @@
         "className": "d-block",
         "src": "/images/raj.png",
         "alt": "picture of Raj",
-        "member": "Raj Sinha",
+        "member": "RAJ SINHA",
         "title": "Career Development Coach"
     },
     {
@@ -52,7 +52,7 @@
         "className": "d-block",
         "src": "/images/davidradney.png",
         "alt": "picture of David Radney",
-        "member": "David Radney",
+        "member": "DAVID RADNEY",
         "title": "PUSH Coach"
     },
     {
@@ -60,15 +60,15 @@
         "className": "d-block",
         "src": "/images/sally.png",
         "alt": "picture of Sally",
-        "member": "Sally Ponchak",
+        "member": "SALLY PONCHAK",
         "title": "NJ Broker of Real Estate"
     },
     {
         "id": 9,
         "className": "d-block",
         "src": "/images/kwone.png",
-        "alt": "picture of Sally",
+        "alt": "KW #1 logo",
         "member": "KW #1",
-        "title": "NJ Broker of Real Estate"
+        "title": "Keller Williams"
     }
 ]

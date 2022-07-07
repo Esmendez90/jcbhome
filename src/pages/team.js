@@ -6,16 +6,16 @@ const team = () => {
   return (
     <>
       <div className="main-container plan-container">
-        <ImgComponent
+        {/* <ImgComponent
           imgContainerClass="logoImg-container"
           imgClass="logoImg"
           src="/images/logo.png"
           alt="jcb logo"
-        />
-        <section id="team-header-plan" className="background-cover-image">
-          <div className="text-header-container">
+        /> */}
+        <section id="page-header-team" className="background-cover-image">
+          <div className="text-header-container team-header-container">
             <h1>
-              MY TEAM<br /> <span>MAKING THINGS POSSIBLE</span>
+              A GREAT TEAM<br /> <span>MAKES THINGS POSSIBLE</span>
             </h1>
           </div>
         </section>

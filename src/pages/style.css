@@ -2,11 +2,14 @@
   background-image: url(/public/images/whykw.png);
 }
 #page-header-plan {
-  background-image: url(/public/images/buildings.jpg);
+  background-image: url(/public/images/missionhouse.png);
 }
-#team-header-plan {
+#page-header-team {
   background-image: url(/public/images/puzzle.png);
   -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+#page-header-team h1 {
   transform: scaleX(-1);
 }
 /*  MY JOURNEY */
@@ -22,8 +25,8 @@
 .whykw-text-header h1 {
   color: white;
 }
-.journey-text-container {
-  margin-top: -18%;
+.journey-text-container, .plan-text-container, .swiper {
+  margin-top: -20%;
 }
 /* WHY KW PAGE */
 .background-cover-image {
@@ -101,13 +104,13 @@
 }
 .plan-container .text-header-container h1 {
   margin: auto;
-  color: whitesmoke;
+  color: white;
   background-color: rgba(14, 13, 13, 0);
 }
-.plan-container .text-header-container {
+/* .plan-container .text-header-container {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-}
+} */
 
 /* TEAM PAGE */
 .plan-container .swiper {
@@ -118,15 +121,21 @@
   height: 400px;
   min-height: auto;
 }
-.plan-container .member-title {
+ .member-title {
   color: black;
   text-align: center;
   font-weight: 600;
+  margin-top: 2rem;
 }
+.member-title span{
+  color:#cf031d;
+}
+
 
 @media only screen and (min-width: 768px) {
   .journey-text-container {
     padding: 8rem;
+    margin-top: -15%;
   }
   /* Why KW */
   .whykw .banner-image-container img,
@@ -167,12 +176,34 @@
   .services-text-container {
     font-size: 26px;
   }
+  /* PLAN PAGE */
+  .plan-container .background-cover-image {
+    top:-93px;
+  }
+  .plan-text-container {
+    margin-top: -12%;
+    padding: 8rem;
+  }
+  /* TEAM */
+  .team-header-container h1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .journey-text-container {
     margin-top: -8%;
   }
+  .services-container {
+    width: 100%;
+    margin: auto;
+    left: 0%;
+}
+.services-container .text-header-container {
+  width: 75%;
+  padding-left: 14rem;
+}
 }
 
 @media only screen and (min-width: 1200px) {

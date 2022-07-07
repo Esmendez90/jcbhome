@@ -28,7 +28,7 @@ function TeamImages() {
           <SwiperSlide key={id}>
             <img className={className} src={src} alt={alt} />
             <p className="member-title">
-              {member} <span></span> {title}
+              {member} <br/><span>{title}</span>
             </p>
           </SwiperSlide>
         ))}
