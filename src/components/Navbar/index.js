@@ -44,14 +44,12 @@ function Navigationbar() {
               </div>
               <AccordionComponent
                 header="ABOUT"
-                firstLinkToPage="/my-journey"
+                firstLinkToPage="/myjourney"
                 firstTabName="My journey"
                 secondLinkToPage="/whykw"
                 secondTabName="Why I chose Keller Williams"
               />
-              {/* <div>
-                <Nav.Link href="/about">ABOUT ME</Nav.Link>
-              </div> */}
+            
               <AccordionComponent
                 header="SELLERS"
                 firstLinkToPage="/seller-plan-to-success"
