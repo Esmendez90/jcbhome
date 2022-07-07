@@ -1,17 +1,10 @@
 import React from "react";
-import { ImgComponent } from "../components/ImageComponent";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const home = () => {
   return (
     <>
       <div className="main-container home-container">
-        {/* <ImgComponent
-          imgContainerClass="logoImg-container"
-          imgClass="logoImg"
-          src="/images/logo.png"
-          alt="jcb logo"
-        /> */}
         <section className="vide-hero">
           <div className="video hero-background-video">
             <video autoPlay loop playsInline muted>

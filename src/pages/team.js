@@ -1,17 +1,10 @@
 import React from "react";
 import TeamImages from "../components/Swiper";
-import { ImgComponent } from "../components/ImageComponent";
 
 const team = () => {
   return (
     <>
       <div className="main-container plan-container">
-        {/* <ImgComponent
-          imgContainerClass="logoImg-container"
-          imgClass="logoImg"
-          src="/images/logo.png"
-          alt="jcb logo"
-        /> */}
         <section id="page-header-team" className="background-cover-image">
           <div className="text-header-container team-header-container">
             <h1>

@@ -1,17 +1,10 @@
 import React from "react";
-import { ImgComponent } from "../components/ImageComponent";
 import "./style.css";
 
-const strategy = () => {
+const plan = () => {
   return (
     <>
       <div className="main-container plan-container">
-        {/* <ImgComponent
-          imgContainerClass="logoImg-container"
-          imgClass="logoImg"
-          src="/images/logo.png"
-          alt="jcb logo"
-        /> */}
         <section id="page-header-plan" className="background-cover-image">
           <div className="text-header-container">
             <h1>
@@ -70,4 +63,4 @@ const strategy = () => {
     </>
   );
 };
-export default strategy;
+export default plan;

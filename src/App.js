@@ -4,7 +4,7 @@ import Navigationbar from "./components/Navbar/index";
 import FooterComponent from "./components/Footer/index";
 import Home from "./pages/home";
 import Journey from "./pages/journey";
-import Whykw from "./pages/whykw";
+import WhykW from "./pages/whyKW";
 import Services from "./pages/services";
 import Plan from "./pages/plan";
 import Team from "./pages/team";
@@ -18,7 +18,7 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/my-journey" element={<Journey />} />
-            <Route path="/whykw" element={<Whykw />} />
+            <Route path="/whykw" element={<WhykW />} />
             <Route path="/seller-services" element={<Services />} />
             <Route path="/seller-plan-to-success" element={<Plan />} />
             <Route path="/myteam" element={<Team />} />

@@ -2,7 +2,7 @@ import React from "react";
 import {CarouselComponent} from "../components/Carousel";
 import "./style.css";
 
-const myjourney = () => {
+const journey = () => {
   return (
     <>
       <div className="main-container journey-container">
@@ -67,4 +67,4 @@ const myjourney = () => {
     </>
   );
 };
-export default myjourney;
+export default journey;

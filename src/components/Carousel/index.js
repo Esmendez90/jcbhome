@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import images from "./images.json";
 import "./style.css"
-function CarouselComponent() {
+export function CarouselComponent() {
   return (
     <Carousel fade>
       {images.map(({ id, className, src, alt }) => (
@@ -14,5 +14,4 @@ function CarouselComponent() {
 
     
   );
-}
-export default CarouselComponent;
+};
