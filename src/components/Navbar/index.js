@@ -42,7 +42,7 @@ function Navigationbar() {
               <div>
                 <Nav.Link href="/">HOME</Nav.Link>
               </div>
-              <AccordionComponent
+              {/* <AccordionComponent
                 header="ABOUT"
                 // firstLinkToPage="/myjourney"
                 // firstTabName="My journey"
@@ -56,11 +56,11 @@ function Navigationbar() {
                 firstTabName="Plan to success"
                 secondLinkToPage="/seller-services"
                 secondTabName="Marketing services"
-              />
-
+              /> */}
+{/* 
               <div className="myteam-container">
                 <Nav.Link href="/myteam">MY TEAM</Nav.Link>
-              </div>
+              </div> */}
             </Nav>
 
             <ContactListComponent />
