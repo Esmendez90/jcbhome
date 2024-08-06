@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jcbhome/static/css/main.1c89e559.css",
-    "main.js": "/jcbhome/static/js/main.189ad2ed.js",
+    "main.js": "/jcbhome/static/js/main.f8567a6c.js",
     "static/js/787.03c94f0d.chunk.js": "/jcbhome/static/js/787.03c94f0d.chunk.js",
     "static/media/openingvideo.mp4": "/jcbhome/static/media/openingvideo.49232514490b1b127d1d.mp4",
     "static/media/puzzle.png": "/jcbhome/static/media/puzzle.65db08a9610937036677.png",
@@ -9,11 +9,11 @@
     "static/media/missionhouse.png": "/jcbhome/static/media/missionhouse.777d610b8dc02304a50a.png",
     "index.html": "/jcbhome/index.html",
     "main.1c89e559.css.map": "/jcbhome/static/css/main.1c89e559.css.map",
-    "main.189ad2ed.js.map": "/jcbhome/static/js/main.189ad2ed.js.map",
+    "main.f8567a6c.js.map": "/jcbhome/static/js/main.f8567a6c.js.map",
     "787.03c94f0d.chunk.js.map": "/jcbhome/static/js/787.03c94f0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c89e559.css",
-    "static/js/main.189ad2ed.js"
+    "static/js/main.f8567a6c.js"
   ]
 }
