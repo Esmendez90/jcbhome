@@ -40,13 +40,13 @@ function Navigationbar() {
                 <FontAwesomeIcon icon={faXmark} />
               </Navbar.Toggle>
               <div>
-                <Nav.Link href="/">HOME</Nav.Link>
+                <Nav.Link href="/jcbhome">HOME</Nav.Link>
               </div>
               <AccordionComponent
                 header="ABOUT"
                 firstLinkToPage="/myjourney"
                 firstTabName="My journey"
-                secondLinkToPage="/whykw"
+                secondLinkToPage="jcbhome/whykw"
                 secondTabName="Why I chose Keller Williams"
               />
             
@@ -54,12 +54,12 @@ function Navigationbar() {
                 header="SELLERS"
                 firstLinkToPage="/seller-plan-to-success"
                 firstTabName="Plan to success"
-                secondLinkToPage="/seller-services"
+                secondLinkToPage="/jcbhome/seller-services"
                 secondTabName="Marketing services"
               />
 
               <div className="myteam-container">
-                <Nav.Link href="/myteam">MY TEAM</Nav.Link>
+                <Nav.Link href="/jcbhome/myteam">MY TEAM</Nav.Link>
               </div>
             </Nav>
 
