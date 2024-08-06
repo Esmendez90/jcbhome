@@ -12,7 +12,7 @@ function Navigationbar() {
     <>
       <Navbar expand="lg">
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/jcbhome">
             <ImgComponent
               imgContainerClass="logoImg-container"
               imgClass="logoImg"
@@ -44,15 +44,15 @@ function Navigationbar() {
               </div>
               <AccordionComponent
                 header="ABOUT"
-                firstLinkToPage="/myjourney"
+                firstLinkToPage="/jcbhome/myjourney"
                 firstTabName="My journey"
-                secondLinkToPage="jcbhome/whykw"
+                secondLinkToPage="/jcbhome/whykw"
                 secondTabName="Why I chose Keller Williams"
               />
             
               <AccordionComponent
                 header="SELLERS"
-                firstLinkToPage="/seller-plan-to-success"
+                firstLinkToPage="/jcbhome/seller-plan-to-success"
                 firstTabName="Plan to success"
                 secondLinkToPage="/jcbhome/seller-services"
                 secondTabName="Marketing services"
