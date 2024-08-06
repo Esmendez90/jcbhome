@@ -1,11 +1,11 @@
 #page-header-whykw {
-  background-image: url(/public/images/whykw.png);
+  background-image: url(/public/Images/whykw.png);
 }
 #page-header-plan {
-  background-image: url(/public/images/missionhouse.png);
+  background-image: url(/public/Images/missionhouse.png);
 }
 #page-header-team {
-  background-image: url(/public/images/puzzle.png);
+  background-image: url(/public/Images/puzzle.png);
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }

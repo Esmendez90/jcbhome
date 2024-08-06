@@ -130,7 +130,7 @@ nav {
   top: -83px;
 }
 .video {
-  background-image: url(/public/images/openingvideo.mp4);
+  background-image: url(/public/Images/openingvideo.mp4);
 }
 .video-hero,
 .hero-background-video {
@@ -203,7 +203,7 @@ video {
   margin-top: -73px !important;
   margin-bottom: 10px !important;
   text-align: center;
-  background-color: rgb(255 185 24) !important;
+  background-color: #ffb918 !important;
   color: black !important;
   padding: 8rem 4rem !important;
 }
