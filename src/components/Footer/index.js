@@ -23,7 +23,7 @@ function FooterComponent() {
           <ImgComponent
             imgContainerClass="jcbLogo-container"
             imgClass="jcbLogo"
-            src="/images/logo.png"
+            src="/Images/logo.png"
             alt="jcb logo"
           />
           <p className="createdBy">
