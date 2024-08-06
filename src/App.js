@@ -17,7 +17,7 @@ function App() {
           <Navigationbar />
           <Routes>
             <Route path="/jcbhome" exact element={<Home />} />
-            <Route path="/jcbhome/myjourney" element={<Journey />} />
+            <Route path="/myjourney" element={<Journey />} />
             <Route path="/jcbhome/whykw" element={<WhyKW />} />
             <Route path="/jcbhome/seller-services" element={<Services />} />
             <Route path="/jcbhome/seller-plan-to-success" element={<Plan />} />
