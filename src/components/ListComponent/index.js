@@ -6,7 +6,6 @@ import {
   faFacebookMessenger,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import GoogleTranslate from "../GoogleTranslate/index";
 
 export function ContactListComponent() {
   return (
