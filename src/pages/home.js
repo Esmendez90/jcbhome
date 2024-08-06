@@ -8,7 +8,7 @@ const home = () => {
         <section className="vide-hero">
           <div className="video hero-background-video">
             <video autoPlay loop playsInline muted>
-              <source src="/Images/openingvideo.mp4" type="video/mp4" />
+              <source src="Images/openingvideo.mp4" type="video/mp4" />
             </video>
             <div className="text-header-container">
               <h1>
