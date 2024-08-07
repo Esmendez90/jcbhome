@@ -17,10 +17,10 @@ function App() {
           <Navigationbar />
           <Routes>
             <Route path="/" exact element={<Home />} />
-            <Route path="/jcbhome/myjourney" element={<Journey />} />
-            <Route path="/jcbhome/whykw" element={<WhyKW />} />
-            <Route path="/jcbhome/seller-services" element={<Services />} />
-            <Route path="/jcbhome/seller-plan-to-success" element={<Plan />} />
+            <Route path="/myjourney" element={<Journey />} />
+            <Route path="/whykw" element={<WhyKW />} />
+            <Route path="/seller-services" element={<Services />} />
+            <Route path="/seller-plan-to-success" element={<Plan />} />
             <Route path="/myteam" element={<Team />} />
           </Routes>
           </HashRouter>

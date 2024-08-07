@@ -2,7 +2,7 @@
     {
         "id": 1,
         "className": "d-block",
-        "src": "/Images/kwone.png",
+        "src": "./Images/kwone.png",
         "alt": "kw #1 logo",
         "member": "KW #1",
         "title": "Keller Williams"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "className": "d-block",
-        "src": "/Images/jennifer.jpeg",
+        "src": "./Images/jennifer.jpeg",
         "alt": "picture of Jennifer",
         "member": "JENNIFER MENDEZ",
         "title": "Realtor"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "className": "d-block",
-        "src": "/Images/leo.png",
+        "src": "./Images/leo.png",
         "alt": "picture of leo",
         "member": "LEO CZEKALSKI",
         "title": "Career Development Coach"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "className": "d-block",
-        "src": "/Images/david.png",
+        "src": "./Images/david.png",
         "alt": "picture of David",
         "member": "DAVID LOTAN",
         "title": "VP of Career Development"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "className": "d-block",
-        "src": "/Images/reese.png",
+        "src": "./Images/reese.png",
         "alt": "picture of Reese",
         "member": "REESE CIRINO",
         "title": "Business Growth Coordinator"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "className": "d-block",
-        "src": "/Images/raj.png",
+        "src": "./Images/raj.png",
         "alt": "picture of Raj",
         "member": "RAJ SINHA",
         "title": "Career Development Coach"
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "className": "d-block",
-        "src": "/Images/davidradney.png",
+        "src": "./Images/davidradney.png",
         "alt": "picture of David Radney",
         "member": "DAVID RADNEY",
         "title": "PUSH Coach"
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "className": "d-block",
-        "src": "/Images/sally.png",
+        "src": "./Images/sally.png",
         "alt": "picture of Sally",
         "member": "SALLY PONCHAK",
         "title": "NJ Broker of Real Estate"
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "className": "d-block",
-        "src": "/Images/kwone.png",
+        "src": "./Images/kwone.png",
         "alt": "KW #1 logo",
         "member": "KW #1",
         "title": "Keller Williams"
