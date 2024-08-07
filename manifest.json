@@ -3,17 +3,17 @@
   "name": "JCB Real Estate Services",
   "icons": [
     {
-      "src": "/Images/logo.png",
+      "src": "./Images/logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "/Images/logo.png",
+      "src": "./Images/logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/Images/logo.png",
+      "src": "./Images/logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
