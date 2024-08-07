@@ -1,4 +1,5 @@
 import "./App.css";
+import { HashRouter } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigationbar from "./components/Navbar/index";
 import FooterComponent from "./components/Footer/index";
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <main>
+        <HashRouter>
         <Router>
           <Navigationbar />
           <Routes>
@@ -24,6 +26,7 @@ function App() {
             <Route path="/myteam" element={<Team />} />
           </Routes>
         </Router>
+        </HashRouter>
       </main>
        <FooterComponent />
     </>
