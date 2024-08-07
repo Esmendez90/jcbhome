@@ -12,7 +12,7 @@ function Navigationbar() {
     <>
       <Navbar expand="lg">
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="#/">
             <ImgComponent
               imgContainerClass="logoImg-container"
               imgClass="logoImg"
@@ -40,26 +40,26 @@ function Navigationbar() {
                 <FontAwesomeIcon icon={faXmark} />
               </Navbar.Toggle>
               <div>
-                <Nav.Link href="/">HOME</Nav.Link>
+                <Nav.Link href="#/">HOME</Nav.Link>
               </div>
               <AccordionComponent
                 header="ABOUT"
-                firstLinkToPage="/myjourney"
+                firstLinkToPage="#/myjourney"
                 firstTabName="My journey"
-                secondLinkToPage="/whykw"
+                secondLinkToPage="#/whykw"
                 secondTabName="Why I chose Keller Williams"
               />
             
               <AccordionComponent
                 header="SELLERS"
-                firstLinkToPage="/seller-plan-to-success"
+                firstLinkToPage="#/seller-plan-to-success"
                 firstTabName="Plan to success"
-                secondLinkToPage="/seller-services"
+                secondLinkToPage="#/seller-services"
                 secondTabName="Marketing services"
               />
 
               <div className="myteam-container">
-                <Nav.Link href="/myteam">MY TEAM</Nav.Link>
+                <Nav.Link href="#/myteam">MY TEAM</Nav.Link>
               </div>
             </Nav>
 

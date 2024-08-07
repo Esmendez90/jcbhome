@@ -1,6 +1,5 @@
 import "./App.css";
-import { HashRouter } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Navigationbar from "./components/Navbar/index";
 import FooterComponent from "./components/Footer/index";
 import Home from "./pages/home";
@@ -14,8 +13,7 @@ function App() {
   return (
     <>
       <main>
-        <HashRouter>
-        <Router>
+        
           <Navigationbar />
           <Routes>
             <Route path="/" exact element={<Home />} />
@@ -25,8 +23,6 @@ function App() {
             <Route path="/seller-plan-to-success" element={<Plan />} />
             <Route path="/myteam" element={<Team />} />
           </Routes>
-        </Router>
-        </HashRouter>
       </main>
        <FooterComponent />
     </>
