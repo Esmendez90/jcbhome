@@ -2,19 +2,19 @@
     {
         "id":1,
         "className":"d-block",
-        "src":"/Images/berrys.png",
+        "src":"./Images/berrys.png",
         "alt":"picture of jennifer and cianni"
     },
     {
         "id":2,
         "className":"d-block",
-        "src":"/Images/ciannijoel.png",
+        "src":"./Images/ciannijoel.png",
         "alt":"picture of jennifer and danae"
     },
     {
         "id":3,
         "className":"d-block",
-        "src":"/Images/joel.jpg",
+        "src":"./Images/joel.jpg",
         "alt":"picture of joel"
     }
 ]

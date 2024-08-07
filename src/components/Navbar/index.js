@@ -47,7 +47,7 @@ function Navigationbar() {
                 firstLinkToPage="#/myjourney"
                 firstTabName="My journey"
                 secondLinkToPage="#/whykw"
-                secondTabName="Why I chose Keller Williams"
+                secondTabName="Why KW?"
               />
             
               <AccordionComponent

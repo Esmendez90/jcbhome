@@ -2,7 +2,7 @@
     {
         "id": 1,
         "className": "d-block",
-        "src": "/Images/lense.jpg",
+        "src": "./Images/lense.jpg",
         "alt": "picture of jennifer and cianni",
         "header1": "Marketing Strategies",
         "text": "Offering staging consultation, professional photography, yard sign and coming soon rider, marketing brochures and Just Listed Cards, host brokers tour, public Open House weekly update.",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "className": "d-block",
-        "src": "/Images/flyer.png",
+        "src": "./Images/flyer.png",
         "alt": "picture of jennifer and danae",
         "header1": "Your Custom Marketing Plan",
         "text": "Smart, Targeted Networking.",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "className": "d-block",
-        "src": "/Images/app.png",
+        "src": "./Images/app.png",
         "alt": "picture of joel",
         "header1": "Promotional Assets... Best In Class!",
         "text": "Our web network boasts 2.6 million unique visitors a month.",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "className": "d-block",
-        "src": "/Images/kwls.png",
+        "src": "./Images/kwls.png",
         "alt": "picture of joel",
         "header1": "Online Marketing",
         "text": "Extended Market Reach.",
