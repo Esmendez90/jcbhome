@@ -16,7 +16,7 @@ function Navigationbar() {
             <ImgComponent
               imgContainerClass="logoImg-container"
               imgClass="logoImg"
-              src="/Images/logo.png"
+              src="/jcbhomes/Images/logo.png"
               alt="jcb logo"
             />
           </Navbar.Brand>
