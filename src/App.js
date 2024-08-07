@@ -16,7 +16,7 @@ function App() {
         <HashRouter>
           <Navigationbar />
           <Routes>
-            <Route path="/jcbhome" exact element={<Home />} />
+            <Route path="/" exact element={<Home />} />
             <Route path="/jcbhome/myjourney" element={<Journey />} />
             <Route path="/jcbhome/whykw" element={<WhyKW />} />
             <Route path="/jcbhome/seller-services" element={<Services />} />
