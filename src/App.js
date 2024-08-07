@@ -21,7 +21,7 @@ function App() {
             <Route path="/jcbhome/whykw" element={<WhyKW />} />
             <Route path="/jcbhome/seller-services" element={<Services />} />
             <Route path="/jcbhome/seller-plan-to-success" element={<Plan />} />
-            <Route path="/jcbhome/myteam" element={<Team />} />
+            <Route path="/myteam" element={<Team />} />
           </Routes>
           </HashRouter>
       </main>
