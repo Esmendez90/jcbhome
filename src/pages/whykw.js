@@ -19,7 +19,7 @@ const whyKW = () => {
 
         <section>
           <div className="banner-image-container image-left ">
-            <img src="/Images/kwtechnology.png" />
+            <img src="./Imageskwtechnology.png" />
           </div>
           <div className="text-container technology-container text-right">
             <div>
@@ -42,7 +42,7 @@ const whyKW = () => {
 
         <section>
           <div className="banner-image-container image-right ">
-            <img src="/Images/kwtogether.png" />
+            <img src="./Imageskwtogether.png" />
           </div>
           <div className="text-container team-container text-left">
             <div>
@@ -61,7 +61,7 @@ const whyKW = () => {
 
         <section>
           <div className="banner-image-container image-left">
-            <img src="/Images/kwstats.png" />
+            <img src="./Imageskwstats.png" />
           </div>
           <div className="text-container knowledge-container text-right">
             <div>
@@ -78,7 +78,7 @@ const whyKW = () => {
 
         <section>
           <div className="banner-image-container image-right">
-            <img src="/Images/kwrely.png" />
+            <img src="./Imageskwrely.png" />
           </div>
           <div className="text-container reliability-container text-left">
            <div>
@@ -95,7 +95,7 @@ const whyKW = () => {
         </section>
         <section>
           <div className="banner-image-container image-left">
-            <img src="/Images/kwone.png" />
+            <img src="./Imageskwone.png" />
           </div>
           <div className="text-container record-container text-right">
             <div>
